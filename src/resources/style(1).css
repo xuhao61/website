@@ -1,0 +1,87 @@
+/*
+Theme Name: Zephyr Child
+Template: Zephyr
+Version: 1.4
+Author:	UpSolution
+Theme URI: http://us-themes.com/wp/Zephyr/demo1/
+Author URI: http://us-themes.com/
+*/
+
+/*Add your own styles here:*/
+.w-search {
+    display: none;
+}
+
+.blogItems {
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    -ms-flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: block;
+    float: left;
+    color: #000;
+    background-color: #fff;
+    margin: .5em;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+.card, .cardImage {
+    width: 100%;
+}
+
+.cardImage {
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+@media all and (min-width: 800px) {
+
+    .card, .cardImage {
+        width: 47.5vw;
+    }
+
+    .cardImage {
+        height: 28.5vw;
+    }
+}
+
+@media all and (min-width: 1200px) {
+
+    .card, .cardImage {
+        width: 31.5vw;
+    }
+
+    .cardImage {
+        height: 18.9vw;
+    }
+}
+
+@media all and (min-width: 1600px) {
+
+    .card, .cardImage {
+        width: 23.5vw;
+    }
+
+    .cardImage {
+        height: 14.1vw;
+    }
+}
+
+@media all and (min-width: 1920px) {
+
+    .card, .cardImage {
+        width: 19vw;
+    }
+
+    .cardImage {
+        height: 11.4vw;
+    }
+}
