@@ -148,6 +148,7 @@ namespace WebsiteBuilder
 
             var template = File.ReadAllText(Path.Combine(inputPath, "blogpost.html"));
 
+            template = template.Replace("{{metaDescription}}", title);
             template = template.Replace("{{articleTitle}}", title);
             template = template.Replace("{{description}}", description);
 
