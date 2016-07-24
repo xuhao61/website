@@ -163,6 +163,7 @@ namespace WebsiteBuilder
             template = template.Replace("{{articleTitle}}", title);
             template = template.Replace("{{description}}", description);
             template = template.Replace("{{description}}", description);
+            template = template.Replace("{{pubDate}}", pubDate);
 
             template = template.Replace("{SOCIALNETWORKS}", GetSocialNetworks(inputPath, title, title, pubDateInstance, pubDateInstance, imageUrl, imageUrl));
 
