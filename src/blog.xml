@@ -2865,5 +2865,53 @@ r /><strong class='bbc'>Download for classic Windows Desktop: </strong><a href='
         <url>https://emby.media/img/blog/6064.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 3.0.8400 Released</title>
+      <link>https://emby.media/emby-server-308400-released.html</link>
+      <pubDate>Mon, 31 Oct 2016 20:03:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A small maintenance release has gone out with a few bug fixes. Here are the highlights:<ul class='bbc'><li>Don't use library monitor for internal server folders</li><li>Update music dlna views</li><li>Add additional error handling to internet metadata providers</li><li>Update subtitle downloader</li><li>Remove audio channel count from transcoding conditions in the web app</li><li>Fix saving person place of birth in metadata editor</li><li>Resolve playback failure in Chrome after pausing for several minutes</li><li>Add fixes for dvb format subtitles</li><li>Catch unhandled exception in file refresher</li><li>Update live tv labels</li><li>Fix upnp blast messages not sending after the first send</li><li>Fix channel logos with server wmc</li><li>Add user agent to m3u downloads</li><li>Limit number of people in upnp responses (fix timeouts on certain devices)</li><li>Don't use vaapi with mpeg4, level -99</li><li>Fix recording indicators on secondary screens</li><li>Fix live tv audio in MS Edge</li><li>Validate port range on hosting config screen</li><li>Fix dialog layouts in Internet Explorer</li><li>Fix not being able to delete recordings under certain conditions</li><li>Update recording default settings</li><li>Fix watched videos getting marked unwatched when replaying</li></ul></p>
+]]>
+      </description>
+      <author>Luke</author>
+      <guid>https://emby.media/emby-server-308400-released.html</guid>
+      <image>
+        <title>Emby Server 3.0.8400 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
+    <item>
+      <title>Emby Server 3.0.8500 Released</title>
+      <link>https://emby.media/emby-server-308500-released.html</link>
+      <pubDate>Sat, 05 Nov 2016 04:59:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A small maintenance release has gone out with a few bug fixes. Here are the highlights:<ul class='bbc'><li>Resolve loss of audio in certain playback scenarios in the web app</li><li>Resolve subtitle encoding issues in certain playback scenarios</li></ul></p>
+]]>
+      </description>
+      <author>Luke</author>
+      <guid>https://emby.media/emby-server-308500-released.html</guid>
+      <image>
+        <title>Emby Server 3.0.8500 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
+    <item>
+      <title>Introducing Emby for Sony PlayStation 4 PS4</title>
+      <link>https://emby.media/introducing-emby-for-sony-playstation-4-ps4.html</link>
+      <pubDate>Mon, 28 Nov 2016 20:26:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>We're pleased to announce Emby for Sony PlayStation 4 (PS4) !</p><p>&nbsp;</p><p><span style='font-size: 24px'>Installation</span><br />Simply open your PS4 Web Browser and visit tv.emby.media . Then bookmark it to your home screen to launch it as an app !</p><p>&nbsp;</p><p><span style='font-size: 24px'>Supports PS4 Game Pad Input</span></p><p>&nbsp;</p><p>Easily control the app thanks to native support for your PS4 game pad. </p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/561bc276520b9_1.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Enjoy the Full Emby Experience</span></p><p>&nbsp;</p><p>The app supports many popular Emby features, including Movies, TV, Music, Live TV, Photos, and more on the way.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/561bc399d86b6_2.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Rediscover your Content with Recommendations</span></p><p>&nbsp;</p><p>A popular feature from other Emby apps is finally making it's way to Emby Theater.</p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span style='font-size: 24px'><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/561bc4cbd936c_4.png' alt='Posted Image' /></span></span></span></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>New Music Interface</span></p><p>&nbsp;</p><p>The app finally has a design that makes sense for music.</p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/56d75e1f53aa9_10.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/56d75e137cf1f_11.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Live TV</span></p><p>&nbsp;</p><p>Watch Live TV, browse the guide, and manage your recordings.</p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/561bc57e1fec4_7.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/56d75e33030aa_Untitled.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Details Gone Vertical</span></p><p>&nbsp;</p><p>A common complaint over the detail screen of the old Emby Theater is that it's pretty but slow to navigate. We went back to the drawing board and decided to take a little inspiration from Android TV. It is now much, much faster to browse through detail screens.</p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/561bc89cf3d3c_8.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/561bc98a1d3b0_9.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span style='font-size: 24px'>Learn How to Create Skins</span><br />Can you do HTML and JavaScript? Then why not fork the default skin?</span></span></p><p>&nbsp;</p><p><a href='http://emby.media/community/index.php?/blog/1/entry-302-learn-how-to-create-skins-for-emby-theater/' class='bbc_url' title=''>http://emby.media/community/index.php?/blog/1/entry-302-learn-how-to-create-skins-for-emby-theater/</a></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Let us know what changes and improvements you're able to come up with. You can even release your forked version to the Emby community!</span></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Installation</span></p><p>&nbsp;</p><p>Simply open your PS4 Web Browser and visit tv.emby.media . Then bookmark it to your home screen to launch it as an app !</p>
+]]>
+      </description>
+      <author>Luke</author>
+      <guid>https://emby.media/introducing-emby-for-sony-playstation-4-ps4.html</guid>
+      <image>
+        <title>Introducing Emby for Sony PlayStation 4 PS4</title>
+        <url>https://emby.media/img/blog/playstation4-tile.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
