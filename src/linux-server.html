@@ -555,7 +555,13 @@
                                             <div><strong>Install Docker</strong></div>
                                             <p><a href="https://docs.docker.com/installation/#installation">https://docs.docker.com/installation/#installation</a></p>
                                             <div><strong>Install Emby Server</strong></div>
-                                            <p><code>docker run -it --rm -v /usr/local/bin:/target emby/embyserver instl</code></p>
+                                            <p>
+                                                <code>docker run -it --rm -v /usr/local/bin:/target emby/embyserver instl</code>
+                                                <br/><br />Or for for armhf/armv7 (Rpi 2/3):
+                                                <br /><code>docker run -it --rm -v /usr/local/bin:/target emby/embyserver:armv7 instl</code>
+                                                <br /><br />Or for for aarch64/armv8:
+                                                <br /><code>docker run -it --rm -v /usr/local/bin:/target emby/embyserver:aarch64 instl</code>
+                                            </p>
                                             <div><strong>Run Emby Server</strong></div>
                                             <p><code>/usr/local/bin/emby-server</code></p>
                                             <div>On first run answer any on-screen prompts.</div>
