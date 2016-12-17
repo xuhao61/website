@@ -2929,5 +2929,21 @@ r /><strong class='bbc'>Download for classic Windows Desktop: </strong><a href='
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Android TV 1.3 - now with HD audio support and increased stability</title>
+      <link>https://emby.media/emby-for-android-tv-13-now-with-hd-audio-support-and-increased-stability.html</link>
+      <pubDate>Fri, 16 Dec 2016 23:21:51 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p><p class='bbc_center'><span style='font-size: 24px'>Emby for Andriod TV/Fire TV 1.3</span></p></p><p>&nbsp;</p><p>We are very excited to announce a new and improved version of one of our flagship TV apps. This version brings increased stability and the addition of support for HD (lossless) audio pass thru on supported devices.</p><p>&nbsp;</p><p><strong class='bbc'><span style='font-size: 18px'>Lossless HD Audio</span></strong></p><p>&nbsp;</p><p>This version brings the ability to bitstream DTS-HD MA and Dolby TrueHD audio to the Android TV platform (supported device and audio equipment required) making it a true alternative to a cumbersome HTPC setup even in your dedicated media rooms.</p><p>&nbsp;</p><p><strong class='bbc'><span style='font-size: 18px'>Increased Stability</span></strong></p><p>&nbsp;</p><p>We went on a pretty serious bug hunt in our own code with this version but also upgraded many of the framework and 3rd-party components we use which brings even better stability and speed for both browsing and playback. We think you'll be very pleased with the app's performance.</p><p>&nbsp;</p><p><strong class='bbc'><span style='font-size: 18px'>Other Improvements</span></strong></p><p>&nbsp;</p><p>In addition to the above, the new version includes the following other improvements:<ul class='bbc'><li>Chapters and media info now displayed for plain videos</li><li>User-controlled playback problem handling</li><li>Fix OSD showing with some TVs when volume buttons pressed</li><li>Improve refresh rate switching</li><li>Improve transcoding need determination for more direct streaming</li><li>Simplify user settings</li><li>Fix not being able to play audio podcasts</li><li>Add option to not show the "Up Next" preview at the end of episode playback</li><li>Add 100Mb max bitrate setting</li><li>Fix the sort order by date in grid views</li><li>Remember the last zoom setting for videos and re select it on subsequent playback</li></ul></p><p>&nbsp;</p><p><span style='font-size: 12px'>* Note: The Nvida Shield is the only current hardware known to support lossless HD audio pass thru. Hopefully, more devices will in the future.</span></p>
+]]>
+      </description>
+      <author>Luke</author>
+      <guid>https://emby.media/emby-for-android-tv-13-now-with-hd-audio-support-and-increased-stability.html</guid>
+      <image>
+        <title>Emby for Android TV 1.3 - now with HD audio support and increased stability</title>
+        <url>https://emby.media/img/blog/6064.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
