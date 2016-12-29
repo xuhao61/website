@@ -2945,5 +2945,69 @@ r /><strong class='bbc'>Download for classic Windows Desktop: </strong><a href='
         <url>https://emby.media/img/blog/6064.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 3.1: Faster and Lighter than Ever Before</title>
+      <link>https://emby.media/emby-server-31-faster-and-lighter-than-ever-before.html</link>
+      <pubDate>Sun, 18 Dec 2016 20:26:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release of Emby Server is currently rolling out. This new release has a lot of important bug fixes, as well as new features. It's also much faster than ever before and we think you're going to enjoy that. Let's go over the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>New Levels of Performance</span></p><p>&nbsp;</p><p>This release of Emby Server is faster than you've ever seen it. All areas will be improved including the following:<ul class='bbc'><li>Faster browsing performance in all apps</li><li>Faster library scans</li><li>Faster scheduled tasks</li><li>For those running the Kodi sync plugin, the sync process will be faster as well</li><li>Faster playback start time</li></ul><span style='font-size: 24px'>IPv6 now Supported on All Operating Systems</span></p><p>&nbsp;</p><p>On Linux, this will require the mono 4.6 run time, which our Linux packages now ship with. This also requires that IPv6 be supported by the host operating system (Unraid for example does not support IPv6).</p><p>&nbsp;</p><p><span style='font-size: 24px'>Subtitle Encoding Improvements</span></p><p>&nbsp;</p><p>Several issues have been resolved related to subtitle encoding and display of special characters.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Separate Latest Media By Library</span></p><p>&nbsp;</p><p>On the web app home screen, you'll now see separate rows of latest media for each library. On touch devices these rows can be swiped horizontally. This puts more content right at your fingertips.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5856fc9126432_Untitled1.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Refreshed Detail Screen</span></p><p>&nbsp;</p><p>It's now more consistent with our other apps, and makes better use of screen real estate.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/585701b38372d_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>More Live TV Seeking Support</span></p><p>&nbsp;</p><p>Seeking Live TV is now supported in the web app in mobile Edge and Safari for Mac. This now brings the roster of supported browsers to:<ul class='bbc'><li>Chrome</li><li>Firefox</li><li>Opera</li><li>Edge on all Windows 10 devices</li><li>All other Chromium based browsers (like Vivaldi).</li><li>Safari on Mac</li></ul><span style='font-size: 24px'>Better Recording Schedule Images</span></p><p>&nbsp;</p><p>The recording schedule screens will now make better use of images, making your DVR more fun than ever before.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5856fdaf36db5_Untitled1.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>New Recording Options</span></p><p>&nbsp;</p><p>You now have the option to preserve original video when recording.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5856fcdbbdc5b_Untitled1.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Recording Post-Processing</span></p><p>&nbsp;</p><p>You now have the ability to run a post-processing application after completing a recording.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5856fad1aa10d_Untitled1.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Redesigned Series Recording Management</span></p><p>&nbsp;</p><p>The same great features, but now they look better than ever before.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/585619ac6ab1f_Untitled1.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Xml TV Movie Prefix Support</span></p><p>&nbsp;</p><p>If your xml tv data applies prefixes to your movies, you can now specify this on the xml tv setup screen. This will allow Emby to better handle the prefix in relation to displaying the content and searching for internet metadata.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Improvements</span><ul class='bbc'><li>New web app design for movies and tv by genre</li><li>Update tv guide presentation</li><li>Automatically adjust scheduled recordings to program changes</li><li>Reduce resource consumption used by device discovery</li><li>Remove audio channel count from web app transcoding conditions</li><li>Improve image & subtitle extraction</li><li>Update to 3.15.2</li><li>Update dlna music views</li><li>Improve m3u channel name parsing</li><li>Add guide auto-refresh</li><li>Display series images on episode detail screen when episodes have no images</li><li>Improve consistency of web app detail screen with Emby Theater</li><li>Improve automatic network switching from mobile web app</li><li>Move book support into Emby core</li><li>Support resuming audio books</li><li>Add per-library series pooling setting</li><li>Shorten episode display numbers</li><li>Improve Dlna Play To device detection</li></ul><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Resolve vaapi mpeg4 transcoding failure</li><li>Remove condition preventing video stream copy with Apple TV</li><li>Resolve display issue on dlna profile screen</li><li>Resolve music brainz provider issue causing the library scan to get stuck in certain situations</li></ul></p>
+]]>
+      </description>
+      <author>Luke</author>
+      <guid>https://emby.media/emby-server-31-faster-and-lighter-than-ever-before.html</guid>
+      <image>
+        <title>Emby Server 3.1: Faster and Lighter than Ever Before</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
+    <item>
+      <title>Emby Server 3.1.1 Released</title>
+      <link>https://emby.media/emby-server-311-released.html</link>
+      <pubDate>Wed, 21 Dec 2016 20:38:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A small maintenance update was pushed to resolve a few issues with the previous release:<br /><ul class='bbc'><li>Resolve IPv6 issue on BSD systems</li><li>Resolve holiday theme disrupting video playback</li><li>Resolve duplicate latest Live TV recordings section</li></ul></p><p>&nbsp;</p><p>To learn more about the previous release, we encourage you to read <a href='https://emby.media/community/index.php?/blog/1/entry-333-emby-server-31-faster-and-lighter-than-ever-before/' class='bbc_url' title=''>Emby Server 3.1: Faster and Lighter Than Ever Before</a>.</p>
+]]>
+      </description>
+      <author>Luke</author>
+      <guid>https://emby.media/emby-server-311-released.html</guid>
+      <image>
+        <title>Emby Server 3.1.1 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
+    <item>
+      <title>Emby for iOS 1.3.1 Released</title>
+      <link>https://emby.media/emby-for-ios-131-released.html</link>
+      <pubDate>Fri, 23 Dec 2016 19:44:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Here are the highlights:<ul class='bbc'><li>Add delete button to detail screens</li><li>Add episode list to episode detail screen</li><li>Display series image on episode detail screen when no episode is present</li><li>Auto-refresh live tv guide when left open for long periods of time</li><li>Improve playback start time</li><li>Fix search icon alignment</li><li>Update guide date selection</li><li>Support resuming audio books</li><li>Simplify episode number display</li><li>Resolve duplicated Latest Recordings on the home screen</li></ul><span rel='lightbox'><img class='bbc_img' src='https://emby.media/resources/564524e839360_sm_IMG_00171.png' alt='Posted Image' /></span></p>
+]]>
+      </description>
+      <author>Luke</author>
+      <guid>https://emby.media/emby-for-ios-131-released.html</guid>
+      <image>
+        <title>Emby for iOS 1.3.1 Released</title>
+        <url>https://emby.media/img/blog/6376.jpg</url>
+      </image>
+    </item>
+    <item>
+      <title>Emby Server 3.1.2 Released</title>
+      <link>https://emby.media/emby-server-312-released.html</link>
+      <pubDate>Wed, 28 Dec 2016 21:28:57 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>A small maintenance update was pushed to resolve a few issues with the previous release:</span></span><ul class='bbc'><li>Support samsung dlna bookmarks</li><li>Direct play dts with LG dlna</li><li>Update sync dialogs</li><li>Fix playlist items not draggable in Firefox/Edge</li><li>Resolve error when probing bluray folder rips</li><li>Resolve cloud sync error</li><li>Improve Emby Connect error message</li><li>Fix audio channel count handling</li><li>Resolve OpenSubtitle failures</li><li>Supply user agent when recording from remote urls</li><li>Increase likelihood of video stream copy</li></ul></p>
+]]>
+      </description>
+      <author>Luke</author>
+      <guid>https://emby.media/emby-server-312-released.html</guid>
+      <image>
+        <title>Emby Server 3.1.2 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
