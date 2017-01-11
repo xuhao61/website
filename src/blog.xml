@@ -5,8 +5,8 @@
     <link>https://emby.media</link>
     <atom:link href="https://emby.media/feed" rel="self" type="application/rss+xml" />
     <description>Emby</description>
-    <pubDate>Mon, 09 Jan 2017 21:16:00 +0000</pubDate>
-    <lastBuildDate>Mon, 09 Jan 2017 21:16:00 +0000</lastBuildDate>
+    <pubDate>Wed, 11 Jan 2017 00:20:54 +0000</pubDate>
+    <lastBuildDate>Wed, 11 Jan 2017 00:20:54 +0000</lastBuildDate>
     <language>en-US</language>
     <item>
       <title>Media Browser for Chromecast updated</title>
@@ -3093,6 +3093,22 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
       <image>
         <title>Emby for Sony PS4 PlayStation 4 Updated</title>
         <url>https://emby.media/img/blog/playstation4-tile.jpg</url>
+      </image>
+    </item>
+    <item>
+      <title>Emby for Apple TV 1.0.15 released</title>
+      <link>https://emby.media/emby-for-apple-tv-version-1015-released.html</link>
+      <pubDate>Wed, 11 Jan 2017 00:20:54 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>We're happy to announce a new version of Emby for Apple TV with several improvements.</p><p>&nbsp;</p><p><strong class='bbc'><span style='font-size: 18px'>Improved "Up Next" display</span></strong></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/59/5867f82a7ebcf_ScreenShot20161231at132439.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p>We've improved this panel that comes up before the next episode plays to be interactive. Allowing you to cancel or immediately advance to the next item.</p><p>&nbsp;</p><p><strong class='bbc'><span style='font-size: 18px'>Background Audio Support</span></strong></p><p>&nbsp;</p><p>Audio started in Emby will now continue to play when you leave the app. <span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>For those that want to use your favorite Apple TV Screensaver app while using Emby as your music source you now can.</span></span></p><p>&nbsp;</p><p><strong class='bbc'><span style='font-size: 18px'><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Improved Multi-Disc Album Display</span></span></span></strong></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/59/5867f9a30a1f1_ScreenShot20161231at133026.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p>Tracks on multi-disc albums will now be properly separated by disc in the display.</p><p>&nbsp;</p><p><strong class='bbc'><span style='font-size: 18px'>Improved Dashboard Device Display</span></strong></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/59/5867fa7d516d0_ScreenShot20161231at133323.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p>Your proper Apple TV device name will now display in the Emby Server dashboard active devices list.</p><p>&nbsp;</p><p>We hope you enjoy these improvements. You can find Emby in the App Store on your Apple TV 4 device.</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-apple-tv-version-1015-released.html</guid>
+      <image>
+        <title>Emby for Apple TV 1.0.15 released</title>
+        <url>https://emby.media/community/uploads/inline/3/57016ba800b2d_Home.png</url>
       </image>
     </item>
   </channel>
