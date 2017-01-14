@@ -166,6 +166,7 @@ namespace WebsiteBuilder
             template = template.Replace("{{pubDate}}", pubDate);
 
             template = template.Replace("{SOCIALNETWORKS}", GetSocialNetworks(inputPath, title, title, pubDateInstance, pubDateInstance, imageUrl, imageUrl));
+            template = template.Replace("{SOCIALICONS}", GetSocialIcons(inputPath));
             template = AddGoogleAnalytics(template);
 
             var filename = Path.GetFileName(link);
@@ -186,6 +187,8 @@ namespace WebsiteBuilder
                     null,
                     null);
                 html = html.Replace("{SOCIALNETWORKS}", newText);
+
+                html = html.Replace("{SOCIALICONS}", GetSocialIcons(inputPath));
 
                 html = AddGoogleAnalytics(html);
 
@@ -247,9 +250,22 @@ namespace WebsiteBuilder
             return template;
         }
 
+        private string _socialIcons;
+        private string GetSocialIcons(string inputPath)
+        {
+            return _socialIcons ?? (_socialIcons = GetSocialIconsInternal(inputPath));
+        }
+
         private string GetSocialNetworksInternal(string inputPath)
         {
             var path = Path.Combine(inputPath, "socialnetworks.html");
+
+            return File.ReadAllText(path);
+        }
+
+        private string GetSocialIconsInternal(string inputPath)
+        {
+            var path = Path.Combine(inputPath, "socialicons.html");
 
             return File.ReadAllText(path);
         }
