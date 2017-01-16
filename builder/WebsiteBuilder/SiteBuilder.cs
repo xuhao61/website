@@ -167,6 +167,7 @@ namespace WebsiteBuilder
 
             template = template.Replace("{SOCIALNETWORKS}", GetSocialNetworks(inputPath, title, title, pubDateInstance, pubDateInstance, imageUrl, imageUrl));
             template = template.Replace("{SOCIALICONS}", GetSocialIcons(inputPath));
+            template = template.Replace("</body>", GetBodyClosing(inputPath) + "</body>");
             template = AddGoogleAnalytics(template);
 
             var filename = Path.GetFileName(link);
@@ -179,7 +180,7 @@ namespace WebsiteBuilder
             foreach (var file in Directory.GetFiles(directory, "*.html").ToList())
             {
                 var html = File.ReadAllText(file);
-                var newText = GetSocialNetworks(inputPath, 
+                var newText = GetSocialNetworks(inputPath,
                     "Emby",
                     "media server for personal streaming videos tv music photos in mobile app or browser for all devices android iOS windows phone appletv androidtv smarttv and dlna",
                     DateTime.UtcNow.AddYears(-2),
@@ -189,6 +190,7 @@ namespace WebsiteBuilder
                 html = html.Replace("{SOCIALNETWORKS}", newText);
 
                 html = html.Replace("{SOCIALICONS}", GetSocialIcons(inputPath));
+                html = html.Replace("</body>", GetBodyClosing(inputPath) + "</body>");
 
                 html = AddGoogleAnalytics(html);
 
@@ -259,6 +261,19 @@ namespace WebsiteBuilder
         private string GetSocialNetworksInternal(string inputPath)
         {
             var path = Path.Combine(inputPath, "socialnetworks.html");
+
+            return File.ReadAllText(path);
+        }
+
+        private string _bodyClosing;
+        private string GetBodyClosing(string inputPath)
+        {
+            return _bodyClosing ?? (_bodyClosing = GetBodyClosingInternal(inputPath));
+        }
+
+        private string GetBodyClosingInternal(string inputPath)
+        {
+            var path = Path.Combine(inputPath, "bodyclosing.html");
 
             return File.ReadAllText(path);
         }
