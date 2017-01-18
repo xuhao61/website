@@ -5,8 +5,8 @@
     <link>https://emby.media</link>
     <atom:link href="https://emby.media/feed" rel="self" type="application/rss+xml" />
     <description>Emby</description>
-    <pubDate>Mon, 16 Jan 2017 08:29:00 +0000</pubDate>
-    <lastBuildDate>Mon, 16 Jan 2017 08:29:00 +0000</lastBuildDate>
+    <pubDate>Wed, 18 Jan 2017 19:36:00 +0000</pubDate>
+    <lastBuildDate>Wed, 18 Jan 2017 19:36:00 +0000</lastBuildDate>
     <language>en-US</language>
     <item>
       <title>Media Browser for Chromecast updated</title>
@@ -3124,6 +3124,22 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
       <guid>https://emby.media/emby-theater-for-windows-desktop-2536-released.html</guid>
       <image>
         <title>Emby Theater for Windows Desktop 2.5.36 Released</title>
+        <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
+      </image>
+    </item>
+    <item>
+      <title>Emby for Windows Store and Xbox One 1.0.53 Released</title>
+      <link>https://emby.media/emby-for-windows-store-and-xbox-one-1053-released.html</link>
+      <pubDate>Wed, 18 Jan 2017 19:36:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release for Emby for Windows Store and Xbox One is rolling out. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Mobile Video OSD Improved</span></p><p>&nbsp;</p><p>The small screen experience has been improved and we think this screen says it all.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/587fc66042397_Screenshot_20170118144432.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Others</span><ul class='bbc'><li>Support changing video quality during playback</li><li>Resolve fast-forward button not working with certain kinds of videos</li></ul></p><p>&nbsp;</p><p>Learn more about <a href='https://emby.media/emby-theater-xboxone.html' class='bbc_url' title=''>Emby for Windows Store and Xbox One</a>.</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-windows-store-and-xbox-one-1053-released.html</guid>
+      <image>
+        <title>Emby for Windows Store and Xbox One 1.0.53 Released</title>
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
