@@ -5,8 +5,6 @@
     <link>https://emby.media</link>
     <atom:link href="https://emby.media/feed" rel="self" type="application/rss+xml" />
     <description>Emby</description>
-    <pubDate>Wed, 18 Jan 2017 19:36:00 +0000</pubDate>
-    <lastBuildDate>Wed, 18 Jan 2017 19:36:00 +0000</lastBuildDate>
     <language>en-US</language>
     <item>
       <title>Media Browser for Chromecast updated</title>
@@ -3141,6 +3139,22 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
       <image>
         <title>Emby for Windows Store and Xbox One 1.0.53 Released</title>
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
+      </image>
+    </item>
+    <item>
+      <title>Emby for iOS 1.3.2 Released</title>
+      <link>https://emby.media/emby-for-ios-132-released.html</link>
+      <pubDate>Fri, 20 Jan 2017 07:13:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new update is currently rolling out. This release is primarily focused on a single area, but it's a very important one. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>A Beautiful, New Video OSD</span></p><p>&nbsp;</p><p>It's pretty and animates fluidly. It has all the features from the previous design, along with the following improvements:<ul class='bbc'><li>Dedicated fast-forward and rewind buttons (Ipad only)</li><li>Thumbnail previews on the seek bar</li><li>Additional metadata embedded into the display</li></ul></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5881b95c175f5_IMG_0004.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Improved Youtube Trailer Playback</span></p><p>&nbsp;</p><p>Your youtube trailers no longer need to pop open the Youtube app. Now they will play directly in the Emby app using the same Video OSD as you see above. The experience is so seamless you'll forget it's coming from Youtube.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Others</span><ul class='bbc'><li>Display episode titles in Live TV Guide</li><li>Increase audio/video position slider precision</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-132-released.html</guid>
+      <image>
+        <title>Emby for iOS 1.3.2 Released</title>
+        <url>https://emby.media/img/blog/6376.jpg</url>
       </image>
     </item>
   </channel>
