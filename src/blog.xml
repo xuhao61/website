@@ -3189,5 +3189,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 3.1.4 Released</title>
+      <link>https://emby.media/emby-server-314-released.html</link>
+      <pubDate>Fri, 27 Jan 2017 05:03:30 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release of Emby Server is available. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Performance Improvements</span><ul class='bbc'><li>Update Sqlite to 3.16.2, which reduces cpu cycles by 9% on average</li></ul><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Fix extra semi-colon being added to nfo micodec field</li><li>Fix episode title in recent activity</li><li>Fix live TV folders being re-created repeatedly</li><li>Fix manifest.json start url</li><li>Fix virtual season creation</li><li>Fix folders affecting music album detection</li><li>Fix recording time filter causing recordings to be skipped</li><li>Fix auto-organize issue when creating new series</li><li>Fix local trailers not being used in cinema mode</li></ul><span style='font-size: 24px'>Others</span><ul class='bbc'><li>Fade out when stopping audio playback</li><li>Support video backdrops</li><li>Improve youtube player</li><li>Increase position slider precision</li><li>Show episode title in live tv guide</li><li>Support .tp video container</li><li>Display artist in song list for compilation albums</li><li>Update video OSD</li><li>Update offline detection</li><li>Add + button to song lists</li><li>Update m3u parser</li><li>Add samsung dlna playback fixes</li><li>Rework now playing screen</li><li>Support remove from now playing queue</li><li>Support re-order from now playing queue</li><li>Add Sharp Dlna profile</li><li>Update play menus</li><li>Improve direct play for internet channel plugins</li><li>Update program display titles</li><li>Improve DLNA direct play</li><li>Support per-library metadata language settings</li><li>Add save to playlist button on now playing screen</li><li>Reduce dlna play to traffic</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-314-released.html</guid>
+      <image>
+        <title>Emby Server 3.1.4 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
