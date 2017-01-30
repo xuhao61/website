@@ -3205,5 +3205,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS 1.3.3 Released</title>
+      <link>https://emby.media/emby-for-ios-133-released.html</link>
+      <pubDate>Mon, 30 Jan 2017 19:31:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Download app: <a href='https://emby.media/emby-for-ios.html' class='bbc_url' title=''>https://emby.media/emby-for-ios.html</a></p><p>&nbsp;</p><p> A new update is currently rolling out. This release is primarily focused on a single area, but it's a very important one. Here are the highlights.</p><p>&nbsp;</p><p> <span style='font-size: 24px'>A New Now Playing Screen</span></p><p>&nbsp;</p><p> We've given this a fresh design and we think you'll be pleased with the results. Now you can easily re-order your now playing queue, remove items, and even save the queue to a playlist.</p><p>&nbsp;</p><p> <span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/587e608ae6aa5_Screenshot_20170117121146.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p> <span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/587e6097cc3f4_Screenshot_20170117121129.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p> <span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/587f706311dce_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p> Download app: <a href='https://emby.media/emby-for-ios.html' class='bbc_url' title=''>https://emby.media/emby-for-ios.html</a></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-133-released.html</guid>
+      <image>
+        <title>Emby for iOS 1.3.3 Released</title>
+        <url>https://emby.media/img/blog/6376.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
