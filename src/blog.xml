@@ -3221,5 +3221,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6376.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 3.2.1 Released</title>
+      <link>https://emby.media/emby-server-321-released.html</link>
+      <pubDate>Fri, 10 Feb 2017 22:25:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release is rolling out and addresses a few issues. Here are the highlights:<ul class='bbc'><li>Improve search performance</li><li>Add html audio/video autoplay support detection</li><li>Add Auto quality to video player OSD</li><li>Update xml tv show id's</li><li>Update m3u channel numbers</li><li>Improve video startup performance</li><li>Update ordering of search results</li><li>Assume season 1 for episodes in certain situations</li><li>Add ios safari fullscreen video button</li><li>Add realtime monitor error handling</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-321-released.html</guid>
+      <image>
+        <title>Emby Server 3.2.1 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
