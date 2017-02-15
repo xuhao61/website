@@ -3237,5 +3237,37 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 3.2.1 Released</title>
+      <link>https://emby.media/emby-server-321-released.html</link>
+      <pubDate>Fri, 10 Feb 2017 22:25:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release is rolling out and addresses a few issues. Here are the highlights:<ul class='bbc'><li>Improve search performance</li><li>Add html audio/video autoplay support detection</li><li>Add Auto quality to video player OSD</li><li>Update xml tv show id's</li><li>Update m3u channel numbers</li><li>Improve video startup performance</li><li>Update ordering of search results</li><li>Assume season 1 for episodes in certain situations</li><li>Add ios safari fullscreen video button</li><li>Add realtime monitor error handling</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-321-released.html</guid>
+      <image>
+        <title>Emby Server 3.2.1 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
+    <item>
+      <title>Enjoy Chrome Lock Screen Control with the Emby Web App</title>
+      <link>https://emby.media/enjoy-chrome-lock-screen-control-with-the-emby-web-app.html</link>
+      <pubDate>Wed, 15 Feb 2017 20:35:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>If you use Chrome on Android and have Chrome 57 (currently beta) installed, you'll be in for a treat the next time you play media with the Emby web app. We've added support for lock screen controls, which allow you to control playback from the device lock screen.</p><p>&nbsp;</p><p> <span style='font-size: 24px'>Try It Now</span></p><p>&nbsp;</p><p> This is immediately available to enjoy with the online web app at <a href='http://app.emby.media' class='bbc_url' title=''>http://app.emby.media</a></p><p>&nbsp;</p><p> It is also in the Emby Server beta channel and will be included in the next stable release.</p><p>&nbsp;</p><p> <span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58a22330a1f44_Screenshot_20170213161630.png' alt='Posted Image' /></span></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/enjoy-chrome-lock-screen-control-with-the-emby-web-app.html</guid>
+      <image>
+        <title>Enjoy Chrome Lock Screen Control with the Emby Web App</title>
+        <url>https://emby.media/community/uploads/inline/2/58a22330a1f44_Screenshot_20170213161630.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
