@@ -3269,5 +3269,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/58a22330a1f44_Screenshot_20170213161630.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby for PS4 Updated with New Live TV Screens</title>
+      <link>https://emby.media/emby-for-ps4-updated-with-new-live-tv-screens.html</link>
+      <pubDate>Thu, 23 Feb 2017 19:38:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Emby for PS4 has been updated with new Live TV features. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Installation</span><br />Simply open your PS4 Web Browser and visit <a href='http://tv.emby.media' class='bbc_url' title=''>tv.emby.media</a>. Then bookmark with the browser for faster launching !</p><p>&nbsp;</p><p><span style='font-size: 24px'>Better Live TV Suggestions</span></p><p>&nbsp;</p><p>Easily find what's on and discover new shows you might like.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58af3b8172ad5_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Improved Recordings Display</span></p><p>&nbsp;</p><p>The app makes it easier than ever before to enjoy your latest recordings.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58af3ba451013_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Manage Your DVR</span></p><p>&nbsp;</p><p>View your series schedules, schedule and cancel recordings, and more.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58a3ef8489236_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58af3c0161de5_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span style='font-size: 24px'>Learn How to Create Skins</span><br />Can you do HTML and JavaScript? Then why not fork the default skin?</span></span></p><p>&nbsp;</p><p><a href='http://emby.media/community/index.php?/blog/1/entry-302-learn-how-to-create-skins-for-emby-theater/' class='bbc_url' title=''>http://emby.media/community/index.php?/blog/1/entry-302-learn-how-to-create-skins-for-emby-theater/</a></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Let us know what changes and improvements you're able to come up with. You can even release your forked version to the Emby community!</span></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Installation</span><br />Simply open your PS4 Web Browser and visit <a href='http://tv.emby.media' class='bbc_url' title=''>tv.emby.media</a>. Then bookmark with the browser for faster launching !</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ps4-updated-with-new-live-tv-screens.html</guid>
+      <image>
+        <title>Emby for PS4 Updated with New Live TV Screens</title>
+        <url>https://emby.media/img/blog/playstation4-tile.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
