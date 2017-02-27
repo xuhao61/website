@@ -3285,5 +3285,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/playstation4-tile.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 3.2.5 Released</title>
+      <link>https://emby.media/emby-server-325-released.html</link>
+      <pubDate>Mon, 27 Feb 2017 19:22:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release is currently rolling out. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Lock Screen Control with Chrome for Android</span></p><p>&nbsp;</p><p>Check out the previous announcement: <a href='https://emby.media/community/index.php?/blog/1/entry-354-enjoy-chrome-lock-screen-control-with-the-emby-web-app/' class='bbc_url' title=''>https://emby.media/community/index.php?/blog/1/entry-354-enjoy-chrome-lock-screen-control-with-the-emby-web-app/</a></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58a22330a1f44_Screenshot_20170213161630.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>New Volume Swipe Control</span></p><p>&nbsp;</p><p>Just swipe vertically during video playback and you can quickly and easily adjust volume.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58b06fdf7af69_Screenshot_20170224123616.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Update xmltv xml parsing to handle empty credits node</li><li>Add fixes for running the server under Turkish locale settings</li><li>Fix tv series alphabet picker</li><li>Fix direct stream of flv</li><li>Fix chromecast mirror feature</li><li>Fix live tv channel sorting with favorite option</li><li>Fix empty guide rows when mapping multiple tuner channels to the same epg channel</li></ul><span style='font-size: 24px'>Other Improvements</span><ul class='bbc'><li>Improve series recording images</li><li>Update to sqlite 3.17.0</li><li>Clean related files when deleting items</li><li>Add automatic direct play to transcoding switching on video failures</li><li>Preserve manual recording overrides</li><li>Respect locked fields during media probe</li><li>Add setting to prefer embedded titles vs titles in file names</li><li>Add volume swipe control to video player</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-325-released.html</guid>
+      <image>
+        <title>Emby Server 3.2.5 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
