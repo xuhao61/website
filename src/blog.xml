@@ -3301,5 +3301,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Windows Store Updated with Offline Support</title>
+      <link>https://emby.media/emby-for-windows-store-updated-with-offline-support.html</link>
+      <pubDate>Mon, 06 Mar 2017 21:58:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Emby for Windows Store and Xbox One has been updated with Offline Support and new Live TV and DVR features.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Installation</span></p><p>&nbsp;</p><p>Download from the <a href='https://www.microsoft.com/en-us/store/p/emby-theater/9nblggh4t70l' class='bbc_url' title='External link' rel='nofollow external'>Microsoft Store</a></p><p>&nbsp;</p><p><span style='font-size: 24px'>How it Works</span></p><p>&nbsp;</p><p>Just click "Make Available Offline"</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58bddcf3bb4ff_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Better Live TV Suggestions</span></p><p>&nbsp;</p><p>Easily find what's on and discover new shows you might like.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58af3b8172ad5_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Improved Recordings Display</span></p><p>&nbsp;</p><p>The app makes it easier than ever before to enjoy your latest recordings.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58af3ba451013_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Manage Your DVR</span></p><p>&nbsp;</p><p>View your series schedules, schedule and cancel recordings, and more.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58a3ef8489236_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58af3c0161de5_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span style='font-size: 24px'>Learn How to Create Skins</span><br />Can you do HTML and JavaScript? Then why not fork the default skin?</span></span></p><p>&nbsp;</p><p><a href='http://emby.media/community/index.php?/blog/1/entry-302-learn-how-to-create-skins-for-emby-theater/' class='bbc_url' title=''>http://emby.media/community/index.php?/blog/1/entry-302-learn-how-to-create-skins-for-emby-theater/</a></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Let us know what changes and improvements you're able to come up with. You can even release your forked version to the Emby community!</span></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Installation</span></p><p>&nbsp;</p><p>Download from the <a href='https://www.microsoft.com/en-us/store/p/emby-theater/9nblggh4t70l' class='bbc_url' title='External link' rel='nofollow external'>Microsoft Store</a></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-windows-store-updated-with-offline-support.html</guid>
+      <image>
+        <title>Emby for Windows Store Updated with Offline Support</title>
+        <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
