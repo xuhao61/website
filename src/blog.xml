@@ -3317,5 +3317,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server Now Supports Older HD Homerun Tuners</title>
+      <link>https://emby.media/emby-server-now-supports-older-hd-homerun-tuners.html</link>
+      <pubDate>Wed, 08 Mar 2017 21:21:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Emby Server 3.2.7 is currently rolling out. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Support for Older HD Homerun Tuners</span></p><p>&nbsp;</p><p>Emby Live TV now supports older HD Homerun Network Tuners. This includes HDHR-US, HDHR3-US, and many others.</p><p>&nbsp;</p><p><strong class='bbc'>Important</strong>: Your HD Homerun will need to be running firmware version 20161117 or newer.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Fix Live TV channel sorting by number</li></ul><span style='font-size: 24px'>Other Changes</span><ul class='bbc'><li>Improve ffmpeg command lines with hardware acceleration</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-now-supports-older-hd-homerun-tuners.html</guid>
+      <image>
+        <title>Emby Server Now Supports Older HD Homerun Tuners</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
