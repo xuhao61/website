@@ -3349,5 +3349,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Seek Your Live TV in the Emby for Android TV Beta</title>
+      <link>https://emby.media/seek-your-live-tv-in-the-emby-for-android-tv-beta.html</link>
+      <pubDate>Wed, 22 Mar 2017 20:19:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>The beta version of Emby for Android TV has been updated with a plethora of new Live TV and video playback features. This is still a beta and is not yet production quality, but if you'd like try out the new features and help us refine them, then read on below.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Highlights</span><ul class='bbc'><li>Seek Live TV</li><li>Start recording during Live TV playback</li><li>Switch quality on the fly</li><li>Switch frame rates on the fly</li><li>Zoom (only with internal player) - this just moves this option from its own icon to this menu</li><li>Audio Delay (only with VLC) - again just moved here</li><li>Playback Correction - this is the old "magic button" or error button just moved here</li></ul></p><p>&nbsp;</p><p><span style='font-size: 24px'>Installation</span></p><p>&nbsp;</p><p><a href='https://emby.media/community/index.php?/topic/24350-android-open-beta-testing/' class='bbc_url' title=''>https://emby.media/community/index.php?/topic/24350-android-open-beta-testing/</a></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/58d2dc0da4cb9_livetvosd2.png' alt='Posted Image' /></span></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/seek-your-live-tv-in-the-emby-for-android-tv-beta.html</guid>
+      <image>
+        <title>Seek Your Live TV in the Emby for Android TV Beta</title>
+        <url>https://emby.media/img/blog/6064.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
