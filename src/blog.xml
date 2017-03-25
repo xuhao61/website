@@ -3381,5 +3381,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Samsung Tizen Smart TVs 1.0.22 Released</title>
+      <link>https://emby.media/emby-for-samsung-tizen-smart-tvs-1022-released.html</link>
+      <pubDate>Sat, 25 Mar 2017 21:56:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>1.0.22 is available and includes the following updates:<ul class='bbc'><li>Improve direct play of high bitrate & 4K content</li><li>New vertical layouts</li><li>Full support for Live TV Guide</li><li>New Live TV features - view series recordings, better suggestions, improved recording layouts, and more</li></ul></p><p>&nbsp;</p><p><span style='font-size: 24px'>Installation</span></p><p>&nbsp;</p><p>Users in the USA with a 2015-2016 Samsung Smart TV can <strong class='bbc'>install now from the Samsung App Store</strong>. If you're outside the USA, stay tuned for further announcements, and see here for a temporary workaround:</p><p>&nbsp;</p><p><a href='https://emby.media/community/index.php?/topic/45404-how-to-install-the-official-emby-app-on-a-samsung-smart-tv-outside-the-us/' class='bbc_url' title=''>https://emby.media/community/index.php?/topic/45404-how-to-install-the-official-emby-app-on-a-samsung-smart-tv-outside-the-us/</a></p><p>&nbsp;</p><p><span style='font-size: 24px'>Better Live TV Suggestions</span></p><p>&nbsp;</p><p>Easily find what's on and discover new shows you might like.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58af3b8172ad5_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Improved Recordings Display</span></p><p>&nbsp;</p><p>The app makes it easier than ever before to enjoy your latest recordings.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58af3ba451013_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Manage Your DVR</span></p><p>&nbsp;</p><p>View your series schedules, schedule and cancel recordings, and more.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58a3ef8489236_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58af3c0161de5_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span style='font-size: 24px'>Learn How to Create Skins</span><br />Can you do HTML and JavaScript? Then why not fork the default skin?</span></span></p><p>&nbsp;</p><p><a href='http://emby.media/community/index.php?/blog/1/entry-302-learn-how-to-create-skins-for-emby-theater/' class='bbc_url' title=''>http://emby.media/community/index.php?/blog/1/entry-302-learn-how-to-create-skins-for-emby-theater/</a></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Let us know what changes and improvements you're able to come up with. You can even release your forked version to the Emby community!</span></span></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-samsung-tizen-smart-tvs-1022-released.html</guid>
+      <image>
+        <title>Emby for Samsung Tizen Smart TVs 1.0.22 Released</title>
+        <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
