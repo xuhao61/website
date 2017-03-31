@@ -462,6 +462,8 @@
                                             <code>
                                                 # Reinstall FFMpeg from ports with lame option enabled<br>
                                                 cd /usr/ports/multimedia/ffmpeg<br>
+                                                # Install ffmpeg build dependencies<br>
+                                                pkg install `make build-depends-list | tr '\n' ' ' | sed 's/\/usr\/ports\///g' | sed 's/audio\/lame //g'`<br>
                                                 make config<br>
                                                 # enable the lame option<br>
                                                 # enable the ass subtitles option<br>
