@@ -28,31 +28,28 @@ function getParameterByName(name, url) {
         return decodeURIComponent(results[1].replace(/\+/g, " "));
 }
 
-function setParam(url, name, value) {
-    
-    if (!value) {
-        return url;
-    }
+function replaceAll(originalString, strReplace, strWith) {
+    var reg = new RegExp(strReplace, 'ig');
+    return originalString.replace(reg, strWith);
+}
 
-    if (url.indexOf('?') === -1) {
+function escapeTokenValue(value) {
 
-        url += '?';
-    } else {
-        url += '&';
-    }
+    value = replaceAll(value, ':', '__colon__');
+    value = replaceAll(value, '/', '__forwardslash__');
 
-    url += name + '=' + value;
-    return url;
+    return value;
 }
 
 function getAlexaAccessToken(values) {
 
-    return values.join('___');
+    return values.map(escapeTokenValue).join('___');
 }
 
 jQuery(document).ready(function ($) {
 
     var loginResult;
+    var connectServers = [];
 
     //get current logged in user
     $.ajaxSetup({
@@ -70,6 +67,8 @@ jQuery(document).ready(function ($) {
         $('#selectServerForm').show();
 
         getConnectServers().then(function (servers) {
+
+            connectServers = servers;
 
             document.querySelector('#selectServer').innerHTML = servers.map(function (s) {
 
@@ -136,14 +135,25 @@ jQuery(document).ready(function ($) {
         var values = [];
         values.push(serverId);
 
+        var server = connectServers.filter(function (s) {
+            return s.SystemId === serverId;
+        })[0];
+
+        var url = server.LocalAddress || server.Url;
+        values.push(url);
+        values.push(server.AccessKey);
+        values.push('connect');
+
         var alexaAccessToken = getAlexaAccessToken(values);
 
         var redirectUri = getParameterByName('redirect_uri');
 
-        redirectUri = setParam(redirectUri, 'token_type', 'Bearer');
-        redirectUri = setParam(redirectUri, 'state', getParameterByName('state'));
-        redirectUri = setParam(redirectUri, 'access_token', alexaAccessToken);
+        redirectUri += '#';
+        redirectUri += 'token_type=Bearer';
+        redirectUri += '&state=' + getParameterByName('state');
+        redirectUri += '&access_token=' + alexaAccessToken;
 
+        alert(redirectUri);
         window.location.href = redirectUri;
 
         return false;
