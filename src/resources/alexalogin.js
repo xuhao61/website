@@ -153,7 +153,6 @@ jQuery(document).ready(function ($) {
         redirectUri += '&state=' + getParameterByName('state');
         redirectUri += '&access_token=' + alexaAccessToken;
 
-        alert(redirectUri);
         window.location.href = redirectUri;
 
         return false;
