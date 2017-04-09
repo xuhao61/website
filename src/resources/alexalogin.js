@@ -139,7 +139,7 @@ jQuery(document).ready(function ($) {
             return s.SystemId === serverId;
         })[0];
 
-        var url = server.LocalAddress || server.Url;
+        var url = server.Url;
         values.push(url);
         values.push(server.AccessKey);
         values.push('connect');
