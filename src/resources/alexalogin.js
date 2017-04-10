@@ -143,6 +143,7 @@ jQuery(document).ready(function ($) {
         values.push(url);
         values.push(server.AccessKey);
         values.push('connect');
+        values.push(loginResult.User.Id);
 
         var alexaAccessToken = getAlexaAccessToken(values);
 
