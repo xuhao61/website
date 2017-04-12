@@ -3429,5 +3429,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Seek within Live TV with the new Android TV and Fire TV app</title>
+      <link>https://emby.media/seek-within-live-tv-with-the-new-android-tv-and-fire-tv-app.html</link>
+      <pubDate>Wed, 12 Apr 2017 15:52:57 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p><p class='bbc_center'><span style='font-size: 24px'>Now with live TV and in-progress recording seeking</span></p></p><p>&nbsp;</p><p>Rolling out to the store right now, a new version of Emby for both Android TV and Live TV adds live TV and in-progress recording seeking as well as a number of other improvements and new features.</p><p>&nbsp;</p><p><span style='font-size: 18px'>Live TV Seeking</span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/58ee30e8174c2_livetvseek.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p>Now you can seek within live TV and in-progress recording streams (within the time you started playback and up to real time) filling out the DVR features of Emby on the Android TV and Fire TV platforms. Pause, rewind and skip ahead to your heart's content with an intuitive and easy-to-use interface.</p><p>&nbsp;</p><p></p><p>&nbsp;</p><p><span style='font-size: 18px'>Live TV Guide Design Refresh</span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/58ee323e4fc18_guiderefresh.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p>This new version refreshes the look of the Live TV guide to make it more modern and fit the more "material" design of the device. All the same great functionality is still there - just in a new and easier to read package.</p><p>&nbsp;</p><p><span style='font-size: 18px'>Other Enhancements and Fixes</span></p><p>&nbsp;</p><p>In addition to the above, this new version of the apps include the following other enhancements and fixes:<ul class='bbc'><li>More in-playback controls - change quality, refresh rate (on supported hardware) and other settings during playback</li><li>More stream copy and less transcoding</li><li>Convert DTS to DD on systems that don't support DTS</li><li>Record or cancel a program from the playback OSD</li><li>General bug fixes and stability improvements</li></ul></p><p>&nbsp;</p><p>Update or install the app now via the <a href='https://play.google.com/store/apps/details?id=tv.emby.embyatv' class='bbc_url' title='External link' rel='nofollow external'>Google Play</a> or <a href='https://www.amazon.com/Emby-for-Fire-TV/dp/B00VVJKTW8' class='bbc_url' title='External link' rel='nofollow external'>Amazon</a> stores!</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/seek-within-live-tv-with-the-new-android-tv-and-fire-tv-app.html</guid>
+      <image>
+        <title>Seek within Live TV with the new Android TV and Fire TV app</title>
+        <url>https://emby.media/img/blog/6064.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
