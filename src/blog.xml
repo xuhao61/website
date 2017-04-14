@@ -3445,5 +3445,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6064.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Install the Windows Store mpeg2 extension</title>
+      <link>https://emby.media/install-the-windows-store-mpeg2-extension.html</link>
+      <pubDate>Fri, 14 Apr 2017 19:51:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>For those using <a href='https://emby.media/emby-theater-xboxone.html' class='bbc_url' title=''>Emby for Windows Store</a>, we recommend installing the Microsoft mpeg2 extension:</p><p>&nbsp;</p><p> <a href='https://www.microsoft.com/store/apps/9n95q1zzpmh4' class='bbc_url' title='External link' rel='nofollow external'>https://www.microsoft.com/store/apps/9n95q1zzpmh4</a></p><p>&nbsp;</p><p> This will allow the app to decode mpeg2 in-app without having to rely on server transcoding. Once this is installed, the Emby Windows Store app will automatically take advantage of it. </p><p>&nbsp;</p><p> Learn more about <a href='https://emby.media/emby-theater-xboxone.html' class='bbc_url' title=''>Emby for Windows Store</a>.</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/install-the-windows-store-mpeg2-extension.html</guid>
+      <image>
+        <title>Install the Windows Store mpeg2 extension</title>
+        <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
