@@ -3477,5 +3477,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/5416200a4bb67_53f77010a8549_MirrorDetail.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS 1.3.4 Released</title>
+      <link>https://emby.media/emby-for-ios-134-released.html</link>
+      <pubDate>Mon, 24 Apr 2017 19:39:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Download app: <a href='https://emby.media/emby-for-ios.html' class='bbc_url' title=''>https://emby.media/emby-for-ios.html</a></p><p>&nbsp;</p><p>A new update is currently rolling out. This release is primarily focused on a single area, but it's a very important one. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>New ! Design Your Home Screen</span><br />Just click the gear icon right on the home screen of the app.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58f6757980a65_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Start Recording During Live TV Playback</span><br />It's easy! Just click the recording button directly inside the video player.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58e7efa638349_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Improved Playback</span></p><p>&nbsp;</p><p>The app now supports level 51 H264. In addition, it will be more aggressive in it's attempts to direct play and can automatically switch to transcoding when needed, all on the fly.</p><p>&nbsp;</p><p>Download app: <a href='https://emby.media/emby-for-ios.html' class='bbc_url' title=''>https://emby.media/emby-for-ios.html</a></p><p>&nbsp;</p><p>A new update is currently rolling out. This release is primarily focused on a single area, but it's a very important one. Here are the highlights.</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-134-released.html</guid>
+      <image>
+        <title>Emby for iOS 1.3.4 Released</title>
+        <url>https://emby.media/img/blog/6376.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
