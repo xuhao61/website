@@ -3493,5 +3493,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6376.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 3.2.13 Released</title>
+      <link>https://emby.media/emby-server-3213-released.html</link>
+      <pubDate>Thu, 27 Apr 2017 19:13:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release of Emby Server is currently rolling out. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>New! Design Your Home Screen</span><br />Just click the gear icon right on the home screen of the app.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58f6757980a65_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Start Recording During Live TV Playback</span><br />It's easy! Just click the recording button directly inside the video player.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/58e7efa638349_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Improved Playback</span></p><p>&nbsp;</p><p>The web app now supports level 51 H264 in all browsers. In addition, it will be more aggressive in it's attempts to direct play and can automatically switch to transcoding when needed, all on the fly.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Fix trancoding failures of dvr-ms container</li><li>Ignore 0-byte image files</li><li>Resolve change password failure</li></ul></p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Improvements</span><ul class='bbc'><li>Improve error handling of HDHomerun live stream failures</li><li>Improve performance of live tv suggestions</li><li>Improve performance of live tv channel list</li><li>Add fixes for HLS seeking</li><li>Update subtitle embedding</li><li>Direct play level 51 h264 in more browsers</li><li>Improve auto-organize error handling</li><li>Improve live tv start time in web app</li><li>Update remuxing support for dvb subtitles</li><li>Improve next up performance</li><li>Update h264 nvenc support</li><li>Update streaming api's for new Roku app</li><li>Support multiple country nodes in nfo</li><li>Improve tvdb lookup by imdb id</li><li>Rework live tv tuner setup and discovery</li><li>Autoloop m3u's</li><li>Update audio sync during transcoding</li><li>Increase dlna default profile max bitrate</li><li>Update video sync when transcoding live tv</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-3213-released.html</guid>
+      <image>
+        <title>Emby Server 3.2.13 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
