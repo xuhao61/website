@@ -3525,5 +3525,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/5416200a4bb67_53f77010a8549_MirrorDetail.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Samsung Tizen Smart TVs 1.0.24 Released</title>
+      <link>https://emby.media/emby-for-samsung-tizen-smart-tvs-1024-released.html</link>
+      <pubDate>Fri, 05 May 2017 17:48:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>1.0.24 is now available in the Samsung App Store and includes the following updates:<br /><ul class='bbc'><li>Various subtitle fixes</li><li>Resolve screensaver starting during playback</li><li>Improved DVR series management</li></ul><span style='font-size: 24px'>Installation</span></p><p>&nbsp;</p><p>Users in the USA with a 2015-2016 Samsung Smart TV can <strong class='bbc'>install now from the Samsung App Store</strong>. If you're outside the USA, stay tuned for further announcements, and see here for a temporary workaround:</p><p>&nbsp;</p><p><a href='https://emby.media/community/index.php?/topic/45404-how-to-install-the-official-emby-app-on-a-samsung-smart-tv-outside-the-us/' class='bbc_url' title=''>https://emby.media/community/index.php?/topic/45404-how-to-install-the-official-emby-app-on-a-samsung-smart-tv-outside-the-us/</a></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-samsung-tizen-smart-tvs-1024-released.html</guid>
+      <image>
+        <title>Emby for Samsung Tizen Smart TVs 1.0.24 Released</title>
+        <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
