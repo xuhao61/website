@@ -3541,5 +3541,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 3.2.15 Released</title>
+      <link>https://emby.media/emby-server-3215-released.html</link>
+      <pubDate>Mon, 08 May 2017 20:06:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release of Emby Server is currently rolling out. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Live TV Guide Improvements</span></p><p>&nbsp;</p><p>The guide now features improved horizontal scrolling. Anyone familiar with Windows Media Center will enjoy the new arrow indicators.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/590f68a426d98_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Simplified Header</span></p><p>&nbsp;</p><p>When space allows, the header now fits on a single row, giving your more space for content and smaller menus to navigate.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/590555c5c5031_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Revamped Search</span></p><p>&nbsp;</p><p>Search results are now broken down into categories. </p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/59079a5beb998_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p>Additionally, your TV, Movie, Music, and Live TV libraries will have their own dedicated search tabs allowing you to search within those libraries.</p><p>&nbsp;</p><p>This is especially nice in the Live TV Guide, as the search results are broken down nicely by category.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5910d1b5627a3_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Improvements</span><ul class='bbc'><li>Fix more buttons in firefox</li><li>Improve remote control performance</li><li>Resolve entire libraries being added to playlists</li><li>Add IgnoreDts option</li><li>Update self signed cert</li><li>Update nfo parsing of people</li><li>Update smb support</li><li>Fix Moviedb find by external id</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-3215-released.html</guid>
+      <image>
+        <title>Emby Server 3.2.15 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
