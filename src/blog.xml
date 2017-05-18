@@ -3557,5 +3557,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>The New Face of Emby on Roku is LIVE</title>
+      <link>https://emby.media/the-new-face-of-emby-on-roku-is-live.html</link>
+      <pubDate>Thu, 18 May 2017 12:47:16 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p><p class='bbc_center'><strong class='bbc'><span style='font-size: 24px'>The new beautiful Emby for Roku is available now</span></strong></p></p><p>&nbsp;</p><p>The new face of Emby is available in the store now on your compatible* Roku device. Install or update it now and get a gorgeous, fresh interface for Emby on Roku.</p><p>&nbsp;</p><p><strong class='bbc'><span style='font-size: 18px'>Smart Home Screen</span></strong></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/591d95978f3cd_home1.jpg' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/591d95aa1ee41_home2.jpg' alt='Posted Image' /></span></p><p>&nbsp;</p><p>Find your most recent content quickly and easily with a design that more closely matches the web app and other TV platform interfaces.</p><p>&nbsp;</p><p></p><p>&nbsp;</p><p><strong class='bbc'><span style='font-size: 18px'>Easy Library Views</span></strong></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/591d95cd349f6_library1.jpg' alt='Posted Image' /></span></p><p>&nbsp;</p><p>When you need to drill down into your libraries, find the content you are looking for on a smart landing page or a full grid view.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/591d95ece8155_moviesgrid.jpg' alt='Posted Image' /></span></p><p>&nbsp;</p><p><strong class='bbc'><span style='font-size: 18px'>See all the Details</span></strong></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/591d9606291bb_moviedetail1.jpg' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/591d9627b13da_albumdetail2.jpg' alt='Posted Image' /></span></p><p>&nbsp;</p><p><strong class='bbc'><span style='font-size: 18px'>Dance the Night Away</span></strong></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/591d9644ec63a_audioplayer1.jpg' alt='Posted Image' /></span></p><p>&nbsp;</p><p></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/591d96566ca78_audioss2.jpg' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 18px'><span style='font-size: 14px'>The new Emby for Roku is designed for your music collection. Queue items, shuffle play, instant mix and move freely among the queue.</span></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Live TV</span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/591d96d77922d_tvguide1.jpg' alt='Posted Image' /></span></p><p>&nbsp;</p><p>Live TV is also enhanced with a full, graphical grid guide.</p><p>&nbsp;</p><p>Install the new Emby for Roku now on your Roku device!</p><p>&nbsp;</p><p><span style='font-size: 18px'><span style='font-size: 14px'><span style='font-size: 12px'>* - Access to the Roku store and firmware v7.5 required</span></span></span></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/the-new-face-of-emby-on-roku-is-live.html</guid>
+      <image>
+        <title>The New Face of Emby on Roku is LIVE</title>
+        <url>https://emby.media/img/blog/roku.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
