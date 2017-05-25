@@ -319,6 +319,14 @@
         }
         /** Ultimate: Media Responsive - **/
     </style>
+	<script>
+	
+	function showBetaMessage(){
+	
+		alert('Thank you for choosing to participate in testing Emby Server Beta releases. Please note we do not recommend switching the same Emby Server installation between release channels. If you decide to switch to Stable, we recommend a fresh installation.');
+	}
+	
+	</script>
 </head>
 <body class="single single-us_portfolio postid-5076 l-body us-theme_zephyr_1-6 wpb-js-composer js-comp-ver-4.5.2 vc_responsive hasGoogleVoiceExt">
     <!-- CANVAS -->
@@ -414,7 +422,7 @@
                                             <div>
                                                 <a href="http://embydata.com/downloads/server/release3/setup.exe" onclick="ga('send', 'event', 'Download Links', 'Downloaded', 'WindowsRelease');" class="g-btn color_primary type_raised"><i class="fa fa-download"></i><span>Stable Release</span><span class="ripple-container"></span></a>
                                             </div>
-                                            <br /><a href="http://embydata.com/downloads/server/beta3/setup.exe" onclick="ga('send', 'event', 'Download Links', 'Downloaded', 'WindowsBeta');">Beta Channel</a>
+                                            <br /><a href="http://embydata.com/downloads/server/beta3/setup.exe" onclick="showBetaMessage(); ga('send', 'event', 'Download Links', 'Downloaded', 'WindowsBeta');">Beta Channel</a>
                                         </p>
                                         <p style="margin-bottom:0;">
                                             <strong>Complete the Server Setup Wizard</strong><br />
