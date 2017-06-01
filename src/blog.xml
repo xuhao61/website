@@ -3589,5 +3589,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 3.2.19 Released</title>
+      <link>https://emby.media/emby-server-3219-released.html</link>
+      <pubDate>Thu, 01 Jun 2017 17:15:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release of Emby Server is rolling out. Here are the highlights.<ul class='bbc'><li>Improve Live TV playback</li><li>Improve browsing performance in all apps</li><li>Speed up audio playback</li><li>Show icon for home videos in photo libraries</li><li>Include home videos in photo slideshows</li><li>Switch to Skia for image processing (Windows + Mac)</li><li>Reduce resource consumption of realtime monitor</li><li>Update parental control filters</li><li>Revert hwaccel auto</li><li>Improve photo metadata provider</li></ul><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Fix occasional issue with plugin uninstallations</li><li>Fix layout of individual collection screen</li><li>Fix logos being stretched</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-3219-released.html</guid>
+      <image>
+        <title>Emby Server 3.2.19 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
