@@ -3605,5 +3605,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Chromecast Receives Major Update</title>
+      <link>https://emby.media/emby-for-chromecast-receives-major-update.html</link>
+      <pubDate>Mon, 05 Jun 2017 19:09:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>We've updated our Chromecast app with new features and improvements. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Consistent Detail Screen</span></p><p>&nbsp;</p><p>The detail screen now matches our other apps more closely, with added media information, taglines, and more.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Playback Improvements</span></p><p>&nbsp;</p><p>Our automatic quality feature has improved. Additionally Chromecast will now enjoy more aggressive direct play with the ability to automatically switch to transcoding if there is a problem when direct playing.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Subtitle Improvements</span></p><p>&nbsp;</p><p>The app can now handle more text-based subtitle formats without the need for server transcoding. Say goodbye to the pain on your server from subtitle burn in.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Music Improvements</span></p><p>&nbsp;</p><p>You'll now enjoy a nice audio fade out when stopping music, like many of our other apps. Additionally music playback still start quicker than ever before.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Photo Improvements</span></p><p>&nbsp;</p><p>Just tap a photo from the sending app and it will start a slideshow on Chromecast (Requires soon to be released Android and iOS updates).</p><p>&nbsp;</p><p><span style='font-size: 24px'>Remote Control Improvements</span></p><p>&nbsp;</p><p>Remote control i is now much more responsive. This requires the latest version of Emby Server, which is currently 3.2.19.</p><p>&nbsp;</p><p><span style='font-size: 24px'>How to Get The Update</span><br />To receive the update, simply power cycle your Chromecast device and restart the casting app.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Check out our Chromecast Wiki</span><br />Learn more about the app on our wiki at: <a href='https://github.com/MediaBrowser/Wiki/wiki/Chromecast' class='bbc_url' title='External link' rel='nofollow external'>https://github.com/MediaBrowser/Wiki/wiki/Chromecast</a></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5935acbdbae39_Untitled.png' alt='Posted Image' /></span></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-chromecast-receives-major-update.html</guid>
+      <image>
+        <title>Emby for Chromecast Updated with Improved HDMI-CEC Support</title>
+        <url>https://emby.media/community/uploads/inline/2/5416200a4bb67_53f77010a8549_MirrorDetail.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
