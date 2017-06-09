@@ -3621,5 +3621,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/5416200a4bb67_53f77010a8549_MirrorDetail.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Android TV New Interface</title>
+      <link>https://emby.media/emby-for-android-tv-new-interface.html</link>
+      <pubDate>Wed, 07 Jun 2017 13:38:20 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Version 1.4 of the Android TV app (available soon on Google Play and your Fire TV) now changes the library browsing interface to have "tabs" like the web app and Theater.</span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>You now should be able to quickly get to the different views of each library and choose how that library is displayed when you first enter it. This new presentation should now be the same as most of the other apps - helping users that use apps on multiple platforms be instantly familiar with the interface.</span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/590b593b6cb51_moviesall.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/590b596ac7c8e_tvsuggestions.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/590b597c929e0_albumgrid.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/590b5a15dc66c_tabbedguide.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>For Movie and TV libraries, you can choose both whether this new view or a plain grid view is used and, if the new tab view is used, you can select your default tab when the library is opened each time.</span></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/5936bb3c1456e_taboptions.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>We really hope you enjoy this updated and more consistent interface and that it helps you easily navigate to where you want to be quicker. As always, leave feedback in the appropriate forum. Thanks!</span></span></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-android-tv-new-interface.html</guid>
+      <image>
+        <title>Seek within Live TV with the new Android TV and Fire TV app</title>
+        <url>https://emby.media/img/blog/6064.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
