@@ -3653,5 +3653,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 3.2.20 Released</title>
+      <link>https://emby.media/emby-server-3220-released.html</link>
+      <pubDate>Wed, 14 Jun 2017 20:27:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release of Emby Server is rolling out. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Updated Live TV OSD</span></p><p>&nbsp;</p><p>The time display has been remodeled, and fans of Windows Media Center should feel right at home.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/59419db1b307a_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Improvements</span><ul class='bbc'><li>Improve live tv start time</li><li>Improve live tv images</li><li>Improve database performance</li><li>Enable cuvid decoder</li><li>Speed up audio playback</li><li>Reduce resource consumption of realtime monitor</li><li>Show icon for home videos in photo libraries</li><li>Include home videos in photo slideshows</li><li>Switch to Skia for image processing (Windows + Mac)</li><li>Update Bulgarian subtitle decoding</li></ul><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Fix layout of individual collection screen</li><li>Fix photo auto-orientation</li><li>Fix collections hanging up library scan</li><li>Fix dashboard showing wrong menu</li><li>Fix people editing not saving to nfo</li><li>Several de-interlacing fixes</li><li>Add Omdb fix for episode images</li></ul><span style='font-size: 24px'>Legacy Xml Metadata Updates</span></p><p>&nbsp;</p><p>Going forward, if you need support for Media Browser 2 legacy XML, please install the Xml Metadata plugin from the Emby plugin catalog. This includes xml metadata for movies and tv shows, as well as the metadata folder for episodes. <ul class='bbc'><li>Improve database performance</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-3220-released.html</guid>
+      <image>
+        <title>Emby Server 3.2.20 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
