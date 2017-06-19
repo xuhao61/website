@@ -3669,5 +3669,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS 1.3.8 Released</title>
+      <link>https://emby.media/emby-for-ios-138-released.html</link>
+      <pubDate>Mon, 19 Jun 2017 19:27:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Download app: <a href='https://emby.media/emby-for-ios.html' class='bbc_url' title=''>https://emby.media/emby-for-ios.html</a></p><p>&nbsp;</p><p>A new update is currently rolling out. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Resolve issue of music stopping after first track</li><li>Fix layout of individual collection screen</li></ul></p><p>&nbsp;</p><p><span style='font-size: 24px'>Updated Live TV OSD</span></p><p>&nbsp;</p><p>The time display has been remodeled, and fans of Windows Media Center should feel right at home.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/59419db1b307a_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Live TV Guide Improvements</span></p><p>&nbsp;</p><p>The guide now features improved horizontal scrolling. Anyone familiar with Windows Media Center will enjoy the new arrow indicators.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/590f68a426d98_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Simplified Header</span></p><p>&nbsp;</p><p>When space allows, the header now fits on a single row, giving your more space for content and smaller menus to navigate.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/590555c5c5031_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Revamped Search</span></p><p>&nbsp;</p><p>Search results are now broken down into categories.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/59079a5beb998_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p>Additionally, your TV, Movie, Music, and Live TV libraries will have their own dedicated search tabs allowing you to search within those libraries.</p><p>&nbsp;</p><p>This is especially nice in the Live TV Guide, as the search results are broken down nicely by category.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5910d1b5627a3_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p>Download app: <a href='https://emby.media/emby-for-ios.html' class='bbc_url' title=''>https://emby.media/emby-for-ios.html</a></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-138-released.html</guid>
+      <image>
+        <title>Emby for iOS 1.3.8 Released</title>
+        <url>https://emby.media/img/blog/6376.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
