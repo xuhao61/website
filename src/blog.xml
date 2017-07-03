@@ -3685,5 +3685,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6376.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Theater for Windows Desktop 2.8.1 Released</title>
+      <link>https://emby.media/emby-theater-for-windows-desktop-281-released.html</link>
+      <pubDate>Mon, 16 Jan 2017 08:29:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Emby Theater for Windows Desktop has been updated. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Stats for Nerds</span></p><p>&nbsp;</p><p>Tinkerers will love this. Just enable it directly in the video player OSD, or toggle it with the keyboard shortcut, control+J.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/595a895a9f7b1_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>New Audio Delay Settings</span></p><p>&nbsp;</p><p>New settings have been added to allow you to control audio delay if needed for your setup.</p><p>&nbsp;</p><p><span style='font-size: 24px'>MadVR Player Option</span></p><p>&nbsp;</p><p>You gave us your feedback and we listened. MadVR has returned as an option for video files.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Changes</span><ul class='bbc'><li>Fix window focus on restore from minimize</li></ul></p><p>&nbsp;</p><p><strong class='bbc'>Download for Windows: </strong><a href='https://emby.media/emby-theater.html' class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/561bc276520b9_1.png' alt='Posted Image' /></span></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-theater-for-windows-desktop-281-released.html</guid>
+      <image>
+        <title>Emby Theater for Windows Desktop 2.8.1 Released</title>
+        <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
