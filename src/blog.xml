@@ -3688,7 +3688,7 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
     <item>
       <title>Emby Theater for Windows Desktop 2.8.1 Released</title>
       <link>https://emby.media/emby-theater-for-windows-desktop-281-released.html</link>
-      <pubDate>Mon, 16 Jan 2017 08:29:00 +0000</pubDate>
+      <pubDate>Mon, 03 Jul 2017 18:04:00 +0000</pubDate>
       <description>
         <![CDATA[
 <p>Emby Theater for Windows Desktop has been updated. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Stats for Nerds</span></p><p>&nbsp;</p><p>Tinkerers will love this. Just enable it directly in the video player OSD, or toggle it with the keyboard shortcut, control+J.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/595a895a9f7b1_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>New Audio Delay Settings</span></p><p>&nbsp;</p><p>New settings have been added to allow you to control audio delay if needed for your setup.</p><p>&nbsp;</p><p><span style='font-size: 24px'>MadVR Player Option</span></p><p>&nbsp;</p><p>You gave us your feedback and we listened. MadVR has returned as an option for video files.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Changes</span><ul class='bbc'><li>Fix window focus on restore from minimize</li></ul></p><p>&nbsp;</p><p><strong class='bbc'>Download for Windows: </strong><a href='https://emby.media/emby-theater.html' class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/561bc276520b9_1.png' alt='Posted Image' /></span></p>
@@ -3699,6 +3699,22 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
       <image>
         <title>Emby Theater for Windows Desktop 2.8.1 Released</title>
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
+      </image>
+    </item>
+    <item>
+      <title>Emby Server 3.2.24 Released</title>
+      <link>https://emby.media/emby-server-3224-released.html</link>
+      <pubDate>Sun, 09 Jul 2017 16:47:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release of Emby Server is currently rolling out. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Stats for Nerds</span></p><p>&nbsp;</p><p>Now available in the web app video player. Look for it soon in other Emby apps.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/594ff98f3b016_Untitled3.png' alt='Posted Image' /></span><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/594ff99be929d_Untitled4.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Performance Improvements</span><ul class='bbc'><li>Improve performance of library scan</li><li>Improve resource consumption of live tv guide refresh</li></ul><span style='font-size: 24px'>Individual Library Scanning</span><br />Now you can easily scan individual libraries on demand.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/594d40634b517_Untitled.png' alt='Posted Image' /></span><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/594d407a308f3_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Cuvid Improvements</span><br />Support for HEVC decoding has been added.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Improved Live TV Program Progress Bars</span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>For programs that are actively recording, we've made the progress bar red to help them stand out a little more. </span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/59500238947f0_Untitled2.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Easier Mobile Details</span><br />Less cluttered and more self-explanatory.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/594973df79458_Screenshot_20170620145609.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Emby Server for Mac Updates</span><ul class='bbc'><li>The Cover Art plugin is now compatible with Emby Server for Mac. Enjoy your custom covers !</li></ul><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Fix some cases where not all episode naming conventions being honored</li><li>Fix genre links on artist screen</li><li>Fix transcoding for tp container</li><li>Fix deleted artist cleanup</li></ul><span style='font-size: 24px'>Other Improvements</span><ul class='bbc'><li>Add settings to enable or disable hardware encoding and decoding separately</li><li>Update episode nfo parsing</li><li>Add subtitle language detection</li><li>Add guide tooltips</li><li>Add setting for m3u auto looping</li><li>Add more transcoding info to server dashboard</li><li>Add logo to video OSD</li><li>Improve multi-language xmltv support</li><li>Add media control to server dashboard</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-3224-released.html</guid>
+      <image>
+        <title>Emby Server 3.2.24 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
   </channel>
