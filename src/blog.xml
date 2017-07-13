@@ -3733,5 +3733,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/playstation4-tile.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS 1.4.0 Released</title>
+      <link>https://emby.media/emby-for-ios-140-released.html</link>
+      <pubDate>Thu, 13 Jul 2017 18:23:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Download app: <a href='https://emby.media/emby-for-ios.html' class='bbc_url' title=''>https://emby.media/emby-for-ios.html</a></p><p>&nbsp;</p><p>A new update is currently rolling out. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Redesigned Episode List</span></p><p>&nbsp;</p><p>It's now much easier and much more functional. In most cases you probably will never feel the need to click into the episode detail screen.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/59612c388e8ce_Screenshot_20170708143044.png' alt='Posted Image' /></span><br /><p><span style='font-size: 24px'>Stats for Nerds</span></p><p>&nbsp;</p><p>Tinkerers will love this. Just toggle it directly in the video player OSD.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/594ff98f3b016_Untitled3.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/595a895a9f7b1_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Make Your Subtitles Your Own</span></p><p>&nbsp;</p><p>New settings allow you to control the size and appearance of subtitles.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/595d31f658d32_untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>New Subtitle Burn Setting</span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>As many of you know, we can render many subtitle formats directly in the app such as ASS/SSA. This avoids having to burn them in on the server, in exchange for a subtitle rendering that is close enough to the original, but possibly not exact.</span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>However depending on how complex your subtitles are, sometimes you may just need to burn them in anyway, so this will allow you to handle that.</span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/595ea7c192b28_Untitled.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span style='font-size: 24px'>Improved Live TV Program Progress Bars</span><br />For programs that are actively recording, we've made the progress bar red to help them stand out a little more. </span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/59500238947f0_Untitled2.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='font-size: 24px'><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Other Improvements</span></span></span><ul class='bbc'><li>Show media logo in video player OSD</li><li>Add media control to Emby Server dashboard</li><li>Add more transcoding info to server dashboard</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-140-released.html</guid>
+      <image>
+        <title>Emby for iOS 1.4.0 Released</title>
+        <url>https://emby.media/img/blog/6376.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
