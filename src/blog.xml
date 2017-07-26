@@ -3763,5 +3763,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>More Improvements for the New Roku App</title>
+      <link>https://emby.media/more-improvements-for-the-new-roku-app.html</link>
+      <pubDate>Wed, 26 Jul 2017 16:40:20 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Another update to our brand new Roku app is rolling out to the store right now. It features a cleaner look, improved playback, video playlist support and more!</p><p>&nbsp;</p><p><strong class='bbc'><span style='font-size: 18px'>New, Cleaner Tile Display</span></strong></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/5978a4534ae16_home1.jpg' alt='Posted Image' /></span></p><p>&nbsp;</p><p><strong class='bbc'><span style='font-size: 18px'>Wrap-around Scrolling for all Rows</span></strong></p><p>&nbsp;</p><p>You can now go left from the first item of all rows to quickly get to the end and, when at the end, the items will wrap back around to the front.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/5978a4c133778_library1.jpg' alt='Posted Image' /></span></p><p>&nbsp;</p><p></p><p>&nbsp;</p><p><strong class='bbc'><span style='font-size: 18px'>Easier Access to Other Library Views</span></strong></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/5978a8153c5d7_newviewbuttons.jpg' alt='Posted Image' /></span></p><p>&nbsp;</p><p><strong class='bbc'><span style='font-size: 18px'>Remote Messaging Support</span></strong></p><p>&nbsp;</p><p>Use the new server feature to send messages to users - even during playback!</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/5978a87204784_remotemessage.jpg' alt='Posted Image' /></span></p><p>&nbsp;</p><p><strong class='bbc'><span style='font-size: 18px'>Video Playlist Support and More...</span></strong></p><p>&nbsp;</p><p>In addition to the above, the app now supports video playlists (created with the web app) features improved playback and several minor bug fixes. Install or update it now on your compatible Roku device!</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/more-improvements-for-the-new-roku-app.html</guid>
+      <image>
+        <title>More Improvements for the New Roku App</title>
+        <url>https://emby.media/img/blog/roku.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
