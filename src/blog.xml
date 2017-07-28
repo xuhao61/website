@@ -3779,5 +3779,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/roku.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Live TV for Apple TV Now in Beta</title>
+      <link>https://emby.media/emby-live-tv-for-apple-tv-now-in-beta.html</link>
+      <pubDate>Fri, 28 Jul 2017 21:57:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>We're pleased to announce that Live TV is finally coming to Emby for Apple TV. If you enjoy testing and submitting bug reports, then you can learn how to participate in the beta here:</p><p>&nbsp;</p><p> <a href='https://emby.media/community/index.php?/topic/49304-live-tv-beta/' class='bbc_url' title=''>https://emby.media/community/index.php?/topic/49304-live-tv-beta/</a></p><p>&nbsp;</p><p> Enjoy a few teaser screenshots.</p><p>&nbsp;</p><p> <span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/597bb47b6a56b_1.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p> <span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/597bb483c002e_2.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p> <span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/597bb48ad122b_3.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p> <span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/597bb49367c14_4.png' alt='Posted Image' /></span></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-live-tv-for-apple-tv-now-in-beta.html</guid>
+      <image>
+        <title>Emby Live TV for Apple TV Now in Beta</title>
+        <url>https://emby.media/community/uploads/inline/3/57016ba800b2d_Home.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
