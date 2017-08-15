@@ -266,6 +266,8 @@
             -moz-border-radius: 400px;
             border-radius: 400px;
         }
+
+
     </style>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" id="us-motioncss-css" href="resources/motioncss.css" type="text/css" media="all">
@@ -322,6 +324,25 @@
         }
         /** Ultimate: Media Responsive - **/
     </style>
+
+    <script type="text/javascript">
+
+        function togglePaymentButtons(cb)
+        {
+           if( cb.checked == true )
+           {
+              document.getElementById("payment1").style.display = "block";
+              document.getElementById("payment2").style.display = "block";
+           }
+           else
+           {
+              document.getElementById("payment1").style.display = "none";
+              document.getElementById("payment2").style.display = "none";
+           }
+        }
+
+
+    </script>
 </head>
 <body class="page page-id-6277 page-template-default l-body us-theme_zephyr_1-6 wpb-js-composer js-comp-ver-4.5.2 vc_responsive hasGoogleVoiceExt">
     <!-- CANVAS -->
@@ -417,7 +438,7 @@
                             <div class="wpb_text_column ">
                                 <div class="wpb_wrapper">
 
-                                    <h1 style="text-align: center;">License Options</h1>
+                                    <h1 style="text-align: center;">Subscription Only</h1>
                                     <p></p>
                                 </div>
                             </div>
@@ -427,7 +448,7 @@
                     <!-- Row Backgrounds -->
                     <div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="" data-parallax-content="" data-parallax-content-sense="" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div>
                     <div class="g-cols wpb_row offset_wide">
-                        <div class="one-third">
+                        <div class="one-half">
                             <div class="aio-icon-component   style_2">
                                 <div class="aio-icon-box top-icon" style="">
                                     <div class="aio-icon-top">
@@ -438,26 +459,26 @@
                                         </div>
                                     </div>
                                     <div class="aio-icon-header">
-                                        <h3 class="aio-icon-title" style="">100 Devices Monthly</h3>
+                                        <h3 class="aio-icon-title" style="">45 Devices Monthly</h3>
                                     </div> <!-- header -->
                                     <div class="aio-icon-description" style="">
                                         <p>
-                                            $24.99/Each Month (recurring)<br>
+                                            $11.99/Each Month (recurring)<br>
                                         </p>
                                         <div class="vc_wp_text wpb_content_element">
                                             <div class="widget widget_text">
                                                 <div class="textwidget">
                                                     <p>
-                                                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=CV9RHF7RMUDAN"><img src="resources/checkout-logo-medium.png" alt="Check out with PayPal"></a>
+                                                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=WTKCHAMPM6TTW"><img src="resources/checkout-logo-medium.png" alt="Check out with PayPal"></a>
                                                     </p>
                                                     <form style="margin-top: -20px;" action="https://mb3admin.com/admin/service/stripe/process" method="POST">
-                                                        <script class="stripe-button" src="https://checkout.stripe.com/checkout.js" data-key="pk_live_lVflUNchyMpL5tkBP5dVPTlv" data-image="https://emby.media/community/uploads/monthly_10_2015/msg-3-0-40073400-1443887227_thumb.png" data-name="Emby" data-description="Premiere 100 Monthly" data-amount="2499" data-locale="auto" data-zip-code="true">
+                                                        <script class="stripe-button" src="https://checkout.stripe.com/checkout.js" data-key="pk_live_lVflUNchyMpL5tkBP5dVPTlv" data-image="https://emby.media/community/uploads/monthly_10_2015/msg-3-0-40073400-1443887227_thumb.png" data-name="Emby" data-description="Premiere 45 Monthly" data-amount="1199" data-locale="auto" data-zip-code="true">
                                                             // <![CDATA[
 
                                                             // ]]></script>
-                                                        <input name="feature" type="hidden" value="Premiere100Monthly" />
+                                                        <input name="feature" type="hidden" value="Premiere45Monthly" />
                                                         <input name="origin" type="hidden" value="website" />
-                                                        <input name="amount" type="hidden" value="2499" />
+                                                        <input name="amount" type="hidden" value="1199" />
                                                     </form>
                                                 </div>
                                             </div>
@@ -466,76 +487,37 @@
                                 </div> <!-- aio-icon-box -->
                             </div> <!-- aio-icon-component -->
                         </div>
-                        <div class="one-third">
+                        <div class="one-half">
                             <div class="aio-icon-component   style_2">
                                 <div class="aio-icon-box top-icon" style="">
                                     <div class="aio-icon-top">
                                         <div class="ult-just-icon-wrapper ">
                                             <div class="aio-icon none " data-animation="fadeIn" data-animation-delay="03" style="color: #333333; font-size: 100px; display: inline-block;">
-                                                <i class="Defaults-star"></i>
+                                                <i class="Defaults-star-o"></i>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="aio-icon-header">
-                                        <h3 class="aio-icon-title" style="">100 Devices 1 Year</h3>
+                                        <h3 class="aio-icon-title" style="">75 Devices Monthly</h3>
                                     </div> <!-- header -->
                                     <div class="aio-icon-description" style="">
                                         <p>
-                                            $249.99/Each Year (recurring)<br>
+                                            $19.99/Each Month (recurring)<br>
                                         </p>
                                         <div class="vc_wp_text wpb_content_element">
                                             <div class="widget widget_text">
                                                 <div class="textwidget">
                                                     <p>
-                                                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=QFY7LX6B48NMU"><img src="resources/checkout-logo-medium.png" alt="Check out with PayPal"></a>
+                                                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=EE6XAJNSGWSJL"><img src="resources/checkout-logo-medium.png" alt="Check out with PayPal"></a>
                                                     </p>
                                                     <form style="margin-top: -20px;" action="https://mb3admin.com/admin/service/stripe/process" method="POST">
-                                                        <script class="stripe-button" src="https://checkout.stripe.com/checkout.js" data-key="pk_live_lVflUNchyMpL5tkBP5dVPTlv" data-image="https://emby.media/community/uploads/monthly_10_2015/msg-3-0-40073400-1443887227_thumb.png" data-name="Emby" data-description="Premiere 100 Yearly" data-amount="24999" data-locale="auto" data-zip-code="true">
+                                                        <script class="stripe-button" src="https://checkout.stripe.com/checkout.js" data-key="pk_live_lVflUNchyMpL5tkBP5dVPTlv" data-image="https://emby.media/community/uploads/monthly_10_2015/msg-3-0-40073400-1443887227_thumb.png" data-name="Emby" data-description="Premiere 100 Yearly" data-amount="1999" data-locale="auto" data-zip-code="true">
                                                             // <![CDATA[
 
                                                             // ]]></script>
-                                                        <input name="feature" type="hidden" value="Premiere100Yearly" />
+                                                        <input name="feature" type="hidden" value="Premiere75Monthly" />
                                                         <input name="origin" type="hidden" value="website" />
-                                                        <input name="amount" type="hidden" value="24999" />
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> <!-- description -->
-                                </div> <!-- aio-icon-box -->
-                            </div> <!-- aio-icon-component -->
-                        </div>
-                        <div class="one-third">
-                            <div class="aio-icon-component   style_2">
-                                <div class="aio-icon-box top-icon" style="">
-                                    <div class="aio-icon-top">
-                                        <div class="ult-just-icon-wrapper ">
-                                            <div class="aio-icon none " data-animation="fadeIn" data-animation-delay="03" style="color: #333333; font-size: 100px; display: inline-block;">
-                                                <i class="Defaults-heart"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="aio-icon-header">
-                                        <h3 class="aio-icon-title" style="">1000 Devices Monthly</h3>
-                                    </div> <!-- header -->
-                                    <div class="aio-icon-description" style="">
-                                        <p>
-                                            $219.99/Each Month (recurring)<br>
-                                        </p>
-                                        <div class="vc_wp_text wpb_content_element">
-                                            <div class="widget widget_text">
-                                                <div class="textwidget">
-                                                    <p>
-                                                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MBVUPKBZ2TF6J"><img src="resources/checkout-logo-medium.png" alt="Check out with PayPal"></a>
-                                                    </p>
-                                                    <form style="margin-top: -20px;" action="https://mb3admin.com/admin/service/stripe/process" method="POST">
-                                                        <script class="stripe-button" src="https://checkout.stripe.com/checkout.js" data-key="pk_live_lVflUNchyMpL5tkBP5dVPTlv" data-image="https://emby.media/community/uploads/monthly_10_2015/msg-3-0-40073400-1443887227_thumb.png" data-name="Emby" data-description="Premiere 1000 Monthly" data-amount="21999" data-locale="auto" data-zip-code="true">
-                                                            // <![CDATA[
-
-                                                            // ]]></script>
-                                                        <input name="feature" type="hidden" value="Premiere1000Monthly" />
-                                                        <input name="origin" type="hidden" value="website" />
-                                                        <input name="amount" type="hidden" value="21999" />
+                                                        <input name="amount" type="hidden" value="1999" />
                                                     </form>
                                                 </div>
                                             </div>
@@ -546,232 +528,7 @@
                         </div>
                     </div>
 
-                    <!-- Row Backgrounds --><div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div><div class="g-cols wpb_row offset_wide"></div><!-- Row Backgrounds --><div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="" data-parallax-content="" data-parallax-content-sense="" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div><div class="full-width"></div>
-                    <div class="wpb_text_column ">
-                        <div class="wpb_wrapper">
-                            <p style="text-align: center;">
-                                Purchasing any option above is an acceptance of the <a href="premiereterms.html">Emby Premiere Terms of Service</a>.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- Row Backgrounds -->
-                    <div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div>
-                    <div class="g-cols wpb_row offset_wide">
-                        <div class="full-width">
-                            <div class="g-hr type_fullwidth size_small no_icon">
-                                <span class="g-hr-h">
-                                    <i class="fa fa-"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
 
-                    <!-- Row Backgrounds -->
-                    <div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="" data-parallax-content="" data-parallax-content-sense="" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div>
-                    <div class="g-cols wpb_row offset_wide">
-                        <div class="full-width">
-                            <div class="wpb_text_column ">
-                                <div class="wpb_wrapper">
-                                    <br /><br />
-                                    <h1 style="text-align: center;">Emby Premiere Features</h1>
-                                    <br />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Row Backgrounds --><div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div><div class="g-cols wpb_row offset_wide"></div><!-- Row Backgrounds --><div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="" data-parallax-content="" data-parallax-content-sense="" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div><div class="full-width"></div>
-
-                    <div class="g-cols wpb_row offset_wide">
-                        <div class="one-third">
-                            <div class="aio-icon-component   style_2">
-                                <div class="aio-icon-box top-icon" style="">
-                                    <div class="aio-icon-top">
-                                        <div class="ult-just-icon-wrapper ">
-                                            <div class="aio-icon-img " style="font-size:160px;display:inline-block;">
-                                                <img class="img-icon" alt="" src="resources/mobilesync.png">
-                                            </div>
-                                        </div>
-                                    </div><div class="aio-icon-header"><h3 class="aio-icon-title" style="">Mobile Sync</h3></div> <!-- header --><div class="aio-icon-description" style="">Sync your media to your smart phones and tablets for easy offline access. Supported for Windows 8.1. Coming to Android, iOS and Windows Phone in a future release.</div> <!-- description -->
-                                </div> <!-- aio-icon-box -->
-                            </div> <!-- aio-icon-component -->
-                        </div><div class="one-third">
-                            <div class="aio-icon-component   style_2">
-                                <div class="aio-icon-box top-icon" style="">
-                                    <div class="aio-icon-top">
-                                        <div class="ult-just-icon-wrapper ">
-                                            <div class="aio-icon-img " style="font-size:160px;display:inline-block;">
-                                                <img class="img-icon" alt="" src="resources/cloudsync.png">
-                                            </div>
-                                        </div>
-                                    </div><div class="aio-icon-header"><h3 class="aio-icon-title" style="">Cloud Sync</h3></div> <!-- header --><div class="aio-icon-description" style="">Sync your media to the cloud for easy backup, archiving, and converting. Store your content in multiple resolutions to enable direct streaming from any device.</div> <!-- description -->
-                                </div> <!-- aio-icon-box -->
-                            </div> <!-- aio-icon-component -->
-                        </div><div class="one-third">
-                            <div class="aio-icon-component   style_2">
-                                <div class="aio-icon-box top-icon" style="">
-                                    <div class="aio-icon-top">
-                                        <div class="ult-just-icon-wrapper ">
-                                            <div class="aio-icon-img " style="font-size:160px;display:inline-block;">
-                                                <img class="img-icon" alt="" src="resources/coverart1.png">
-                                            </div>
-                                        </div>
-                                    </div><div class="aio-icon-header"><h3 class="aio-icon-title" style="">Cover Art</h3></div> <!-- header --><div class="aio-icon-description" style="">The Cover Art plugin creates fun covers and other treatments for your media images. Choose from over 30 different styles of treatments and overlays for 3D, subtitles, audio, and more.</div> <!-- description -->
-                                </div> <!-- aio-icon-box -->
-                            </div> <!-- aio-icon-component -->
-                        </div>
-                    </div><!-- Row Backgrounds --><div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div><div class="g-cols wpb_row offset_wide">
-                        <div class="one-third">
-                            <div class="aio-icon-component   style_2">
-                                <div class="aio-icon-box top-icon" style="">
-                                    <div class="aio-icon-top">
-                                        <div class="ult-just-icon-wrapper ">
-                                            <div class="aio-icon-img " style="font-size:160px;display:inline-block;">
-                                                <img class="img-icon" alt="" src="resources/tvdonate1.png">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="aio-icon-header">
-                                        <h3 class="aio-icon-title" style="">Free Apps</h3>
-                                    </div> <!-- header -->
-                                    <div class="aio-icon-description" style="">Enjoy full access to Emby for Android, Fire TV, iOS, Xbox One and PS4.</div> <!-- description -->
-                                </div> <!-- aio-icon-box -->
-                            </div> <!-- aio-icon-component -->
-                        </div>
-                        <div class="one-third">
-                            <div class="aio-icon-component   style_2">
-                                <div class="aio-icon-box top-icon" style="">
-                                    <div class="aio-icon-top">
-                                        <div class="ult-just-icon-wrapper ">
-                                            <div class="aio-icon-img " style="font-size: 160px; display: inline-block;">
-                                                <img class="img-icon" alt="" src="resources/trailers.png">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="aio-icon-header">
-                                        <h3 class="aio-icon-title" style="">Cinema Mode</h3>
-                                    </div> <!-- header -->
-                                    <div class="aio-icon-description" style="">Cinema Mode gives you the true cinema experience with trailers and custom intros before the feature</div> <!-- description -->
-                                </div> <!-- aio-icon-box -->
-                            </div> <!-- aio-icon-component -->
-                        </div>
-                        <div class="one-third">
-                            <div class="aio-icon-component   style_2">
-                                <div class="aio-icon-box top-icon" style="">
-                                    <div class="aio-icon-top">
-                                        <div class="ult-just-icon-wrapper ">
-                                            <div class="aio-icon-img " style="font-size:160px;display:inline-block;">
-                                                <img class="img-icon" alt="" src="resources/foldersync.png">
-                                            </div>
-                                        </div>
-                                    </div><div class="aio-icon-header"><h3 class="aio-icon-title" style="">Folder Sync</h3></div> <!-- header --><div class="aio-icon-description" style="">Sync your media to folders and external hard drives for easy backup, archiving, and converting. Store your content in multiple resolutions to enable direct streaming from any device.</div> <!-- description -->
-                                </div> <!-- aio-icon-box -->
-                            </div> <!-- aio-icon-component -->
-                        </div>
-                    </div><!-- Row Backgrounds -->
-                    <div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div>
-                    <div class="g-cols wpb_row offset_wide">
-                        <div class="one-third">
-                            <div class="aio-icon-component   style_2">
-                                <div class="aio-icon-box top-icon" style="">
-                                    <div class="aio-icon-top">
-                                        <div class="ult-just-icon-wrapper ">
-                                            <div class="aio-icon-img " style="font-size:160px;display:inline-block;">
-                                                <img class="img-icon" alt="" src="resources/tvdonate1.png">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="aio-icon-header">
-                                        <h3 class="aio-icon-title" style="">Emby Theater</h3>
-                                    </div> <!-- header -->
-                                    <div class="aio-icon-description" style="">The latest and greatest Emby app for your TV. Runs on Windows, Xbox One, PS4, Chrome, Firefox, and Microsoft Edge.</div> <!-- description -->
-                                </div> <!-- aio-icon-box -->
-                            </div> <!-- aio-icon-component -->
-                        </div>
-                        <div class="one-third">
-                            <div class="aio-icon-component   style_2">
-                                <div class="aio-icon-box top-icon" style="">
-                                    <div class="aio-icon-top">
-                                        <div class="ult-just-icon-wrapper ">
-                                            <div class="aio-icon-img" style="font-size: 160px; display: inline-block;">
-                                                <img class="img-icon" alt="" src="resources/etdvr.png" style="border-radius: 1000px!important;">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="aio-icon-header">
-                                        <h3 class="aio-icon-title" style="">Automatically Convert Recordings</h3>
-                                    </div> <!-- header -->
-                                    <div class="aio-icon-description" style="">Convert your recordings into streaming friendly formats on the fly, during the recording process.</div> <!-- description -->
-                                </div> <!-- aio-icon-box -->
-                            </div> <!-- aio-icon-component -->
-                        </div>
-                        <div class="one-third">
-                            <div class="aio-icon-component   style_2">
-                                <div class="aio-icon-box top-icon" style="">
-                                    <div class="aio-icon-top">
-                                        <div class="ult-just-icon-wrapper ">
-                                            <div class="aio-icon-img" style="font-size: 160px; display: inline-block;">
-                                                <img class="img-icon" alt="" src="resources/rt.png">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="aio-icon-header">
-                                        <h3 class="aio-icon-title" style="">Rotten Tomatoes</h3>
-                                    </div> <!-- header -->
-                                    <div class="aio-icon-description" style="">The most trusted reviews on the web.</div> <!-- description -->
-                                </div> <!-- aio-icon-box -->
-                            </div> <!-- aio-icon-component -->
-                        </div>
-                    </div>
-                    <div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div>
-                    <div class="g-cols wpb_row offset_wide">
-                        <div class="one-third">
-                            <div class="aio-icon-component   style_2">
-                                <div class="aio-icon-box top-icon" style="">
-                                    <div class="aio-icon-top">
-                                        <div class="ult-just-icon-wrapper ">
-                                            <div class="aio-icon none " style="color: #1e73be; font-size: 156px; display: inline-block;">
-                                                <i class="Defaults-database"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="aio-icon-header">
-                                        <h3 class="aio-icon-title" style="">Backup and Restore</h3>
-                                    </div> <!-- header -->
-                                    <div class="aio-icon-description" style="">Backup and restore your server configuration with ease, or migrate to a new environment in a snap.</div> <!-- description -->
-                                </div> <!-- aio-icon-box -->
-                            </div> <!-- aio-icon-component -->
-                        </div>
-                        <div class="one-third">
-                            <div class="aio-icon-component   style_2">
-                                <div class="aio-icon-box top-icon" style="">
-                                    <div class="aio-icon-top">
-                                        <div class="ult-just-icon-wrapper ">
-                                            <div class="aio-icon-img " style="font-size: 160px; display: inline-block;">
-                                                <img class="img-icon" alt="" src="resources/podcast.png">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="aio-icon-header">
-                                        <h3 class="aio-icon-title" style="">Podcasts</h3>
-                                    </div> <!-- header -->
-                                    <div class="aio-icon-description" style="">All your favorite video and audio podcasts in the PodCasts channel</div> <!-- description -->
-                                </div> <!-- aio-icon-box -->
-                            </div> <!-- aio-icon-component -->
-                        </div>
-                    </div>
-
-                    <!-- Row Backgrounds -->
-                    <div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div>
-                    <div class="g-cols wpb_row offset_wide">
-                        <div class="full-width">
-                            <div class="g-hr type_fullwidth size_small no_icon">
-                                <span class="g-hr-h">
-                                    <i class="fa fa-"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
                     <!-- Row Backgrounds -->
                     <div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="" data-parallax-content="" data-parallax-content-sense="" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div>
                     <div class="g-cols wpb_row offset_wide">
@@ -820,7 +577,7 @@
                                     <div class="aio-icon-top">
                                         <div class="ult-just-icon-wrapper ">
                                             <div class="aio-icon none " data-animation="fadeIn" data-animation-delay="03" style="color: #333333; font-size: 100px; display: inline-block;">
-                                                <i class="Defaults-star"></i>
+                                                <i class="Defaults-star-o"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -859,7 +616,7 @@
                                     <div class="aio-icon-top">
                                         <div class="ult-just-icon-wrapper ">
                                             <div class="aio-icon none " data-animation="fadeIn" data-animation-delay="03" style="color: #333333; font-size: 100px; display: inline-block;">
-                                                <i class="Defaults-heart"></i>
+                                                <i class="Defaults-star-o"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -884,6 +641,120 @@
                                                         <input name="feature" type="hidden" value="Premiere1000Monthly" />
                                                         <input name="origin" type="hidden" value="website" />
                                                         <input name="amount" type="hidden" value="21999" />
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- description -->
+                                </div> <!-- aio-icon-box -->
+                            </div> <!-- aio-icon-component -->
+                        </div>
+                    </div>
+
+                    <!-- Row Backgrounds -->
+                    <div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div>
+                    <div class="g-cols wpb_row offset_wide">
+                        <div class="full-width">
+                            <div class="g-hr type_fullwidth size_small no_icon">
+                                <span class="g-hr-h">
+                                    <i class="fa fa-"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row Backgrounds -->
+                    <div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="" data-parallax-content="" data-parallax-content-sense="" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div>
+                    <div class="g-cols wpb_row offset_wide">
+                        <div class="full-width">
+                            <div class="wpb_text_column ">
+                                <div class="wpb_wrapper">
+
+                                    <h1 style="text-align: center;">Lifetime/Annual Upgrades</h1>
+                                    <h2 style="text-align: center;color: red">These options are only valid with an existing Emby Premiere Lifetime or Yearly key</h2>
+                                    <p style="text-align: center;">
+                                        <input type="checkbox" onclick="togglePaymentButtons(this)">
+                                        <label for="togglePaymentButtons">I understand - show the payment options</label>
+                                    </p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row Backgrounds -->
+                    <div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="" data-parallax-content="" data-parallax-content-sense="" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div>
+                    <div class="g-cols wpb_row offset_wide">
+                        <div class="one-half">
+                            <div class="aio-icon-component   style_2">
+                                <div class="aio-icon-box top-icon" style="">
+                                    <div class="aio-icon-top">
+                                        <div class="ult-just-icon-wrapper ">
+                                            <div class="aio-icon none " data-animation="fadeIn" data-animation-delay="03" style="color: #333333; font-size: 100px; display: inline-block;">
+                                                <i class="Defaults-heart"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="aio-icon-header">
+                                        <h3 class="aio-icon-title" style="">45 Devices Monthly</h3>
+                                    </div> <!-- header -->
+                                    <div class="aio-icon-description" style="">
+                                        <p>
+                                            $5.99/Each Month (recurring)<br>
+                                        </p>
+                                        <div id="payment1" style="display: none;" class="vc_wp_text wpb_content_element">
+                                            <div class="widget widget_text">
+                                                <div class="textwidget">
+                                                    <p>
+                                                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=4JHC8VWBP4XSQ"><img src="resources/checkout-logo-medium.png" alt="Check out with PayPal"></a>
+                                                    </p>
+                                                    <form style="margin-top: -20px;" action="https://mb3admin.com/admin/service/stripe/process" method="POST">
+                                                        <script class="stripe-button" src="https://checkout.stripe.com/checkout.js" data-key="pk_live_lVflUNchyMpL5tkBP5dVPTlv" data-image="https://emby.media/community/uploads/monthly_10_2015/msg-3-0-40073400-1443887227_thumb.png" data-name="Emby" data-description="Premiere 45 Monthly" data-amount="599" data-locale="auto" data-zip-code="true">
+                                                            // <![CDATA[
+
+                                                            // ]]></script>
+                                                        <input name="feature" type="hidden" value="PremiereL45Monthly" />
+                                                        <input name="origin" type="hidden" value="website" />
+                                                        <input name="amount" type="hidden" value="599" />
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- description -->
+                                </div> <!-- aio-icon-box -->
+                            </div> <!-- aio-icon-component -->
+                        </div>
+                        <div class="one-half">
+                            <div class="aio-icon-component   style_2">
+                                <div class="aio-icon-box top-icon" style="">
+                                    <div class="aio-icon-top">
+                                        <div class="ult-just-icon-wrapper ">
+                                            <div class="aio-icon none " data-animation="fadeIn" data-animation-delay="03" style="color: #333333; font-size: 100px; display: inline-block;">
+                                                <i class="Defaults-heart"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="aio-icon-header">
+                                        <h3 class="aio-icon-title" style="">75 Devices Monthly</h3>
+                                    </div> <!-- header -->
+                                    <div class="aio-icon-description" style="">
+                                        <p>
+                                            $11.99/Each Month (recurring)<br>
+                                        </p>
+                                        <div id="payment2" style="display: none;" class="vc_wp_text wpb_content_element">
+                                            <div class="widget widget_text">
+                                                <div class="textwidget">
+                                                    <p>
+                                                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=8ZVXTCUPWYJJQ"><img src="resources/checkout-logo-medium.png" alt="Check out with PayPal"></a>
+                                                    </p>
+                                                    <form style="margin-top: -20px;" action="https://mb3admin.com/admin/service/stripe/process" method="POST">
+                                                        <script class="stripe-button" src="https://checkout.stripe.com/checkout.js" data-key="pk_live_lVflUNchyMpL5tkBP5dVPTlv" data-image="https://emby.media/community/uploads/monthly_10_2015/msg-3-0-40073400-1443887227_thumb.png" data-name="Emby" data-description="Premiere 100 Yearly" data-amount="1199" data-locale="auto" data-zip-code="true">
+                                                            // <![CDATA[
+
+                                                            // ]]></script>
+                                                        <input name="feature" type="hidden" value="PremiereL75Monthly" />
+                                                        <input name="origin" type="hidden" value="website" />
+                                                        <input name="amount" type="hidden" value="1199" />
                                                     </form>
                                                 </div>
                                             </div>
