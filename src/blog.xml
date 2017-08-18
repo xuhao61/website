@@ -3811,5 +3811,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Show your Emby pride with these awesome new T-Shirts</title>
+      <link>https://emby.media/show-your-emby-pride-with-these-awesome-new-t-shirts.html</link>
+      <pubDate>Fri, 18 Aug 2017 16:25:07 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p><p class='bbc_center'><span style='font-size: 24px'>Now available everywhere on Amazon - Emby T-Shirts</span></p></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/599713a806919_embyteeamazon.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p>Show your Emby pride with one of our new t-shirts. There are two options currently available - one understated one with just a logo on the front and another with the front logo plus a huge Emby icon on the back.</p><p>&nbsp;</p><p>Both options available in Men's, Women's and Youth styles and four spiffy colors. Get yours now and be the first on your block to strut your Emby stuff!</p><p>&nbsp;</p><p><a href='https://www.amazon.com/dp/B074QBSB9S' class='bbc_url' title='External link' rel='nofollow external'>Front Only</a><br /><a href='https://www.amazon.com/dp/B074Q6YFCW' class='bbc_url' title='External link' rel='nofollow external'>Front and Back</a></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/show-your-emby-pride-with-these-awesome-new-t-shirts.html</guid>
+      <image>
+        <title>Show your Emby pride with these awesome new T-Shirts</title>
+        <url>https://emby.media/community/uploads/inline/3/599713a806919_embyteeamazon.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
