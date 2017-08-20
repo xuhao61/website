@@ -3827,5 +3827,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/3/599713a806919_embyteeamazon.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 3.2.28 Released</title>
+      <link>https://emby.media/emby-server-3228-released.html</link>
+      <pubDate>Sun, 20 Aug 2017 21:37:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release is currently rolling out. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Fix m4a audio playback in Chrome</li><li>Don't crop whitespace from jpg images</li><li>Resolve null reference in library scan</li><li>Ensure custom css is loaded last</li><li>Fix automatic switch to transcoding when the web app fails to parse ass/ssa subtitles</li></ul><span style='font-size: 24px'>Other Improvements</span><ul class='bbc'><li>Add user max bitrate per stream setting</li><li>Support hardware acceleration with image extraction</li><li>Update hardware decoding support for live tv recording conversion process</li><li>Expand on hardware decoding settings</li><li>Automatic fallback from GPU transcoding to CPU</li><li>Support double tap shortcut to fast forward or rewind video playback</li><li>Update offline downloading error handling</li><li>Improve next performance</li><li>Move auto-organize to plugin</li><li>Remove idle dlna devices from server dashboard</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-3228-released.html</guid>
+      <image>
+        <title>Emby Server 3.2.28 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
