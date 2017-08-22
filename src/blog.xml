@@ -3843,5 +3843,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS 1.4.1 Released</title>
+      <link>https://emby.media/emby-for-ios-141-released.html</link>
+      <pubDate>Tue, 22 Aug 2017 18:33:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release of Emby for iOS is currently rolling out. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>New Themes Feature</span></p><p>&nbsp;</p><p>Have you ever wanted to lighten up the iOS app? Now is your chance with the new themes feature found in user display settings. You can configure your theme of choice for the iOS app.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/599a03935f71d_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p>There are several themes to pick from, ranging from light to dark with various accent colors.<br /><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/596e612765b98_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/596e61344fd71_Untitled1.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/596e61d57528b_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/596e79af91915_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Beautiful Apple TV and Windows Media Center Inspired Themes</span></p><p>&nbsp;</p><p>How cool are these?</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/59783ef523bdd_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/597e69f65da26_Screenshot_20170730180728.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Fix automatic switch to transcoding when the web app fails to parse ass/ssa subtitles</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-141-released.html</guid>
+      <image>
+        <title>Emby for iOS 1.4.1 Released</title>
+        <url>https://emby.media/img/blog/6376.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
