@@ -3859,5 +3859,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6376.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for PS4 Updated with New Themes Feature</title>
+      <link>https://emby.media/emby-for-ps4-updated-with-new-themes-feature.html</link>
+      <pubDate>Wed, 23 Aug 2017 22:39:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Emby for PS4 has been updated with new features. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Installation</span><br />Simply open your PS4 Web Browser and visit <a href='http://tv.emby.media' class='bbc_url' title=''>tv.emby.media</a>. Then bookmark with the browser for faster launching !</p><p>&nbsp;</p><p><span style='font-size: 24px'>Beautiful Apple TV and Windows Media Center Inspired Themes</span></p><p>&nbsp;</p><p>Have you ever wanted to lighten up the app? Now is your chance with the new themes feature found in user display settings. You can configure your theme of choice. Choose from the many available beautiful selections.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/599e045e60cf2_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/599e04797952f_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/599e0492175a6_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/599e04b4ac55b_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/599e04c91484e_Untitled.png' alt='Posted Image' /></span></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ps4-updated-with-new-themes-feature.html</guid>
+      <image>
+        <title>Emby for PS4 Updated with New Themes Feature</title>
+        <url>https://emby.media/img/blog/playstation4-tile.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
