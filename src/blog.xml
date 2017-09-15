@@ -3907,5 +3907,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server Now Available for NetGear ReadyNAS</title>
+      <link>https://emby.media/emby-server-now-available-for-netgear-readynas.html</link>
+      <pubDate>Fri, 15 Sep 2017 21:48:00 +0000</pubDate>
+      <description><![CDATA[
+<p>We're pleased to announce availability of Emby Server for NetGear ReadyNAS. To learn how to install it, head over to the <a href='https://emby.media/download.html' class='bbc_url' title=''>download page</a> of our website:</p><p>&nbsp;</p><p> <a href='https://emby.media/download' class='bbc_url' title=''>https://emby.media/download</a></p><p>&nbsp;</p><p> Enjoy !</p>
+]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-now-available-for-netgear-readynas.html</guid>
+      <image>
+        <title>Emby Server Now Available for NetGear ReadyNAS</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
