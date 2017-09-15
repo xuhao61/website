@@ -465,6 +465,9 @@
                                         <div class="w-tabs-item-h"><span class="w-tabs-item-icon"><i class=""></i></span><span class="w-tabs-item-title">FreeNAS</span></div><span class="ripple-container"></span>
                                     </div>
                                     <div class="w-tabs-item">
+                                        <div class="w-tabs-item-h"><span class="w-tabs-item-icon"><i class=""></i></span><span class="w-tabs-item-title">NetGear ReadyNAS</span></div><span class="ripple-container"></span>
+                                    </div>
+                                    <div class="w-tabs-item">
                                         <div class="w-tabs-item-h"><span class="w-tabs-item-icon"><i class=""></i></span><span class="w-tabs-item-title">Open Media Vault</span></div><span class="ripple-container"></span>
                                     </div>
                                     <div class="w-tabs-item">
@@ -490,7 +493,26 @@
                                             <p>Visit http://localhost:8096</p>
                                         </div>
                                     </div>
-                                </div><div class="w-tabs-section">
+                                </div>
+                                <div class="w-tabs-section">
+                                    <div class="w-tabs-section-header"><div class="w-tabs-section-icon"><i class=""></i></div><h5 class="w-tabs-section-title">NetGear ReadyNAS</h5><div class="w-tabs-section-control"><i class="mdfi_hardware_keyboard_arrow_down"></i></div></div><div class="w-tabs-section-content">
+                                        <div class="w-tabs-section-content-h i-cf">
+                                            <div class="wpb_text_column ">
+                                                <div class="wpb_wrapper">
+                                                    <p>– Ensure you're running ReadyNAS 6.8.0 or greater. If version 6.8.0 is not detected by "check for updates", it can be downloaded and installed via the admin interface.</p>
+                                                    <p>– Download one of the .deb files depending on the architecture of your NAS device. Please refer to the <a target="_blank" href="https://github.com/ReadyNAS/sdk/wiki/ReadyNAS-Applications-Specification#unsupportedsystype">ReadyNAS wiki</a> if you don't know what architecture you're running.</p>
+                                                    <p>– <a href="https://github.com/MediaBrowser/Emby/releases/download/3.2.30.22/embyserver-netgear-x64-3.2.30.22.deb">x86-x64 download</a></p>
+                                                    <p>– arm download- coming soon.</p>
+                                                    <p>– Upload the deb for your architecture via the apps tab in the admin interface. A popup should appear to keep you updated on the installation progress.</p>
+                                                    <p>– When the installation is over, you should see Emby appear in the apps tabs on the admin interface, you can turn it on if it's not already and the launch button will take you to the install wizard.</p>
+                                                    <span class="wpb_button align_left"><a href="https://emby.media/community/index.php?/forum/175-netgear-readynas" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-info-circle"></i><span>Emby Community</span><span class="ripple-container"></span></a></span>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w-tabs-section">
                                     <div class="w-tabs-section-header"><div class="w-tabs-section-icon"><i class=""></i></div><h5 class="w-tabs-section-title">FreeNAS</h5><div class="w-tabs-section-control"><i class="mdfi_hardware_keyboard_arrow_down"></i></div></div><div class="w-tabs-section-content">
                                         <div class="w-tabs-section-content-h i-cf">
                                             <div class="wpb_text_column ">
@@ -504,7 +526,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div><div class="w-tabs-section">
+                                </div>
+                                <div class="w-tabs-section">
                                     <div class="w-tabs-section-header"><div class="w-tabs-section-icon"><i class=""></i></div><h5 class="w-tabs-section-title">Open Media Vault</h5><div class="w-tabs-section-control"><i class="mdfi_hardware_keyboard_arrow_down"></i></div></div><div class="w-tabs-section-content">
                                         <div class="w-tabs-section-content-h i-cf">
                                             <div class="wpb_text_column ">
@@ -588,12 +611,12 @@
 
                                                         <img style="width: 701px;" src="resources/Synology-Setup-Step-1.png" />
 
-                                                        <p style="margin-bottom: 8px;"><span style="font-weight: bold;">*</span> <span style="font-style: italic;">XPEnology users, please use https://synology.emby.media/?package_repository=360efc6e-de72-4073-b603-2bfbd7001586 and make sure you take a look at the <a href="https://emby.media/community/index.php?/topic/40411-xpenology-users-read-me/" target="_blank">XPEnology Users Read Me</a>.</span></p>                                                       
+                                                        <p style="margin-bottom: 8px;"><span style="font-weight: bold;">*</span> <span style="font-style: italic;">XPEnology users, please use https://synology.emby.media/?package_repository=360efc6e-de72-4073-b603-2bfbd7001586 and make sure you take a look at the <a href="https://emby.media/community/index.php?/topic/40411-xpenology-users-read-me/" target="_blank">XPEnology Users Read Me</a>.</span></p>
 
                                                     </div>
 
                                                     <div style="margin-left: 16px; margin-bottom: 16px;">
-                                                    
+
                                                         <p style="margin-bottom: 8px;"><span style="font-weight: bold;">2)</span> Now configure Package Center to trust the Emby package repository.</p>
 
                                                         <p style="margin-bottom: 8px;">Package Center -> Settings -> General</p>
@@ -601,9 +624,9 @@
                                                         <img style="width: 701px;" src="resources/Synology-Setup-Step-2.png" />
 
                                                     </div>
-                                                    
+
                                                     <div style="margin-left: 16px; margin-bottom: 16px;">
-                                                    
+
                                                         <p style="margin-bottom: 8px;"><span style="font-weight: bold;">3)</span> We can now explore Package Center and locate the package to install it.</p>
 
                                                         <p style="margin-bottom: 8px;">Package Center -> Explore -> Community</p>
@@ -611,7 +634,7 @@
                                                         <img style="width: 701px;" src="resources/Synology-Setup-Step-3.png" />
 
                                                     </div>
-                                                    
+
                                                     <div style="margin-left: 16px; margin-bottom: 16px;">
 
                                                         <p style="margin-bottom: 8px;"><span style="font-weight: bold;">4)</span> Once you've clicked install, it will take a few minutes for the package to become available.</p>
@@ -619,7 +642,7 @@
                                                         <img style="width: 701px;" src="resources/Synology-Setup-Step-4.png" />
 
                                                     </div>
-                                                    
+
                                                     <div style="margin-left: 16px; margin-bottom: 16px;">
 
                                                         <p style="margin-bottom: 8px;"><span style="font-weight: bold;">5)</span> When the install completes, Emby will be running and you can get started by clicking on the URL!</p>
@@ -635,11 +658,11 @@
                                                         <li>Read our <a href="https://github.com/MediaBrowser/Wiki/wiki/Synology-:-Setting-Up-Your-Media-Library-Share" target="_blank">guide</a> on how to set up your media library share. <span style="color: #d93a32; font-style: italic; font-weight: bold;">RECOMMENDED!</span></li>
 
                                                         <li>Have a look through the Synology specific content on the <a href="https://github.com/MediaBrowser/Wiki/wiki/Synology-:-Help-and-Support" target="_blank">Wiki</a>.</li>
-                                                        
+
                                                     </ul>
-                                                    
+
                                                     <!-- synology-support-content : END -->
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
