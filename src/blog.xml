@@ -3937,5 +3937,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 3.2.32 Released</title>
+      <link>https://emby.media/emby-server-3232-released.html</link>
+      <pubDate>Fri, 22 Sep 2017 22:11:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release of Emby Server is currently rolling out. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Built for iOS 11</span></p><p>&nbsp;</p><p>HEVC is now supported in iOS 11 Safari. A new release of the iOS app is also on the way to support this.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Reports Feature</span></p><p>&nbsp;</p><p>This is now moved to a plugin to allow for independent updating as well as facilitating community contributions.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Important Information</span></p><p>&nbsp;</p><p>After installing this release, almost every plugin will need to be updated. Your patience is appreciated while the plugin updates are being applied.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Fix ffmpeg not closing in web app when changing quality or audio track</li><li>Fix and improve image upload drag and drop</li><li>Fix 3-dot menu for guests not working</li><li>Fix artifacts during seeking with transcoding</li></ul><span style='font-size: 24px'>Other Changes</span><ul class='bbc'><li>Support netflix keyboard shortcuts during video playback</li><li>Improve performance of Live TV Guide scheduled task</li><li>Update plugin loading for .net core</li><li>Adjust omdb metadata requests</li><li>Improve image orientation performance</li><li>Support .tif image extension</li><li>Rework epg storage</li><li>Fix podcast audio playback in web app</li><li>Support .vtt external subtitles</li><li>Improve .cr2 image support</li><li>Begin to restore swagger support</li><li>Odroid XU4 Hardware encoder support</li><li>Fix support for .tbn image files</li><li>Allow plugins to inject menus into server dashboard</li><li>Support hardware decoding with OMX</li><li>Add more control over deinterlacing when transcoding</li><li>Improve report playback stop when user closes browser during playback</li><li>Allow movie extras to be added to collections and playlists</li><li>Support new format of set node in movie nfo</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-3232-released.html</guid>
+      <image>
+        <title>Emby Server 3.2.32 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
