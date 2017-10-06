@@ -3981,5 +3981,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/5738.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 3.2.33 Released</title>
+      <link>https://emby.media/emby-server-3233-released.html</link>
+      <pubDate>Fri, 06 Oct 2017 21:10:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new version of Emby Server has been released. Here are the highlights:</p><p>&nbsp;</p><p><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Resolve high cpu usage when streaming live tv</li><li>Fix dng photo support</li><li>Fix dlna direct play with samsung smart tv's</li><li>Fix missing response headers causing over-aggressive caching in Internet Explorer</li><li>Add fixes for seeking while burning in subtitles</li></ul><span style='font-size: 24px'>Other Improvements</span><ul class='bbc'><li>Update delete function to handle files already deleted</li><li>Add skip forward/back length settings</li><li>Expand web app streaming quality settings</li><li>Move season zero display name to per library settings</li><li>Update response headers for HEAD requests</li><li>Improve support for compressed xmltv</li><li>Reduce data collected by anonymous usage reporting</li><li>Improve dlna playback status reporting</li><li>Update LG dlna profile</li><li>Support nef image format</li><li>Update recording file names to improve sorting</li><li>Add setting to require https</li><li>Add ability to hide items from certain libraries from home screen</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-3233-released.html</guid>
+      <image>
+        <title>Emby Server 3.2.33 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
