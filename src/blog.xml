@@ -4013,5 +4013,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby Theater for Windows Desktop Updated with Refresh Rate Switching</title>
+      <link>https://emby.media/emby-theater-for-windows-desktop-updated-with-refresh-rate-switching.html</link>
+      <pubDate>Fri, 13 Oct 2017 20:37:00 +0000</pubDate>
+      <description><![CDATA[
+<p>Emby Theater for Windows 2.9.3 has been released. Here are the highlights.<br /><ul class='bbc'><li>New refresh rate switching feature (enable in video settings)</li><li>Remember volume when re-opening app</li></ul></p><p>&nbsp;</p><p><span style='font-size: 24px'>Installation</span><br />Windows Desktop: <a href='https://emby.media/emby-theater.html' class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p>
+]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-theater-for-windows-desktop-updated-with-refresh-rate-switching.html</guid>
+      <image>
+        <title>Emby Theater for Windows Desktop Updated with Refresh Rate Switching</title>
+        <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
