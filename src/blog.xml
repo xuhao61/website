@@ -4027,5 +4027,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server New and Improved for MacOS</title>
+      <link>https://emby.media/emby-server-new-and-improved-for-macos.html</link>
+      <pubDate>Mon, 16 Oct 2017 17:15:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>We're pleased to announce availability of a new package for Emby Server for MacOS. To learn how to install it, head over to the <a href='https://emby.media/download.html' class='bbc_url' title=''>download page</a> of our website:</p><p>&nbsp;</p><p> <a href='https://emby.media/download' class='bbc_url' title=''>https://emby.media/download</a></p><p>&nbsp;</p><p> <span style='font-size: 24px'>Rebuilt with Faster Components</span></p><p>&nbsp;</p><p> We've rebuilt the server around <a href='https://blogs.msdn.microsoft.com/dotnet/2017/08/14/announcing-net-core-2-0/' class='bbc_url' title='External link' rel='nofollow external'>Microsoft .NET Core</a>, which is smaller and offers major performance improvements over the Mono runtime that was used in the previous package.</p><p>&nbsp;</p><p> Additionally, everything is self-contained into a single download which means no more manual installation of dependencies.</p><p>&nbsp;</p><p> <span style='font-size: 24px'>Easier Installation</span></p><p>&nbsp;</p><p> Just download and drag into your Applications folder, and that's it. Emby Server for MacOS takes only a few clicks to get up and running.</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-new-and-improved-for-macos.html</guid>
+      <image>
+        <title>Emby Server New and Improved for MacOS</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
