@@ -4043,5 +4043,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Apple TV Now with Live TV and Improved Layout</title>
+      <link>https://emby.media/apple-tv-app-now-with-live-tv-and-improved-layout.html</link>
+      <pubDate>Wed, 18 Oct 2017 13:36:09 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A major update to the Emby app for Apple TV is rolling out now. Simply re-start the app to get the update or, if you haven't tried it yet, install it from the app store on your 4th or 5th gen Apple TV now!</p><p>&nbsp;</p><p><span style='font-size: 24px'>Live TV</span></p><p>&nbsp;</p><p>The biggest new feature of the app is the implementation of Live TV (Emby Premiere subscription required). Now you can access programs, channels, recordings and recording schedules from the Apple TV just like you can with the other Emby apps. Full recording management is also available throughout the interface.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/59e679c16eeff_LiveTVPrograms.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/59e679da65530_LiveTVSchedule.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Improved Layout</span></p><p>&nbsp;</p><p>In addition to Live TV, we've also updated the throughout the app to be more intuitive, easier to navigate and more like other apps on the platform. Pull down a menu in any of the libraries to get to the different views available within them.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/59e67a69a096c_NewHome.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/59e67a82d52b7_MovieSuggestions.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>4K and tvOS 11 Support</span></p><p>&nbsp;</p><p>Finally, the new version supports the new 4K Apple TV as well as other improvements that come with tvOS 11 like direct play of hevc content (compatible container and audio required).</p><p>&nbsp;</p><p>We hope you enjoy these latest improvements to the app and we are already hard at work on even more (like an improved guide experience). Install it on your Apple TV now!</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/apple-tv-app-now-with-live-tv-and-improved-layout.html</guid>
+      <image>
+        <title>Emby for Apple TV Now with Live TV and Improved Layout</title>
+        <url>https://emby.media/community/uploads/inline/3/57016ba800b2d_Home.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
