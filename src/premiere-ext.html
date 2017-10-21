@@ -333,11 +333,13 @@
            {
               document.getElementById("payment1").style.display = "block";
               document.getElementById("payment2").style.display = "block";
+              document.getElementById("payment3").style.display = "block";
            }
            else
            {
               document.getElementById("payment1").style.display = "none";
               document.getElementById("payment2").style.display = "none";
+              document.getElementById("payment3").style.display = "none";
            }
         }
 
@@ -685,7 +687,7 @@
                     <!-- Row Backgrounds -->
                     <div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="" data-parallax-content="" data-parallax-content-sense="" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div>
                     <div class="g-cols wpb_row offset_wide">
-                        <div class="one-half">
+                        <div class="one-third">
                             <div class="aio-icon-component   style_2">
                                 <div class="aio-icon-box top-icon" style="">
                                     <div class="aio-icon-top">
@@ -724,7 +726,46 @@
                                 </div> <!-- aio-icon-box -->
                             </div> <!-- aio-icon-component -->
                         </div>
-                        <div class="one-half">
+                        <div class="one-third">
+                            <div class="aio-icon-component   style_2">
+                                <div class="aio-icon-box top-icon" style="">
+                                    <div class="aio-icon-top">
+                                        <div class="ult-just-icon-wrapper ">
+                                            <div class="aio-icon none " data-animation="fadeIn" data-animation-delay="03" style="color: #333333; font-size: 100px; display: inline-block;">
+                                                <i class="Defaults-heart"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="aio-icon-header">
+                                        <h3 class="aio-icon-title" style="">45 Devices Lifetime</h3>
+                                    </div> <!-- header -->
+                                    <div class="aio-icon-description" style="">
+                                        <p>
+                                            $99/One Time<br>
+                                        </p>
+                                        <div id="payment2" style="display: none;" class="vc_wp_text wpb_content_element">
+                                            <div class="widget widget_text">
+                                                <div class="textwidget">
+                                                    <p>
+                                                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=D3ZZWX7758UQG"><img src="resources/checkout-logo-medium.png" alt="Check out with PayPal"></a>
+                                                    </p>
+                                                    <form style="margin-top: -20px;" action="https://mb3admin.com/admin/service/stripe/process" method="POST">
+                                                        <script class="stripe-button" src="https://checkout.stripe.com/checkout.js" data-key="pk_live_lVflUNchyMpL5tkBP5dVPTlv" data-image="https://emby.media/community/uploads/monthly_10_2015/msg-3-0-40073400-1443887227_thumb.png" data-name="Emby" data-description="Premiere 45 Lifetime" data-amount="9900" data-locale="auto" data-zip-code="true">
+                                                            // <![CDATA[
+
+                                                            // ]]></script>
+                                                        <input name="feature" type="hidden" value="PremiereL45" />
+                                                        <input name="origin" type="hidden" value="website" />
+                                                        <input name="amount" type="hidden" value="9900" />
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- description -->
+                                </div> <!-- aio-icon-box -->
+                            </div> <!-- aio-icon-component -->
+                        </div>
+                        <div class="one-third">
                             <div class="aio-icon-component   style_2">
                                 <div class="aio-icon-box top-icon" style="">
                                     <div class="aio-icon-top">
@@ -741,7 +782,7 @@
                                         <p>
                                             $11.99/Each Month (recurring)<br>
                                         </p>
-                                        <div id="payment2" style="display: none;" class="vc_wp_text wpb_content_element">
+                                        <div id="payment3" style="display: none;" class="vc_wp_text wpb_content_element">
                                             <div class="widget widget_text">
                                                 <div class="textwidget">
                                                     <p>
