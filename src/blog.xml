@@ -4075,5 +4075,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 3.2.34 Released</title>
+      <link>https://emby.media/emby-server-3234-released.html</link>
+      <pubDate>Thu, 26 Oct 2017 19:49:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release of Emby Server is currently rolling out. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>New Features</span><ul class='bbc'><li>Add additional dark theme option</li><li>Support delete permissions per library</li><li>Support play next</li><li>Support azw3 book extension</li><li>Support mpeg2 hardware video decoding with OMX</li><li>Add setting to disable theme videos in the web app</li></ul><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Fix next up queries within libraries</li><li>Resolve version flipping back and forth in now playing section</li><li>Fix new item notifications being sent to all users</li><li>Restore restart button for mono releases</li><li>Fix scrolling after back button presses in web app</li></ul><span style='font-size: 24px'>General Improvements</span><ul class='bbc'><li>Improve recording schedule display</li><li>Improve upnp port mapping</li><li>Improve home video library features</li><li>Improve image aspect ratio detection</li><li>Improve tuner conflict error handling</li><li>Improve display title in now playing section</li><li>improve movie matching</li><li>Improve live tv direct play</li><li>Improve subtitle transcoding</li><li>Improve resolved video titles</li><li>Improve preservation of channel info from tv providers</li><li>Improve xmltv error handling</li><li>Adjust default metadata provider order</li><li>Reduce web socket activity</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-3234-released.html</guid>
+      <image>
+        <title>Emby Server 3.2.34 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
