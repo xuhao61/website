@@ -264,7 +264,28 @@
             -moz-border-radius: 400px;
             border-radius: 400px;
         }
+
+        .installPlatform {
+            margin: 2em 0 1em;
+        }
+
+        .hide {
+            display: none;
+        }
     </style>
+    <script>
+        function onPlatformChange(platform) {
+            var platforms = document.querySelectorAll('.installPlatform');
+
+            for (var i = 0, length = platforms.length; i < length; i++) {
+                if (platforms[i].classList.contains(platform)) {
+                    platforms[i].classList.remove('hide');
+                } else {
+                    platforms[i].classList.add('hide');
+                }
+            }
+        }
+    </script>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" id="us-motioncss-css" href="resources/motioncss.css" type="text/css" media="all">
     <link rel="stylesheet" id="us-motioncss-responsive-css" href="resources/motioncss-responsive.css" type="text/css" media="all">
@@ -420,20 +441,96 @@
 
                                     <div>
                                         <h2>Installation - x64</h2>
-                                        <div>SSH into your linux machine and copy/paste the following command:</div>
-                                        <div><code style="white-space:nowrap;">curl -f -s https://raw.githubusercontent.com/MediaBrowser/Emby.Releases/master/Server/setup.sh | sh</code></div>
-                                        <div style="font-size: 90%;opacity:.84;">Note: To update to new releases of Emby Server, simply return here and run the command again.</div>
-                                        <br />
+
+                                        <div style="margin:1em 0;">
+                                            <label>
+                                                <div>Select operating system:</div>
+                                                <select onchange="onPlatformChange(this.value);" style="height:auto;">
+                                                    <option value="centos">CentOS</option>
+                                                    <option value="debian">Debian</option>
+                                                    <option value="fedora">Fedora</option>
+                                                    <option value="linuxmint">Linux Mint</option>
+                                                    <option value="opensuse">OpenSuse</option>
+                                                    <option value="ubuntu" selected>Ubuntu</option>
+                                                </select>
+                                            </label>
+                                        </div>
+
+                                        <div class="installPlatform hide centos">
+
+                                            <div><b>Download</b></div>
+                                            <ul style="margin-bottom:1em;">
+                                                <li><a href="https://github.com/MediaBrowser/Emby/releases/download/3.2.35.0/emby-server-rpm_3.2.35.0_x86_64.rpm">x64</a></li>
+                                            </ul>
+
+                                            <div><b>Install</b></div>
+                                            <div><code style="white-space:nowrap;">yum install emby-server-rpm_3.2.35.0_x86_64.rpm</code></div>
+
+                                        </div>
+
+                                        <div class="installPlatform hide fedora">
+
+                                            <div><b>Download</b></div>
+                                            <ul style="margin-bottom:1em;">
+                                                <li><a href="https://github.com/MediaBrowser/Emby/releases/download/3.2.35.0/emby-server-rpm_3.2.35.0_x86_64.rpm">x64</a></li>
+                                            </ul>
+
+                                            <div><b>Install</b></div>
+                                            <div><code style="white-space:nowrap;">dnf install emby-server-rpm_3.2.35.0_x86_64.rpm</code></div>
+                                        </div>
+
+                                        <div class="installPlatform hide opensuse">
+
+                                            <div><b>Download</b></div>
+                                            <ul style="margin-bottom:1em;">
+                                                <li><a href="https://github.com/MediaBrowser/Emby/releases/download/3.2.35.0/emby-server-rpm_3.2.35.0_x86_64.rpm">x64</a></li>
+                                            </ul>
+
+                                            <div><b>Install</b></div>
+                                            <div><code style="white-space:nowrap;">zypper install emby-server-rpm_3.2.35.0_x86_64.rpm</code></div>
+
+                                        </div>
+
+                                        <div class="installPlatform ubuntu">
+
+                                            <div><b>Download</b></div>
+                                            <ul style="margin-bottom:1em;">
+                                                <li><a href="https://github.com/MediaBrowser/Emby/releases/download/3.2.35.0/emby-server-deb_3.2.35.0_amd64.deb">x64</a></li>
+                                            </ul>
+
+                                            <div><b>Install</b></div>
+                                            <div><code style="white-space:nowrap;">dpkg -i emby-server-deb_3.2.35.0_amd64.deb</code></div>
+
+                                        </div>
+
+                                        <div class="installPlatform hide debian">
+
+                                            <div><b>Download</b></div>
+                                            <ul style="margin-bottom:1em;">
+                                                <li><a href="https://github.com/MediaBrowser/Emby/releases/download/3.2.35.0/emby-server-deb_3.2.35.0_amd64.deb">x64</a></li>
+                                            </ul>
+
+                                            <div><b>Install</b></div>
+                                            <div><code style="white-space:nowrap;">dpkg -i emby-server-deb_3.2.35.0_amd64.deb</code></div>
+
+                                        </div>
+
+                                        <div class="installPlatform hide linuxmint">
+
+                                            <div><b>Download</b></div>
+                                            <ul style="margin-bottom:1em;">
+                                                <li><a href="https://github.com/MediaBrowser/Emby/releases/download/3.2.35.0/emby-server-deb_3.2.35.0_amd64.deb">x64</a></li>
+                                            </ul>
+
+                                            <div><b>Install</b></div>
+                                            <div><code style="white-space:nowrap;">dpkg -i emby-server-deb_3.2.35.0_amd64.deb</code></div>
+
+                                        </div>
+
                                         <div><strong>Run Setup Wizard</strong></div>
                                         <p>Visit http://localhost:8096</p>
-                                        <div>Supported Distros:</div>
-                                        <div><b>Ubuntu</b> 14.04, 16.04, 17.04, 17.10</div>
-                                        <div><b>Debian</b> 8, 9</div>
-                                        <div><b>CentOS</b> 7</div>
-                                        <div><b>Fedora</b> 25, 26</div>
-                                        <div><b>Linux Mint</b> 17.1, 17.2, 17.3, 18, 18.1, 18.2</div>
-                                        <div><b>OpenSuse</b> 42.2, 42.3, Tumbleweed</div>
 
+                                        <br />
                                         <h2>Installation - ARM</h2>
                                         <p>Follow the instructions for your distro on the <a target="_blank" href="https://software.opensuse.org/download.html?project=home%3Aemby&package=emby-server">Emby Open Build Service</a>.</p>
                                         <div><strong>Run Setup Wizard</strong></div>
