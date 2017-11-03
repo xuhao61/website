@@ -4105,5 +4105,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Xbox One Updated with Improved Playback</title>
+      <link>https://emby.media/emby-for-xbox-one-updated-with-improved-playback.html</link>
+      <pubDate>Fri, 03 Nov 2017 21:12:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Emby for Xbox One has been updated with improved video playback. Here are the highlights:<br /><ul class='bbc'><li>Direct play more video formats, including hevc on supported models.</li><li>Reduced server transcoding decreases the load on your Emby Server machine</li><li>Pause, rewind and fast-forward live tv</li><li>Faster video start time</li></ul></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/561bc276520b9_1.png' alt='Posted Image' /></span>	<ul class='bbc'><li>Reduced server transcoding decreases the load on your Emby Server machine</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-xbox-one-updated-with-improved-playback.html</guid>
+      <image>
+        <title>Emby for Xbox One Updated with Improved Playback</title>
+        <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
