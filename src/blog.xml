@@ -4121,5 +4121,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Android TV and Fire TV now with Themes and multi-version support</title>
+      <link>https://emby.media/emby-for-android-tv-and-fire-tv-now-with-themes-and-multi-version-support.html</link>
+      <pubDate>Sun, 26 Nov 2017 22:51:16 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p><span style='font-size: 24px'>Themes</span></p><p>&nbsp;</p><p>The new release of the Android TV and Fire TV apps now have multiple themes you can choose from just like the web app and Theater (<a href='http://emby.media/premiere' class='bbc_url' title=''>Emby Premiere</a> required for theme support).</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/59ef8febad397_themelight.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/59f0ee6ea26a1_favmovieslight.png' alt='Posted Image' /></span><br /><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/59ef9002f3c7e_themewmc.png' alt='Posted Image' /></span><br /><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/59f38686af5f9_moviesuggwmc.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/59efa8f2b1c5a_guidelight.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/59efa8ff7a82a_guidewmc.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Multi-version Selection</span></p><p>&nbsp;</p><p><span style='font-size: 24px'><span style='font-size: 14px'>Now, for movies for which you have multiple versions (in the <a href='https://github.com/MediaBrowser/Wiki/wiki/Movie-naming' class='bbc_url' title='External link' rel='nofollow external'>supported convention</a>) the app will allow you to choose which version to play when playing back from the detail screen.</span></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Improvements</span></p><p>&nbsp;</p><p>Additionally, several improvements have been made to general playback and stability as well as other minor bug fixes including:<br /><ul class='bbc'><li>Improved external subtitle handling</li><li>Faster seeking</li><li>Faster dismissal of OSD when resuming</li><li>Improved playback correction</li><li>Fix layout problems on non-standard hardware</li><li>Runaway Playback Prevention (Are you still watching)</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-android-tv-and-fire-tv-now-with-themes-and-multi-version-support.html</guid>
+      <image>
+        <title>Emby for Android TV and Fire TV now with Themes and multi-version support</title>
+        <url>https://emby.media/img/blog/6064.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
