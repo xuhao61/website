@@ -446,6 +446,7 @@
                                             <label>
                                                 <div>Select operating system:</div>
                                                 <select onchange="onPlatformChange(this.value);" style="height:auto;">
+                                                    <option value="archlinux">Arch Linux</option>
                                                     <option value="centos">CentOS</option>
                                                     <option value="debian">Debian</option>
                                                     <option value="fedora">Fedora</option>
@@ -454,6 +455,15 @@
                                                     <option value="ubuntu" selected>Ubuntu</option>
                                                 </select>
                                             </label>
+                                        </div>
+
+                                        <div class="installPlatform hide archlinux">
+
+                                            <div><strong>Run the following:</strong></div>
+                                            <p><code>pacman -S emby-server</code></p>
+                                            <div><strong>Start Emby Server</strong></div>
+                                            <p>systemctl start emby-server</p>
+
                                         </div>
 
                                         <div class="installPlatform hide centos">
@@ -533,14 +543,6 @@
                                         <br />
                                         <h2>Installation - ARM</h2>
                                         <p>Follow the instructions for your distro on the <a target="_blank" href="https://software.opensuse.org/download.html?project=home%3Aemby&package=emby-server">Emby Open Build Service</a>.</p>
-                                        <div><strong>Run Setup Wizard</strong></div>
-                                        <p>Visit http://localhost:8096</p>
-
-                                        <h2>Arch Linux</h2>
-                                        <div><strong>Run the following:</strong></div>
-                                        <p><code>pacman -S emby-server</code></p>
-                                        <div><strong>Start Emby Server</strong></div>
-                                        <p>systemctl start emby-server</p>
                                         <div><strong>Run Setup Wizard</strong></div>
                                         <p>Visit http://localhost:8096</p>
                                     </div>

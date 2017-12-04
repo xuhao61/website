@@ -4137,5 +4137,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6064.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS Updated with iPhone X Support</title>
+      <link>https://emby.media/emby-for-ios-updated-with-iphone-x-support.html</link>
+      <pubDate>Mon, 04 Dec 2017 21:58:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Version 1.4.5 is currently rolling out with improvements for iOS 11. Here are the highlights:<ul class='bbc'><li>Support iPhone X</li><li>Support track selection prior to playback</li><li>Add Play Next queuing</li><li>Support tapping the screen to hide the video OSD</li></ul></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/59783ef523bdd_Untitled.png' alt='Posted Image' /></span></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-updated-with-iphone-x-support.html</guid>
+      <image>
+        <title>Emby for iOS Updated with iPhone X Support</title>
+        <url>https://emby.media/img/blog/6376.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
