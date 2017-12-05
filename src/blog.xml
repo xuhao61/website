@@ -4153,5 +4153,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6376.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Trakt Plugin Updated</title>
+      <link>https://emby.media/emby-trakt-plugin-updated.html</link>
+      <pubDate>Tue, 05 Dec 2017 21:30:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Our Emby Trakt plugin has been updated to version 3.1.3. </p><p>&nbsp;</p><p><span style='font-size: 24px'>Important</span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Due to Trakt API changes, you will need to install the update, and then re-authenticate using the trakt plugin configuration screen.</span></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Change Log</span><ul class='bbc'><li>Update to latest Trakt authentication API</li><li>Various syncing and scrobbling fixes and improvements</li></ul></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://raw.githubusercontent.com/MediaBrowser/MediaBrowser.Resources/master/images/catalog/trakt_server.png' alt='Posted Image' /></span></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-trakt-plugin-updated.html</guid>
+      <image>
+        <title>Emby Trakt Plugin Updated</title>
+        <url>https://raw.githubusercontent.com/MediaBrowser/MediaBrowser.Resources/master/images/catalog/trakt_server.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
