@@ -61,18 +61,34 @@ function getLatestVersionInfo(releases, filename, level) {
 
 function fillPackageHrefs(releases) {
 
-    var links = document.querySelectorAll('.lnkPackageDownload');
+    var elems = document.querySelectorAll('.lnkPackageDownload');
+    var i, length;
+    var elem;
 
-    for (var i = 0, length = links.length; i < length; i++) {
+    for (i = 0, length = elems.length; i < length; i++) {
 
-        var link = links[i];
+        elem = elems[i];
 
-        var info = getLatestVersionInfo(releases, link.getAttribute('data-filename'), link.getAttribute('data-level'));
+        var info = getLatestVersionInfo(releases, elem.getAttribute('data-filename'), elem.getAttribute('data-level'));
 
         if (info) {
 
-            link.href = info.url;
-            link.setAttribute('href', info.url);
+            elem.href = info.url;
+            elem.setAttribute('href', info.url);
+        }
+    }
+
+    elems = document.querySelectorAll('.lnkPackageInnerHtml');
+
+    for (i = 0, length = elems.length; i < length; i++) {
+
+        elem = elems[i];
+
+        var info = getLatestVersionInfo(releases, elem.getAttribute('data-filename'), elem.getAttribute('data-level'));
+
+        if (info) {
+
+            elem.innerHTML = elem.innerHTML.replace('{filename}', info.filename);
         }
     }
 }
