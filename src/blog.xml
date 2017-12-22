@@ -4185,5 +4185,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Introducing Emby for Amazon Alexa</title>
+      <link>https://emby.media/announcing-the-emby-alexa-skill.html</link>
+      <pubDate>Thu, 21 Dec 2017 14:46:12 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p><p class='bbc_center'><strong class='bbc'><span style='font-size: 18px'>Voice Control for Emby with your supported Amazon Echo device</span></strong></p></p><p>&nbsp;</p><p></p><p>&nbsp;</p><p><p class='bbc_center'><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/5a3abda7c1d3e_alexa.png' alt='Posted Image' /></span></p></p><p>&nbsp;</p><p><span style='font-size: 18px'><strong class='bbc'>Intelligent Voice Control for Emby</strong></span></p><p>&nbsp;</p><p><span style='font-size: 14px'>The Emby Alexa Skill enables <a href='https://emby.media/premiere.html' class='bbc_url' title=''>Emby Premiere</a> members to get information about and control playback of their media on any Emby compatible device. Once you have successfully <a href='https://github.com/MediaBrowser/Wiki/wiki/Alexa#amazon-alexa-account-linking' class='bbc_url' title='External link' rel='nofollow external'>linked your Emby account to Alexa</a>, you can start playing your favorite movies, TV shows and songs on your devices with your voice. Learn all about how to get the skill and set it up on our <a href='https://github.com/MediaBrowser/Wiki/wiki/Alexa' class='bbc_url' title='External link' rel='nofollow external'>wiki</a>.</span></p><p>&nbsp;</p><p><span style='font-size: 14px'>The skill is available now for your Amazon Echo device in the US or UK with more regions coming soon. </span><ul class='bbc'><li><a href='https://www.amazon.com/Emby/dp/B071GP8C3F/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1511836893&sr=1-1&keywords=emby' class='bbc_url' title='External link' rel='nofollow external'><span style='font-size: 14px'>G</span><span style='color: rgb(36,41,46)'><span style='font-family: -apple-system'><span style='font-size: 14px'>et the US Version</span></span></span></a></li><li><a href='https://www.amazon.co.uk/Emby/dp/B071GP8C3F/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1511836813&sr=1-1&keywords=emby' class='bbc_url' title='External link' rel='nofollow external'><span style='color: rgb(36,41,46)'><span style='font-family: -apple-system'><span style='font-size: 14px'>Get the UK Version</span></span></span></a></li></ul>Install the skill, connect with <a href='https://github.com/MediaBrowser/Wiki/wiki/Emby%20Connect' class='bbc_url' title='External link' rel='nofollow external'>Emby Connect</a> and start controlling your Emby media with just your voice. Things you can try:<ul class='bbc'><li>"Alexa, ask Emby what's up next"</li><li>"Alexa, ask Emby to play a horror movie"</li><li>"Alexa, ask Emby to pause playback"</li><li>"Alexa, ask Emby to play the party playlist"</li></ul>The possibilities go on and on. Get the Emby skill for your Echo device now!</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/announcing-the-emby-alexa-skillhtml</guid>
+      <image>
+        <title>Introducing Emby for Amazon Alexa</title>
+        <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
