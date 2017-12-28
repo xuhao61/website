@@ -1,13 +1,13 @@
 ﻿<!DOCTYPE html>
-<!-- saved from url=(0040)mac-server.html -->
+<!-- saved from url=(0023)https://emby.media/pin/ -->
 <html prefix="og: http://ogp.me/ns#" class="no-touch" lang="en-US">
 <head itemscope itemtype="http://schema.org/Article">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
-    <title>Emby Server for Mac - Emby</title>
-    <meta name="description" content="Emby Server for Apple Mac OSX - Organize and stream your personal videos, music, photos and Live TV to any device.">
-    {SOCIALNETWORKS}
+    <title>Enter Pin Code - Emby</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    {SOCIALNETWORKS}
     <link rel="stylesheet" id="rs-plugin-settings-css" href="resources/settings.css" type="text/css" media="all">
     <style id="rs-plugin-settings-inline-css" type="text/css">
         .tp-caption a {
@@ -283,9 +283,6 @@
     <script type="text/javascript" src="resources/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="resources/jquery.themepunch.revolution.min.js"></script>
     <script type="text/javascript" src="resources/ultimate-params.min.js"></script>
-
-    <link rel="prev" title="Emby for Kodi" href="emby-for-kodi.html">
-    <link rel="next" title="Emby Theater" href="emby-theater.html">
     <!--[if IE 8]><link rel="stylesheet" type="text/css" href="resources/vc-ie8.css" media="screen"><![endif]-->
     <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png">
@@ -321,7 +318,7 @@
         /** Ultimate: Media Responsive - **/
     </style>
 </head>
-<body class="single single-us_portfolio postid-5076 l-body us-theme_zephyr_1-6 wpb-js-composer js-comp-ver-4.5.2 vc_responsive hasGoogleVoiceExt">
+<body class="page page-id-5049 page-template-default l-body us-theme_zephyr_1-6 wpb-js-composer js-comp-ver-4.5.2 vc_responsive hasGoogleVoiceExt">
     <!-- CANVAS -->
     <div class="l-canvas type_wide col_cont headerlayout_extended headerpos_fixed">
         <!-- HEADER -->
@@ -401,11 +398,17 @@
             <div class="l-submain for_pagehead color_alternate size_large" style="padding-top: 140px;">
                 <div class="l-submain-h g-html i-cf">
                     <div class="w-pagehead">
-                        <h1>Emby Server for Mac</h1>
-                        <div class="w-pagehead-nav">
-                            <div class="w-pagehead-nav-h">
-                                <a class="w-pagehead-nav-item type_prev" href="emby-theater.html" title="Emby Theater"><i class="mdfi_navigation_chevron_left"></i></a>
-                                <a class="w-pagehead-nav-item type_next" href="emby-for-kodi.html" title="Emby for Kodi"><i class="mdfi_navigation_chevron_right"></i></a>
+                        <h1>Google Home Setup</h1>
+                    </div>
+                    <div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="" data-parallax-content="" data-parallax-content-sense="" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div>
+                    <div class="g-cols wpb_row offset_wide">
+                        <div class="full-width">
+                            <div class="wpb_text_column ">
+                                <div class="wpb_wrapper">
+
+                                    <p style="text-align: center; margin-top: 2em">Emby for Google Home talks to your server via an account linked through Emby Connect.  To learn how to setup one of your Emby users with Connect, please see <a href="https://github.com/MediaBrowser/Wiki/wiki/Emby%20Connect#guide-for-administrators">Emby Connect for Administrators</a>.  Once you have configured the user you wish Google Home to use, then enter those Emby Connect credentials below.</p>
+                                    <p></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -414,49 +417,56 @@
             <div class="l-submain wpb_row">
                 <div class="l-submain-h g-html i-cf">
                     <div class="g-cols wpb_row offset_wide">
-                        <div class="two-thirds">
-                            <div class="wpb_text_column ">
-                                <div class="wpb_wrapper">
+                        <div class="full-width">
+                            <div class="vc_wp_text wpb_content_element">
+                                <div class="widget widget_text">
+                                    <div class="textwidget">
+                                        <div style="text-align: center;">
+                                            <form id="confirmForm" style="margin: 0 auto; width: 100%; max-width: 400px;">
+                                                <label style="text-align: left; display: block;margin-bottom:2em;">
 
-                                    <div style="margin:0 auto;max-width:450px;">
-                                        <h2>Installation</h2>
-                                        <p>
-                                            <strong>Download</strong><br>
-                                            Download <a class="lnkPackageDownload" data-filename="embyserver-osx-x64-{version}.zip" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/embyserver-osx-x64-3.2.50.0.zip" onclick="ga('send', 'event', 'Download Links', 'Downloaded', 'MacRelease');">Emby Server for MacOS</a>.
-                                        </p>
-                                        <p>
-                                            <strong>Drag to Applications Folder</strong><br>
-                                            After the download has completed, use Finder to drag EmbyServer from your Downloads folder to your Applications folder.
-                                            <img src="server/mac1.png" />
-                                        </p>
-                                        <p>
-                                            <strong>Start Emby Server</strong><br>
-                                            Start Emby Server from your Applications menu like any other Application.
-                                            <img src="server/mac2.png" />
-                                            <br />If you're unable to start due to a message about unidentified developer, start Emby Server by clicking the settings icon, then Open.
-                                            <img src="server/mac3.png" />
-                                        </p>
-                                        <p>
-                                            <strong>Complete the Emby Server Setup Wizard</strong><br>
-                                            Open your web browser and visit http://localhost:8096
-                                        </p>
-                                        <div style="margin-top:2em;color:gray;">Note: Installing into MacOS Applications is necessary due to Apple Gatekeeper path randomization, which allows the app to run in a confined environment.</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><div class="one-third">
-                            <div class="wpb_text_column ">
-                                <div class="wpb_wrapper">
+                                                    <div>Emby Connect username or email:</div>
+                                                    <input id="username" style="width: 100%;" type="text" class="not-empty" required>
 
-                                    <h4>Resources</h4>
-                                    <span class="wpb_button align_left"><a href="https://emby.media/community/index.php?/forum/117-osx" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-users"></i><span>Community</span><span class="ripple-container"></span></a></span>
-                                    <div>
-                                        <span class="wpb_button align_left"><a href="https://github.com/MediaBrowser/Wiki/wiki" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-book"></i><span>Wiki</span><span class="ripple-container"></span></a></span>
+                                                </label>
+
+                                                <label style="text-align: left; display: block; margin-bottom: 2em;">
+
+                                                    <div>Password:</div>
+                                                    <input id="pw" style="width: 100%;" type="password" class="not-empty" required>
+
+                                                </label>
+                                                <p id="msg" style="display:none;color:red;"></p>
+                                                <p>
+                                                    <button class="g-btn color_primary type_raised size_big" type="submit" style="display: block; margin-top: 30px; width: 100%;">Sign In<span class="ripple-container"></span></button><br>
+                                                </p>
+                                            </form>
+                                            <form id="selectServerForm" style="margin: 0 auto; width: 100%; max-width: 400px; display: none;">
+
+                                                <label style="text-align: left; display: block;">
+
+                                                    <div>Server to control with Google Home:</div>
+                                                    <select style="width: 100%;" id="selectServer" required></select>
+
+                                                </label>
+                                                <div style="color:#444;margin-top:.5em;margin-bottom:2em;">Server not listed? Set your server up with Emby Connect.</div>
+
+                                                <p>
+                                                    <button class="g-btn color_primary type_raised size_big" type="submit" style="display: block; margin-top: 30px; width: 100%;">Link to Google Home<span class="ripple-container"></span></button><br>
+                                                </p>
+                                            </form>
+                                            <script src="resources/jquery-2.1.3.min.js"></script><br>
+                                            <script type="text/javascript" src="resources/alexalogin.js"></script>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div><!-- Row Backgrounds --><div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div>
+                    </div><!-- Row Backgrounds --><div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="" data-parallax-content="" data-parallax-content-sense="" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div><div class="g-cols wpb_row offset_wide">
+
+                    </div><!-- Row Backgrounds --><div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="" data-parallax-content="" data-parallax-content-sense="" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div><div class="g-cols wpb_row offset_wide">
+
+                    </div><!-- Row Backgrounds --><div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="" data-parallax-content="" data-parallax-content-sense="" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div>
                 </div>
             </div>
         </div>
@@ -486,7 +496,7 @@
 
     </div>
     <!-- /FOOTER -->
-    <a class="w-toplink" href="mac-server.html#"><i class="mdfi_hardware_keyboard_arrow_up"></i></a>
+    <a class="w-toplink" href="#"><i class="mdfi_hardware_keyboard_arrow_up"></i></a>
     <script type="text/javascript">
         if (window.$us === undefined) window.$us = {};
         $us.canvasOptions = ($us.canvasOptions || {});
@@ -517,10 +527,9 @@
     <script type="text/javascript" src="resources/us.core.js"></script>
     <script type="text/javascript" src="resources/us.widgets.js"></script>
     <script type="text/javascript" src="resources/comment-reply.min.js"></script>
-    <script src="resources/githubhelper.js"></script>
 
-    <!-- Dynamic page generated in 0.118 seconds. -->
-    <!-- Cached page generated by WP-Super-Cache on 2016-01-03 10:35:21 -->
+    <!-- Dynamic page generated in 0.569 seconds. -->
+    <!-- Cached page generated by WP-Super-Cache on 2016-01-03 05:25:33 -->
     <!-- Compression = gzip -->
 </body>
 </html>
