@@ -4217,5 +4217,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 3.2.70 Released</title>
+      <link>https://emby.media/emby-server-3270-released.html</link>
+      <pubDate>Fri, 19 Jan 2018 20:08:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release of Emby Server is currently rolling out. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Faster Live TV Start Time</span></p><p>&nbsp;</p><p>Enjoy faster than ever live tv start time in this new release !</p><p>&nbsp;</p><p><span style='font-size: 24px'>Support Hauppauge Tuners for Windows</span></p><p>&nbsp;</p><p>Emby Server for Windows now has native support for Hauppauge TV tuners. Make sure to install the latest Hauppauge software from the Hauppauge website. Happy tuning.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Fix Dlna crash</li><li>Fix moviedb urls</li><li>Fix subtitle saving</li><li>Fix manual cancellations within a series recording</li><li>Fix tvshow.nfo saving error</li></ul></p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Improvements</span><ul class='bbc'><li>Improve library scan performance</li><li>Support additional multi-version naming conventions</li><li>Move folder.xml support to XmlMetadata plugin</li><li>Add active program shading to tv guide</li><li>Reduce dlna traffic</li><li>Handle nfo saver errors with custom provider names</li><li>Add setting to enable or disable remote access</li><li>Update startup wizard with remote access settings</li><li>Add m3u tuner setting to define custom user agent</li><li>Support custom user agent for xmltv</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-3270-released.html</guid>
+      <image>
+        <title>Emby Server 3.2.70 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
