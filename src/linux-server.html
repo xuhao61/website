@@ -440,7 +440,7 @@
                                 <div class="wpb_wrapper">
 
                                     <div>
-                                        <h2>Installation - x64</h2>
+                                        <h2>Installation</h2>
 
                                         <div style="margin:1em 0;">
                                             <label>
@@ -463,88 +463,199 @@
                                             <p><code>pacman -S emby-server</code></p>
                                             <div><strong>Start Emby Server</strong></div>
                                             <p>systemctl start emby-server</p>
-
+                                            <div><strong>Run Emby Server Setup</strong></div>
+                                            <p>http://localhost:8096</p>
                                         </div>
 
                                         <div class="installPlatform hide centos">
 
-                                            <div><b>Download</b></div>
-                                            <ul style="margin-bottom:1em;">
-                                                <li><a class="lnkPackageDownload" data-filename="emby-server-rpm_{version}_x86_64.rpm" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">x64</a></li>
-                                            </ul>
+                                            <div><b>X64</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-filename="emby-server-rpm_{version}_x86_64.rpm" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-rpm_{version}_x86_64.rpm">yum install {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
 
-                                            <div><b>Install</b></div>
-                                            <div><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-rpm_{version}_x86_64.rpm">yum install {filename}</code></div>
+                                            <div><b>Armv7hl</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-filename="emby-server-rpm_{version}_armv7hl.rpm" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-rpm_{version}_armv7hl.rpm">yum install {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
 
+                                            <div><b>X64 - BETA</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-rpm_{version}_x86_64.rpm" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-rpm_{version}_x86_64.rpm">yum install {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
+
+                                            <div><b>Armv7hl - BETA</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-rpm_{version}_armv7hl.rpm" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-rpm_{version}_armv7hl.rpm">yum install {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
                                         </div>
 
                                         <div class="installPlatform hide fedora">
 
-                                            <div><b>Download</b></div>
-                                            <ul style="margin-bottom:1em;">
-                                                <li><a class="lnkPackageDownload" data-filename="emby-server-rpm_{version}_x86_64.rpm" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">x64</a></li>
-                                            </ul>
+                                            <div><b>X64</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-filename="emby-server-rpm_{version}_x86_64.rpm" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-rpm_{version}_x86_64.rpm">dnf install {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
 
-                                            <div><b>Install</b></div>
-                                            <div><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-rpm_{version}_x86_64.rpm">dnf install {filename}</code></div>
+                                            <div><b>Armv7hl</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-filename="emby-server-rpm_{version}_armv7hl.rpm" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-rpm_{version}_armv7hl.rpm">dnf install {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
+
+                                            <div><b>X64 - BETA</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-rpm_{version}_x86_64.rpm" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-rpm_{version}_x86_64.rpm">dnf install {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
+
+                                            <div><b>Armv7hl - BETA</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-rpm_{version}_armv7hl.rpm" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-rpm_{version}_armv7hl.rpm">dnf install {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
                                         </div>
 
                                         <div class="installPlatform hide opensuse">
 
-                                            <div><b>Download</b></div>
-                                            <ul style="margin-bottom:1em;">
-                                                <li><a class="lnkPackageDownload" data-filename="emby-server-rpm_{version}_x86_64.rpm" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">x64</a></li>
-                                            </ul>
+                                            <div><b>X64</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-filename="emby-server-rpm_{version}_x86_64.rpm" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-rpm_{version}_x86_64.rpm">zypper install {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
 
-                                            <div><b>Install</b></div>
-                                            <div><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-rpm_{version}_x86_64.rpm">zypper install {filename}</code></div>
+                                            <div><b>Armv7hl</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-filename="emby-server-rpm_{version}_armv7hl.rpm" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-rpm_{version}_armv7hl.rpm">zypper install {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
+
+                                            <div><b>X64 - BETA</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-rpm_{version}_x86_64.rpm" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-rpm_{version}_x86_64.rpm">zypper install {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
+
+                                            <div><b>Armv7hl - BETA</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-rpm_{version}_armv7hl.rpm" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-rpm_{version}_armv7hl.rpm">zypper install {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
 
                                         </div>
 
                                         <div class="installPlatform ubuntu">
 
-                                            <div><b>Download</b></div>
-                                            <ul style="margin-bottom:1em;">
-                                                <li><a class="lnkPackageDownload" data-filename="emby-server-deb_{version}_amd64.deb" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-deb_3.2.50.0_amd64.deb">x64</a></li>
-                                            </ul>
+                                            <div><b>X64</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-filename="emby-server-deb_{version}_amd64.deb" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-deb_{version}_amd64.deb">dpkg -i {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
 
-                                            <div><b>Install</b></div>
-                                            <div><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-deb_{version}_amd64.deb">dpkg -i {filename}</code></div>
+                                            <div><b>Armhf</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-filename="emby-server-deb_{version}_armhf.deb" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-deb_{version}_armhf.deb">dpkg -i {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
+
+                                            <div><b>X64 - BETA</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-deb_{version}_amd64.deb" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-deb_{version}_amd64.deb">dpkg -i {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
+
+                                            <div><b>Armhf - BETA</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-deb_{version}_armhf.deb" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-deb_{version}_armhf.deb">dpkg -i {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
 
                                         </div>
 
                                         <div class="installPlatform hide debian">
 
-                                            <div><b>Download</b></div>
-                                            <ul style="margin-bottom:1em;">
-                                                <li><a class="lnkPackageDownload" data-filename="emby-server-deb_{version}_amd64.deb" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-deb_3.2.50.0_amd64.deb">x64</a></li>
-                                            </ul>
+                                            <div><b>X64</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-filename="emby-server-deb_{version}_amd64.deb" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-deb_{version}_amd64.deb">dpkg -i {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
 
-                                            <div><b>Install</b></div>
-                                            <div><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-deb_{version}_amd64.deb">dpkg -i {filename}</code></div>
+                                            <div><b>Armhf</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-filename="emby-server-deb_{version}_armhf.deb" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-deb_{version}_armhf.deb">dpkg -i {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
+
+                                            <div><b>X64 - BETA</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-deb_{version}_amd64.deb" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-deb_{version}_amd64.deb">dpkg -i {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
+
+                                            <div><b>Armhf - BETA</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-deb_{version}_armhf.deb" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-deb_{version}_armhf.deb">dpkg -i {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
 
                                         </div>
 
                                         <div class="installPlatform hide linuxmint">
 
-                                            <div><b>Download</b></div>
-                                            <ul style="margin-bottom:1em;">
-                                                <li><a class="lnkPackageDownload" data-filename="emby-server-deb_{version}_amd64.deb" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-deb_3.2.50.0_amd64.deb">x64</a></li>
-                                            </ul>
+                                            <div><b>X64</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-filename="emby-server-deb_{version}_amd64.deb" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-deb_{version}_amd64.deb">dpkg -i {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
 
-                                            <div><b>Install</b></div>
-                                            <div><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-deb_{version}_amd64.deb">dpkg -i {filename}</code></div>
+                                            <div><b>Armhf</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-filename="emby-server-deb_{version}_armhf.deb" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-deb_{version}_armhf.deb">dpkg -i {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
+
+                                            <div><b>X64 - BETA</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-deb_{version}_amd64.deb" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-deb_{version}_amd64.deb">dpkg -i {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
+
+                                            <div><b>Armhf - BETA</b></div>
+                                            <ol>
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-deb_{version}_armhf.deb" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/emby-server-rpm_3.2.50.0_x86_64.rpm">{filename}</a></li>
+                                                <li><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-deb_{version}_armhf.deb">dpkg -i {filename}</code></li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
 
                                         </div>
-
-                                        <div><strong>Run Setup Wizard</strong></div>
-                                        <p>Visit http://localhost:8096</p>
-
-                                        <br />
-                                        <h2>Installation - ARM</h2>
-                                        <p>Follow the instructions for your distro on the <a target="_blank" href="https://software.opensuse.org/download.html?project=home%3Aemby&package=emby-server">Emby Open Build Service</a>.</p>
-                                        <div><strong>Run Setup Wizard</strong></div>
-                                        <p>Visit http://localhost:8096</p>
                                     </div>
                                 </div>
                             </div>
