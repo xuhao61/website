@@ -4233,5 +4233,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 3.3 Released</title>
+      <link>https://emby.media/emby-server-3270-released.html</link>
+      <pubDate>Tue, 27 Feb 2018 20:21:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release of Emby Server is currently rolling out. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Resolve occasional error with dynamic image generation</li><li>Fix music albums getting release year of 9999</li><li>Resolve Chromecast timeout when network disconnected</li><li>Fix user data not showing in playlist items</li><li>Resolve issues when deleting live tv recordings from plugins</li><li>Fix audio image extraction</li><li>Fix accent quotes in search</li><li>Fix external subtitles causing longer library scans and repeat kodi syncing</li><li>Fix music transcoding not respecting requested bitrate</li></ul></p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Improvements</span><ul class='bbc'><li>Reduce dlna play to traffic</li><li>Display default directory in directory browser for QNAP & Terramaster</li><li>Update design of Play On menu</li><li>Show photos in search results</li><li>Improve automatic refreshing on secondary list screens</li><li>Revamp sorting and view settings on secondary list screens</li><li>Improve offloading of transcoding to HDHR</li><li>Add SubDB subtitle provider</li><li>Update HLS manifests to include framerate information</li><li>Add new lan networks setting to configure local network addresses</li><li>Support codec folders with cinema mode, see wiki: <a href='https://github.com/MediaBrowser/Wiki/wiki/Cinema-Mode' class='bbc_url' title='External link' rel='nofollow external'>https://github.com/MediaBrowser/Wiki/wiki/Cinema-Mode</a></li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-33-released.html</guid>
+      <image>
+        <title>Emby Server 3.3 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
