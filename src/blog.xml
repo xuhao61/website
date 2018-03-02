@@ -4249,5 +4249,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Apple TV Updated</title>
+      <link>https://emby.media/emby-for-apple-tv-update.html</link>
+      <pubDate>Fri, 02 Mar 2018 20:15:36 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>A new update to the Emby Apple TV app has rolled out with several enhancements and fixes. They include:</span></span></p><p>&nbsp;</p><p><strong class='bbc'><span style='font-size: 24px'><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Home Screen Layout</span></span></span></strong></p><p>&nbsp;</p><p>The app now follows the home screen settings you setup in user settings on the web or mobile apps. You cannot change these settings from this app yet so just use the web interface to set these how you wish. User Icon -&gt; Home Screen</p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span style='font-size: 24px'><strong class='bbc'>New Theme Setting</strong></span></span></span></p><p>&nbsp;</p><p>The app now follows the Apple TV Light/Dark/Automatic theme settings. The internal setting has been removed. To change the Apple TV system theme go to Settings -&gt; General -&gt; Appearance.</p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/59/5a99a68961b55_Light2.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/59/5a99a696486d6_Dark2.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><strong class='bbc'><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span style='font-size: 24px'>New Collections Tab</span></span></span></strong></p><p>&nbsp;</p><p>A Collections tab was added to the Movies view.</p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/59/5a9945baa5ddd_Collections.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><strong class='bbc'><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span style='font-size: 24px'>Detail Screen Updates</span></span></span></strong><ul class='bbc'><li>You can now mark a series as watched / unwatched.</li><li>IMDB ratings have also been added to detail screens where appropriate.</li></ul><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/59/5a9946dbb67ed_Watched.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span style='font-size: 24px'><strong class='bbc'>Bug Fixes</strong></span></span></span><ul class='bbc'><li>Fixed the black icons on the playback overlay</li><li>The playback overlay missing overview bug has been fixed</li><li>In certain circumstances external subtitles could be skipped and this has been resolved</li><li>The issue of external subtitles showing formatting characters such as &lt;i&gt; has been resolved</li><li>Addressed views being updated when items are deleted</li></ul>We hope you enjoy these enhancements. We are hard at work on many more which will be available in the near future.</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-apple-tv-update.html</guid>
+      <image>
+        <title>Emby for Apple TV Updated</title>
+        <url>https://emby.media/community/uploads/inline/3/57016ba800b2d_Home.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
