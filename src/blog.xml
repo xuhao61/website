@@ -4265,5 +4265,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/3/57016ba800b2d_Home.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server Now Available for TerraMaster NAS</title>
+      <link>https://emby.media/emby-server-now-available-for-terramaster-nas.html</link>
+      <pubDate>Thu, 08 Mar 2018 22:01:00 +0000</pubDate>
+      <description><![CDATA[
+<p>Emby Server can now be installed on TerraMaster NAS devices. To install, simply browse the TerraMaster app store on your NAS and install Emby Server.</p><p>&nbsp;</p><p> Please note the version in the TerraMaster app store may run a little behind the latest due to delays involved with the TerraMaster review process.</p>
+]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-now-available-for-terramaster-nas.html</guid>
+      <image>
+        <title>Emby Server Now Available for TerraMaster NAS</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
