@@ -538,10 +538,15 @@
 
                                         <div class="installPlatform hide qnap">
 
-                                            <p>
-                                                <strong>Installation</strong><br>
-                                                Install Emby Server for QNAP by downloading from the <a target="_blank" href="https://forum.qnap.com/viewtopic.php?f=320&t=109476">QNAP Community.</a>.
-                                            </p>
+                                            <div><b class="instructionListHeader">QNAP X64</b></div>
+                                            <ol class="instructionList">
+                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_x86_64.qpkg" href="emby-server-qnap_{version}_x86_64.qpkg">{filename}</a></li>
+                                                <li>Start Emby from the QNAP web interface</li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
+
+                                            <div><b class="instructionListHeader">QNAP ARM</b></div>
+                                            <div>Install Emby Server for QNAP by downloading from the <a target="_blank" href="https://forum.qnap.com/viewtopic.php?f=320&t=109476">QNAP Community.</a>.</div>
                                             <div>
                                                 <strong>Run Setup Wizard</strong>
                                             </div>
@@ -641,6 +646,49 @@
                                         </div>
 
                                         <div class="installPlatform hide thecus">
+
+                                            <div style="margin:2em 0;">
+                                                <b>Important</b>: Emby Server can be installed from either the Thecus app store, or by manually installing the packages provided here. The version in the Thecus app store may sometimes be a little behind the latest due to the Thecus review process.
+                                            </div>
+
+                                            <div><b class="instructionListHeader">Thecus X64</b></div>
+                                            <ol class="instructionList">
+                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-thecus_{version}_x86_64.mod" href="emby-server-thecus_{version}_x86_64.mod">{filename}</a></li>
+                                                <li>Start the server</li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
+
+                                            <div><b class="instructionListHeader">Thecus X64 - BETA</b></div>
+                                            <ol class="instructionList">
+                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-thecus_{version}_x86_64.mod" href="emby-server-thecus_{version}_x86_64.mod">{filename}</a></li>
+                                                <li>Start the server</li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
+
+                                            <div><b class="instructionListHeader">Thecus ARM</b></div>
+                                            <div>See below for instructions on how to install from the Thecus app store.</div>
+
+                                            <h2 style="margin-top: 0;">Thecus OS7 (see below for OS5/OS6)</h2>
+                                            <p>Install Emby using Thecus AppCenter. First open AppCenter.</p>
+                                            <img src="resources/thecus1.png" />
+                                            <p>Locate Emby either by searching or under Media/DLNA. Click Install.</p>
+                                            <img src="resources/thecus2.png" />
+                                            <p>When the installation has completed, click Enter App Page.</p>
+                                            <img src="resources/thecus3.png" />
+                                            <p>From here you can access the Emby web interface to begin the Emby Setup Wizard.</p>
+                                            <img src="resources/thecus4.png" />
+                                            <h2>Thecus OS5, OS6</h2>
+                                            <pre>For OS5 and OS6, the module need to be downloaded on PC and then installed within Thecus WEB UI
+Emby have 2 dependencies module which need to be installed first, these are available also in the forum with a link in the Emby post:
+Mono > 4.4.0.0
+Ffmpeg > 3.1.1.0
+If these are not installed, the installation of Emby will fail with a message that dependencies are not meat.
+After Emby is installed, need to be started and then can be accessed on the webpage</pre>
+                                            <img src="resources/thecuslegacy1.png" />
+                                            <img src="resources/thecuslegacy2.png" />
+                                            <img src="resources/thecuslegacy3.png" />
+                                            <img src="resources/thecuslegacy4.png" />
+                                            <img src="resources/thecus4.png" />
 
                                         </div>
                                     </div>
