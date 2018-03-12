@@ -633,13 +633,17 @@ input[type="tel"],
 input[type="number"],
 input[type="date"],
 input[type="search"],
-textarea,
-select {
+textarea {
 	border: none;
 	line-height: 1.5em;
 	width: 100%;
 	padding: 8px; /* temp */
 	}
+select {
+    line-height: 1.5em;
+    width: 100%;
+    padding: 8px; /* temp */
+}
 input[type="text"],
 input[type="password"],
 input[type="email"],
