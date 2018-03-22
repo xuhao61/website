@@ -4279,5 +4279,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for LG Smart TVs 1.06 Released</title>
+      <link>https://emby.media/emby-for-lg-smart-tvs-106-released.html</link>
+      <pubDate>Thu, 22 Mar 2018 20:34:00 +0000</pubDate>
+      <description><![CDATA[
+<p>A new release of Emby for LG is currently rolling out. Here are the highlights:<ul class='bbc'><li>Improved direct play of 4K, HDR and HEVC media</li><li>Improved subtitle support</li><li>Improved navigation performance</li><li>Sorting, filtering, and view settings added to list screens</li></ul></p><p>&nbsp;</p><p><span style='font-size: 24px'>Sorting, Filtering and View Settings</span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5ab414b4a28a1_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Improved Live TV & DVR Layouts</span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5ab41477e4d12_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5ab4148dc1e11_Untitled.png' alt='Posted Image' /></span></p>
+]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-lg-smart-tvs-106-released.html</guid>
+      <image>
+        <title>Emby for LG Smart TVs 1.06 Released</title>
+        <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
