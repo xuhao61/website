@@ -94,7 +94,7 @@ function fillPackageHrefs(releases) {
 
 function fillPackageInfo() {
 
-    return jQuery.getJSON('https://api.github.com/repos/MediaBrowser/Emby/releases').then(function (releases) {
+    return jQuery.getJSON('https://api.github.com/repos/MediaBrowser/Emby.Releases/releases').then(function (releases) {
 
         fillPackageHrefs(releases);
     });
