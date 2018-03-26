@@ -54,7 +54,8 @@ jQuery(document).ready(function ($) {
     //get current logged in user
     $.ajaxSetup({
         headers: {
-            'X-Connect-Token': 'CONNECT-GETUSER'
+            'X-Connect-Token': 'CONNECT-GETUSER',
+            'X-Application': 'EmbyWebSite/1'
         }
     });
 
