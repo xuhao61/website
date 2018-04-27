@@ -4307,5 +4307,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6064.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Introducing Emby for Google Home</title>
+      <link>https://emby.media/hey-google-whats-your-coolest-new-app.html</link>
+      <pubDate>Wed, 18 Apr 2018 11:20:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p><span style='font-size: 18px'><em class='bbc'>I'm so glad you asked. Why 'Emby' is the coolest personal media server on the planet and I can now control it for you. What would you like to do...?</em></span></p><p>&nbsp;</p><p>Your Emby system is now available to control with your Google Home device. Just <a href='https://github.com/MediaBrowser/Wiki/wiki/Google%20Home#get-started' class='bbc_url' title='External link' rel='nofollow external'>install</a> the Emby for Google Home app, <a href='https://github.com/MediaBrowser/Wiki/wiki/Google%20Home#google-home-account-linking' class='bbc_url' title='External link' rel='nofollow external'>link it to your Emby Connect account</a> and then here are just a few of the things you can do with your voice:</p><p>&nbsp;</p><p>Okay Google...Ask Emby Home to</p><p>&nbsp;</p><p><p class='bbc_indent' style='margin-left: 40px'>Play the next episode of The Walking Dead on Emby Theater</p></p><p>&nbsp;</p><p><p class='bbc_indent' style='margin-left: 40px'>Suggest something to watch</p></p><p>&nbsp;</p><p><p class='bbc_indent' style='margin-left: 40px'>Play a few episodes of The Big Bang Theory</p></p><p>&nbsp;</p><p><p class='bbc_indent' style='margin-left: 40px'>Play songs by Adele</p></p><p>&nbsp;</p><p><p class='bbc_indent' style='margin-left: 40px'>Bring up Deadpool</p></p><p>&nbsp;</p><p>And after something is playing, you can do things like:</p><p>&nbsp;</p><p><p class='bbc_indent' style='margin-left: 40px'>Change the audio to English</p></p><p>&nbsp;</p><p><p class='bbc_indent' style='margin-left: 40px'>What's playing?</p></p><p>&nbsp;</p><p>The invocation phrase for the app is "Emby Home" so be sure to use that key phrase when trying to talk to your Emby system. Try it out now on your Google Home device. It is available worldwide. Complete instructions are <a href='https://github.com/MediaBrowser/Wiki/wiki/Google%20Home' class='bbc_url' title='External link' rel='nofollow external'>here</a>.</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/hey-google-whats-your-coolest-new-app.html</guid>
+      <image>
+        <title>Introducing Emby for Google Home</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
