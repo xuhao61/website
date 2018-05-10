@@ -4337,5 +4337,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Apple TV Updated With New Features</title>
+      <link>https://emby.media/apple-tv-app-updated-with-more-improvements.html</link>
+      <pubDate>Thu, 10 May 2018 12:59:30 +0000</pubDate>
+      <description><![CDATA[
+<p>Another update to our Apple TV app is rolling out and should be on a device near you soon.<br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span style='font-size: 18px'><strong class='bbc'>New Features / Improvements</strong></span></span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br />The Favorites and Trailers tabs are now available in the Movies library:</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/59/5ab1cf19a5e69_movietrailerstab.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br />The Genres tab in the Movie library has been reworked to allow you to more easily navigate between genres with the Siri remote.</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/59/5adf324046692_moviegenres2.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br />The All, Trailers and Collections tabs have brand new sorting and filtering options.</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/59/5adf34e76d0ec_SortingMovies.gif' alt='Posted Image' /></span></span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/59/5adf347b4b7c4_FilteringMovies.gif' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br />You can now shuffle a movie collection and it has been updated to provide details about a movie in the collection without having to go into its detail view:</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/59/5ab064d2a9408_moviecollectionview.png' alt='Posted Image' /></span></span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/59/5ab064dde2d88_moviecollectionhover.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br />We have also made a few under the hood improvements that should make navigating between screens in the app a bit snappier.</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br />Enjoy!</span></span></p>
+]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/apple-tv-app-updated-with-more-improvements.html</guid>
+      <image>
+      <title>Emby for Apple TV Updated With New Features</title>
+        <url>https://emby.media/community/uploads/inline/3/57016ba800b2d_Home.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
