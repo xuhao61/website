@@ -4351,5 +4351,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/3/57016ba800b2d_Home.png</url>
       </image>
     </item>
+    <item>
+      <title>Introducing LDAP Support for Emby</title>
+      <link>https://emby.media/introducing-ldap-support-for-emby.html</link>
+      <pubDate>Wed, 16 May 2018 18:45:00 +0000</pubDate>
+      <description><![CDATA[
+<p>We're pleased to announce LDAP support for Emby Server, now supported by all Emby apps!</p><p>&nbsp;</p><p> <span style='font-size: 24px'>Installation</span></p><p>&nbsp;</p><p> To setup LDAP, simply install the LDAP plugin from the Emby plugin catalog. This feature requires an active <a href='https://emby.media/premiere.html' class='bbc_url' title=''>Emby Premiere subscription</a>.</p><p>&nbsp;</p><p> <span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5afc7cb090c99_Untitled1.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p> Then head over to your LDAP plugin configuration and setup the plugin to connect to your LDAP server:</p><p>&nbsp;</p><p> <span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5afc7d36523b8_Untitled1.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p> Users are imported from LDAP <strong class='bbc'>as they sign into Emby</strong>. You can even set the default permissions for imported users:</p><p>&nbsp;</p><p> <span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5afc7dc51d737_Untitled1.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p> <strong class='bbc'>Important</strong>: Users marked as administrators in Emby will always sign into Emby using Emby authentication, not LDAP. This policy is designed to avoid situations where you could potentially become locked out of your Emby Server due to an LDAP problem.</p><p>&nbsp;</p><p> Let us know what you think and what improvements you'd like to see !</p>
+]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/introducing-ldap-support-for-emby.html</guid>
+      <image>
+        <title>Introducing LDAP Support for Emby</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
