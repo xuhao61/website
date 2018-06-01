@@ -4365,5 +4365,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS Updated with New Video Player, Wake on LAN, and more</title>
+      <link>https://emby.media/emby-for-ios-updated-with-new-video-player-wake-on-lan-and-more.html</link>
+      <pubDate>Fri, 01 Jun 2018 21:25:00 +0000</pubDate>
+      <description><![CDATA[
+<p>Version 1.5.1 is currently rolling out. Here are the highlights:</p><p>&nbsp;</p><p><span style='font-size: 24px'>New Video Player</span></p><p>&nbsp;</p><p>The app can now direct play quite a few formats thanks to the new video player. This results in less transcoding on your Emby Server and a better playback experience.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Wake On Lan</span></p><p>&nbsp;</p><p>The app can now send wake on lan signals to your Emby Server. To send a wake on lan signal, select the "Wake Server" option on the app's server connection screen.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Improvements</span><ul class='bbc'><li>Add photo albums to search results</li><li>Add playlists to search results</li><li>Add aspect ratio control to video player</li></ul></p><p>&nbsp;</p><p><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Fix Chromecast disconnect not terminating Chromecast session</li><li>Fix intermittent video crashes</li><li>Fix iPhone X display issues</li></ul></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/59783ef523bdd_Untitled.png' alt='Posted Image' /></span></p>
+]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-updated-with-new-video-player-wake-on-lan-and-more.html</guid>
+      <image>
+        <title>Emby for iOS Updated with New Video Player, Wake on LAN, and more</title>
+        <url>https://emby.media/img/blog/6376.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
