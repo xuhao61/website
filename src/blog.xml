@@ -4379,5 +4379,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6376.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Apple Updated with Improved Layouts, Search and More</title>
+      <link>https://emby.media/another-update-for-emby-for-apple-tv.html</link>
+      <pubDate>Mon, 04 Jun 2018 13:09:59 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Version 1.2.09 of the Apple TV app is rolling out now with some more fixes and enhancements:<br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span style='font-size: 18px'><strong class='bbc'>Bug fixes:</strong></span></span></span><ul class='bbc'><li>Fixed remote play/pause</li><li>Fixed resuming a movie</li><li>Fixed delete button not working on detail views</li><li>Fixed collection view with items other than movies showing an error</li><li>Fixed item unwatched counts not displaying with some server platforms (an empty green circle was shown)</li><li>Removed budget from sorting in the movie library as it's no longer supported</li></ul><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span style='font-size: 18px'><strong class='bbc'>New Features / Updates:</strong></span></span></span><ul class='bbc'><li>Image quality has been increased across the app, particularly for Apple TV 4K users</li><li>Live TV Channels are now available in search</li><li>App will start up faster</li><li>Updated app icon</li><li>Added Dolby+ icon to items that have Dolby+ audio tracks</li><li>Replaced the default image used when a person image does not exist which matches the Apple theme</li><li>Changed the background color when Apple TV is set to dark appearance to align with Apple TV colors</li><li>Improved the user experience when sorting / filtering a large movie library. An activity icon will now display after 1 second if the sorting / filtering action is still in progress</li></ul></p><p>&nbsp;</p><p>Your app should prompt you to update automatically, or you can just force-restart it to get it right away.</p><p>&nbsp;</p><p>Enjoy!</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/another-update-for-emby-for-apple-tv.html</guid>
+      <image>
+        <title>Emby for Apple Updated with Improved Layouts, Search and More</title>
+        <url>https://emby.media/community/uploads/inline/3/57016ba800b2d_Home.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
