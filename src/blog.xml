@@ -4409,5 +4409,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6064.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server Now Available for Western Digital NAS</title>
+      <link>https://emby.media/emby-server-now-available-for-western-digital-nas.html</link>
+      <pubDate>Fri, 08 Jun 2018 21:15:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>We're pleased to announce availability of a new package for Emby Server for Western Digital NAS. To learn how to install it, head over to the <a href='https://emby.media/download.html' class='bbc_url' title=''>download page</a> of our website:</p><p>&nbsp;</p><p> <a href='https://emby.media/download' class='bbc_url' title=''>https://emby.media/download</a></p><p>&nbsp;</p><p> Enjoy !</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-now-available-for-western-digital-nas.html</guid>
+      <image>
+        <title>Emby Server Now Available for Western Digital NAS</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
