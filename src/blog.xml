@@ -4439,5 +4439,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS 1.5.3 Released</title>
+      <link>https://emby.media/emby-for-ios-153-released.html</link>
+      <pubDate>Thu, 12 Jul 2018 17:58:00 +0000</pubDate>
+      <description><![CDATA[
+<p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Version 1.5.3 is currently rolling out to address a few issues. Here are the highlights:</span></span><ul class='bbc'><li><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Improve audio track switching </span></span></li><li><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Fix crash when using sharing feature</span></span></li><li>Resolve intermittent video crashes</li></ul></p>
+]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-153-released.html</guid>
+      <image>
+        <title>Emby for iOS 1.5.3 Released</title>
+        <url>https://emby.media/img/blog/6376.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
