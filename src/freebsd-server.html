@@ -446,39 +446,14 @@
 
                                     <div style="margin:0 auto;max-width:450px;">
                                         <h2>Install</h2>
-                                        <p><code>pkg install emby-server</code></p>
-                                        <h2>Configure FFMpeg</h2>
-                                        <p>
-                                            <code>
-                                                # Update FreeBSD ports tree<br>
-                                                portsnap fetch update
-                                            </code>
-                                        </p><code>
-                                            <p>
-                                                # Remove default FFMpeg package<br>
-                                                pkg delete -f ffmpeg
-                                            </p>
-                                        </code><p>
-                                            <code>
-                                                # Reinstall FFMpeg from ports with lame option enabled<br>
-                                                cd /usr/ports/multimedia/ffmpeg<br>
-                                                # Install ffmpeg build dependencies<br>
-                                                pkg install `make build-depends-list | tr '\n' ' ' | sed 's/\/usr\/ports\///g' | sed 's/audio\/lame //g'`<br>
-                                                make config<br>
-                                                # enable the lame option<br>
-                                                # enable the SMB option<br>
-                                                # enable the ass subtitles option<br>
-                                                # enable the opus subtitles option<br>
-                                                # enable the x265 subtitles option<br>
-                                                make install clean
-                                            </code>
-                                        </p>
-                                        <h2>Run</h2>
-                                        <p><code>service emby-server start</code></p>
-                                        <p>
-                                            To enable Emby service (will automatically run at boot):<br>
-                                            <code>sysrc emby_server_enable="YES"</code>
-                                        </p>
+                                        <div><b>Install dependencies:</b></div>
+                                        <div><code>sudo pkg install mono libass fontconfig freetype2 fribidi gnutls iconv opus samba48 sqlite3 libtheora libva libvorbis webp libx264 libzvbi</code></div>
+                                        <br />
+                                        <div><b>Install Emby Server:</b></div>
+                                        <div><code>pkg add https://github.com/MediaBrowser/Emby.Releases/releases/download/3.5.2.0/emby-server-freebsd_3.5.2.0_amd64.txz </code></div>
+                                        <br />
+                                        <div><b>Run Emby Server:</b></div>
+                                        <div>Open your web browser and visit http://localhost:8096 to run the Emby Server startup wizard.</div>
 
                                     </div>
                                 </div>
@@ -494,41 +469,6 @@
                                         <span class="wpb_button align_left"><a href="https://github.com/MediaBrowser/Wiki/wiki" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-book"></i><span>Wiki</span><span class="ripple-container"></span></a></span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div style="white-space: pre-wrap;">
-                                <h1>Additional Notes</h1>
-                                Emby Server uses FFmpeg for transcoding and ImageMagick for
-                                generating thumbnails. The default ports/pkg builds of FFmpeg
-                                and ImageMagick on FreeBSD have a number of options which
-                                could be SET/UNSET to improve your Emby Server experience.
-
-                                It is recommended to recompile the multimedia/ffmpeg package
-                                from ports with the following options ENABLED (SET):
-                                - ASS (required for subtitle rendering)
-                                - LAME (required for mp3 audio transcoding, disabled by default due to mp3 licensing restrictions)
-                                - OPUS (required for opus audio codec support)
-                                - X265 (required for H.265 video codec support
-
-                                It is recommended to recompile the graphics/ImageMagick package
-                                from ports with the following options DISABLED (UNSET):
-                                - 16BIT_PIXEL (to increase thumbnail generation performance)
-
-                                If you had mediabrowser installed before the project was
-                                renamed to emby-server, you may want to rename the user and
-                                group (note that moving the database is not supported):
-                                # pw groupmod 989 -n mediabrowser -l emby
-                                # pw usermod 989 -n mediabrowser -l emby -g emby -c Emby\ Server
-
-                                To automatically start Emby Server at boot time:
-                                # echo 'emby_server_enable="YES"' >> /etc/rc.conf
-
-                                To then manually start Emby Server without rebooting:
-                                # service emby-server start
-
-                                Once started, visit the following webpage to configure:
-                                http://localhost:8096/
                             </div>
                         </div>
                     </div><!-- Row Backgrounds --><div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div>
