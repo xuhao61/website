@@ -4453,5 +4453,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6376.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 3.5.2 Released</title>
+      <link>https://emby.media/emby-server-352-released.html</link>
+      <pubDate>Fri, 03 Aug 2018 16:34:24 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Use DXVA2 decoding on Windows when AMF is selected<br />Add automatic fallback from gpu to cpu with sync transcoding<br />Add blue radiance theme option<br />Support media playback to Roku app without requiring the Roku app to be running (requires Roku app update)<br />Add Appears On section to artist detail screen<br />Incorporate original title into search<br />Improve library browsing performance<br />Improve performance of search requests</p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Improvements</span><ul class='bbc'><li>Update to .NET Core 2.1.2</li><li>Update to ffmpeg 4.0.1</li><li>Update to SkiaSharp 1.60</li><li>Update to sqlite 3.24.0</li><li>Support Emby Server for Western Digital NAS</li><li>Mono-based releases now require mono 5.4+ to run</li><li>Improve live tv recording process from m3u</li><li>Improve tvdb series queries</li><li>Improve musicbrainz artist queries</li><li>Add playlists to search results</li><li>Add convert option to replace original files</li><li>Rework devices display</li><li>Update albums per artist to be based on album artist only</li><li>Update more from albums to be based on album artist only</li><li>Add force_idr for NVENC</li><li>Improve M3U stream loop support</li><li>Rework hover menus</li><li>Virtualize persisted metadata paths</li><li>Update collection visibility per user</li><li>Update default audio track selection</li><li>Update date in recording file names</li><li>Restore features of Google Drive and Dropbox plugins</li><li>Improve support for resuming and seeking podcasts</li><li>Adjust keyframe interval for Roku transcoding</li><li>Improve audio and subtitle track switching support for live tv plugins</li><li>Linux & Mac: Ensure all folders beginning with a dot are ignored</li><li>Localize notification texts</li><li>Increase max time allowed for image extractions from video files</li><li>Restore swagger parameters</li><li>Restore swagger authentication</li><li>Update Denon dlna profile to transcode high res flac files</li><li>Disable older ssl protocols</li><li>Update naming for next up sync jobs</li></ul><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Fix season level shuffling support</li><li>Fix click destination on photo albums in search results</li><li>Fix sporadic issue of not being able to start live tv</li><li>Fix dlna server availability in mono releases</li><li>Fix xmltv support in mono releases</li><li>Fix Romanian text encoding</li><li>Fix Thai text encoding</li><li>Fix playlist queries</li><li>Fix issues parsing season folders with years, e.g. Season 2011</li><li>Fix issue when attempting to sign into local server using Emby Connect credentials</li><li>Fix m2ts files not showing up in DLNA</li><li>Fix subtitle resizing on window resize in firefox</li><li>Fix erroneous Emby Connect invitation error messages</li><li>Fix recognition of episode numbers greater than 365</li><li>Fix pagination when using library grouping features</li><li>Fix play all from here with large lists</li><li>Fix playback issues with .strm audio</li><li>Fix saving of image fetcher settings for new libraries</li><li>Fix theme songs not stopping</li><li>Fix convert feature re-converting when not necessary</li><li>Fix dlna photo support for Samsung smart TV's</li><li>Improve hauppauge error handling</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-352-released.html</guid>
+      <image>
+        <title>Emby Server 3.5.2 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
