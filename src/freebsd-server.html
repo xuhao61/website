@@ -440,35 +440,43 @@
             <div class="l-submain wpb_row">
                 <div class="l-submain-h g-html i-cf">
                     <div class="g-cols wpb_row offset_wide">
-                        <div class="two-thirds">
-                            <div class="wpb_text_column ">
-                                <div class="wpb_wrapper">
+                        <div class="wpb_text_column ">
+                            <div class="wpb_wrapper">
 
-                                    <div style="margin:0 auto;max-width:450px;">
-                                        <h2>Install</h2>
-                                        <div><b>Install dependencies:</b></div>
-                                        <div><code>sudo pkg install mono libass fontconfig freetype2 fribidi gnutls iconv opus samba48 sqlite3 libtheora libva libvorbis webp libx264 libzvbi</code></div>
-                                        <br />
-                                        <div><b>Install Emby Server:</b></div>
-                                        <div><code>pkg add https://github.com/MediaBrowser/Emby.Releases/releases/download/3.5.2.0/emby-server-freebsd_3.5.2.0_amd64.txz </code></div>
-                                        <br />
-                                        <div><b>Run Emby Server:</b></div>
-                                        <div>Open your web browser and visit http://localhost:8096 to run the Emby Server startup wizard.</div>
-
+                                <div style="display:flex;align-items:center;margin-bottom:2em;">
+                                    <h2 style="margin:0;">Installation</h2>
+                                    <div style="margin-left:2em;font-size:88%;">
+                                        <span class="wpb_button align_left"><a style="font-size:inherit;padding:.8em 1.25em;" href="https://emby.media/community/index.php?/forum/122-freebsd" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-users"></i><span>Community</span><span class="ripple-container"></span></a></span>
+                                        <span class="wpb_button align_left"><a style="font-size:inherit;padding:.8em 1.25em;" href="https://github.com/MediaBrowser/Wiki/wiki" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-book"></i><span>Wiki</span><span class="ripple-container"></span></a></span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="one-third">
-                            <div class="wpb_text_column ">
-                                <div class="wpb_wrapper">
 
-                                    <h4>Resources</h4>
-                                    <span class="wpb_button align_left"><a href="https://emby.media/community/index.php?/forum/122-freebsd" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-users"></i><span>Community</span><span class="ripple-container"></span></a></span>
-                                    <div>
-                                        <span class="wpb_button align_left"><a href="https://github.com/MediaBrowser/Wiki/wiki" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-book"></i><span>Wiki</span><span class="ripple-container"></span></a></span>
-                                    </div>
+                                <div><b>Install dependencies:</b></div>
+                                <div><code>sudo pkg install mono libass fontconfig freetype2 fribidi gnutls iconv opus samba48 sqlite3 libtheora libva libvorbis webp libx264 libzvbi</code></div>
+                                <br />
+                                <div><b>Install Emby Server:</b></div>
+                                <div><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-rpm_{version}_x86_64.rpm">pkg add {url}</code></div>
+
+                                <br />
+                                <div><b>Run Emby Server:</b></div>
+                                <div>Open your web browser and visit http://localhost:8096 to run the Emby Server startup wizard.</div>
+                                <br />
+                                <br />
+
+                                <div style="display:flex;align-items:center;margin-bottom:2em;">
+                                    <h2 style="margin:0;">Installation - BETA</h2>
                                 </div>
+
+                                <div><b>Install dependencies:</b></div>
+                                <div><code>sudo pkg install mono libass fontconfig freetype2 fribidi gnutls iconv opus samba48 sqlite3 libtheora libva libvorbis webp libx264 libzvbi</code></div>
+                                <br />
+                                <div><b>Install Emby Server:</b></div>
+                                <div><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-rpm_{version}_x86_64.rpm">pkg add {url}</code></div>
+
+                                <br />
+                                <div><b>Run Emby Server:</b></div>
+                                <div>Open your web browser and visit http://localhost:8096 to run the Emby Server startup wizard.</div>
+
                             </div>
                         </div>
                     </div><!-- Row Backgrounds --><div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div>
@@ -535,5 +543,6 @@
     <!-- Dynamic page generated in 0.110 seconds. -->
     <!-- Cached page generated by WP-Super-Cache on 2016-01-03 00:13:09 -->
     <!-- Compression = gzip -->
+    <script src="resources/githubapi_1.js"></script>
 </body>
 </html>
