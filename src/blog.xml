@@ -4485,5 +4485,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server for FreeBSD New and Improved</title>
+      <link>https://emby.media/emby-server-for-freebsd-new-and-improved.html</link>
+      <pubDate>Wed, 08 Aug 2018 21:12:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>We're pleased to announce a brand new FreeBSD package for Emby Server. Here are the highlights and advantages over the previous installation process:<ul class='bbc'><li>Fewer install steps required</li><li>New releases will be immediately available</li><li>Beta builds will now also be immediately available just like other platforms !</li><li>Currently based on mono, but we'll be switching to .NET Core as soon as it's available for FreeBSD. Keep an eye on: <a href='https://github.com/dotnet/corefx/issues/1626' class='bbc_url' title='External link' rel='nofollow external'>https://github.com/dotnet/corefx/issues/1626</a></li></ul><span style='font-size: 24px'>Installation</span></p><p>&nbsp;</p><p>See <a href='https://emby.media/download' class='bbc_url' title=''>https://emby.media/download</a></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-for-freebsd-new-and-improved.html</guid>
+      <image>
+        <title>Emby Server for FreeBSD New and Improved</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
