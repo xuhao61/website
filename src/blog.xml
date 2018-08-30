@@ -4501,5 +4501,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS 1.5.7 Released</title>
+      <link>https://emby.media/emby-for-ios-157-released.html</link>
+      <pubDate>Thu, 30 Aug 2018 22:17:00 +0000</pubDate>
+      <description><![CDATA[
+<p>Version 1.5.7 is currently rolling out to address a few issues. Here are the highlights:<ul class='bbc'><li>Resolve occasional black screen on app wake up</li><li>Improve error handling within the download feature</li><li>Make deletion of downloaded content easier</li></ul></p>
+]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-157-released.html</guid>
+      <image>
+        <title>Emby for iOS 1.5.7 Released</title>
+        <url>https://emby.media/img/blog/6376.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
