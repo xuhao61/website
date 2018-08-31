@@ -4515,5 +4515,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6376.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server Now Available for QNAP Arm Units</title>
+      <link>https://emby.media/emby-server-now-available-for-qnap-arm-units.html</link>
+      <pubDate>Fri, 31 Aug 2018 22:15:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>We're pleased to announce we now have QNAP Arm packages in beta testing. To download, please see the instructions on our website:</p><p>&nbsp;</p><p> <a href='https://emby.media/nas-server.html' class='bbc_url' title=''>https://emby.media/nas-server.html</a></p><p>&nbsp;</p><p> Then make sure to leave feedback in the QNAP section of our community: </p><p>&nbsp;</p><p> <a href='https://emby.media/community/index.php?/forum/154-qnap' class='bbc_url' title=''>https://emby.media/community/index.php?/forum/154-qnap</a></p><p>&nbsp;</p><p> Enjoy.</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-now-available-for-qnap-arm-units.html</guid>
+      <image>
+        <title>Emby Server Now Available for QNAP Arm Units</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
