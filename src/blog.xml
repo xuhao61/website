@@ -4531,5 +4531,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 3.5.3 Released</title>
+      <link>https://emby.media/emby-server-353-released.html</link>
+      <pubDate>Thu, 20 Sep 2018 13:44:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Emby Server 3.5.3 has been released to address two small issues. Here are the highlights.<ul class='bbc'><li>Resolve Chrome 69+ scroll problems</li><li>Resolve repeat install prompts for Visual Studio C++ libraries.</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-353-released.html</guid>
+      <image>
+        <title>Emby Server 3.5.3 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
