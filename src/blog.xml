@@ -4547,5 +4547,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS 1.6.4 Released</title>
+      <link>https://emby.media/emby-for-ios-164-released.html</link>
+      <pubDate>Sat, 20 Oct 2018 20:01:17 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Version 1.6.4 is currently rolling out to address a few issues. Here are the highlights:<ul class='bbc'><li>Resolve intermittent crashes during video playback</li><li>Improve Chromecast volume control</li><li>Restore multi-select feature</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-164-released.html</guid>
+      <image>
+        <title>Emby for iOS 1.6.4 Released</title>
+        <url>https://emby.media/img/blog/6376.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
