@@ -4577,5 +4577,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6064.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS 1.6.6 Released</title>
+      <link>https://emby.media/emby-for-ios-166-released.html</link>
+      <pubDate>Thu, 01 Nov 2018 17:46:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Version 1.6.6 is currently rolling out to address a few issues. Here are the highlights:<ul class='bbc'><li>Resolve blue flashes when playing HEVC videos</li><li>Resolve mpeg video sync problems</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-166-released.html</guid>
+      <image>
+        <title>Emby for iOS 1.6.6 Released</title>
+        <url>https://emby.media/img/blog/6376.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
