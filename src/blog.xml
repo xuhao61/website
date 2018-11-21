@@ -4593,5 +4593,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6376.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server Now Available for Arm64 (aarch64)</title>
+      <link>https://emby.media/emby-server-now-available-for-arm64-aarch64.html</link>
+      <pubDate>Wed, 21 Nov 2018 14:56:18 +0000</pubDate>
+      <description><![CDATA[
+<p>We're pleased to announce that Emby Server is now available for Arm64 (aarch64) CPU's. </p><p>&nbsp;</p><p><strong class='bbc'>Docker</strong><br /><a href='https://emby.media/docker-server.html' class='bbc_url' title=''>https://emby.media/docker-server.html</a></p><p>&nbsp;</p><p><strong class='bbc'>Linux (Ubuntu, Debian, Fedora)</strong><br /><a href='https://emby.media/linux-server.html' class='bbc_url' title=''>https://emby.media/linux-server.html</a></p><p>&nbsp;</p><p><strong class='bbc'>Asustor</strong><br /><a href='https://emby.media/nas-server.html' class='bbc_url' title=''>https://emby.media/nas-server.html</a></p>
+]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-now-available-for-arm64-aarch64.html</guid>
+      <image>
+        <title>Emby Server Now Available for Arm64 (aarch64)</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
