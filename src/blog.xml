@@ -4607,5 +4607,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Exciting Additions Coming Soon in Emby Server 3.6</title>
+      <link>https://emby.media/exciting-additions-coming-soon-in-emby-server-36.html</link>
+      <pubDate>Sun, 02 Dec 2018 22:02:02 +0000</pubDate>
+      <description><![CDATA[
+<p>Hi Team,</p><p>&nbsp;</p><p>As many of you know, we are currently working hard on getting Emby Server 3.6 released. We would like to take this opportunity to give you some advance information on some of the changes that are coming.</p><p>&nbsp;</p><p><span style='font-size: 24px'>New Levels of Performance</span><br />Emby Server, as well as all Emby apps will perform faster than ever. The server can now easily scale to massive libraries, and the faster speed and reduced loading times will probably be the first thing you'll notice after upgrading to 3.6.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Live TV Guide Data Now Included with Premiere</span><br />Emby will be gradually switching from Schedules Direct to Gracenote for Live TV guide data. What does this mean? This means if you're in the USA, Canada or UK, you'll no longer need to setup an account with another website nor pay someone else for this data. You'll simply enter your zip code into Emby, select your channel lineup, and we'll handle retrieving your guide data.</p><p>&nbsp;</p><p>We believe this will provide a better experience for Emby users with fewer setup steps. The data from Gracenote is also quite a bit richer, and we will be looking at how we can take advantage of that to bring new Live TV features to Emby. Going forward, Live TV will require Emby Premiere in the web app, where previously this was not the case.</p><p>&nbsp;</p><p><p class='bbc_indent' style='margin-left: 40px'><span style='font-size: 18px'>How to Migrate From Schedules Direct</span><br />If you are setting up the server fresh, then you should use our new Emby guide provider, which will be the default. If you are already using Schedules Direct, then you can continue to use it through the remainder of your Schedules Direct subscription. Schedules Direct has pledged to continue to honor your subscriptions, and we thank them for that.</p></p><p>&nbsp;</p><p><span style='font-size: 24px'>New and Improved Hardware Acceleration</span><br />We have revamped hardware acceleration on all supported platforms for Emby Server. This includes Windows, Linux, Android, NAS devices, and MacOS. We've added some sophisticated hardware detection that allows us to know exactly what your hardware supports, and with this information we can fine tune the transcoding processes to get the most out of your hardware.</p><p>&nbsp;</p><p>This has truly been a massive effort and will continue to be a massive effort going forward into the future. For this reason, hardware acceleration will now require Emby Premiere on most platforms. On some platforms such as Nvidia Shield and certain NAS devices, it will be included freely out of the box.</p><p>&nbsp;</p><p><span style='font-size: 24px'>A Long List of Improvements and Bug Fixes</span><br />Stay tuned for the announcement of Emby Server 3.6. It is packed with new features, bug fixes, improvements to existing features, and more.</p>
+]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/exciting-additions-coming-soon-in-emby-server-36.html</guid>
+      <image>
+        <title>Exciting Additions Coming Soon in Emby Server 3.6</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
