@@ -4621,5 +4621,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Roku Updated With New Improvements</title>
+      <link>https://emby.media/more-roku-improvements.html</link>
+      <pubDate>Fri, 14 Dec 2018 20:07:13 +0000</pubDate>
+      <description><![CDATA[
+<p>A new version of the Emby for Roku app has been released with a number of enhancements mostly around better playback and error recovery.</p><p>&nbsp;</p><p>Included in this release is:</p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* Video Playback Correction Option</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* Select Video Quality During Playback</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* Repeat All in Video Player</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* Crew added to Detail Display</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* Genre Aspect Ratio fixed</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* Refresh Metadata From Detail Screen</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* Exit Menu Enhancements</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* Fix Collection Display</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* General Video Playback Improvements (more direct play)</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* Ensure Transcodes are Stopped on Server when Exiting App via Home Button</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* Properly Display Album/Artist</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* Properly Display Additional Parts</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* Support Secondary Audio</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* Other various bug fixes</span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>The update is available on your Roku TV or device now. Enjoy!</span></span></p>
+]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/more-roku-improvements.html</guid>
+      <image>
+        <title>Emby for Roku Updated With New Improvements</title>
+        <url>https://emby.media/img/blog/roku.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
