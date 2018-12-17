@@ -4635,5 +4635,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/roku.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS 1.7 Released With Gapless Audio Playback</title>
+      <link>https://emby.media/emby-for-ios-17-released-with-gapless-audio-playback.html</link>
+      <pubDate>Mon, 17 Dec 2018 18:44:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Emby for iOS 1.7 is currently rolling out. Here are the highlights:<br /><ul class='bbc'><li>Gapless audio playback, perfect for your Pink Floyd albums !</li><li>Improve orientation restoration after video playback</li><li>Improved support for DVB subtitles</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-17-released-with-gapless-audio-playback.html</guid>
+      <image>
+        <title>Emby for iOS 1.7 Released With Gapless Audio Playback</title>
+        <url>https://emby.media/img/blog/6376.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
