@@ -4651,5 +4651,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6376.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server Now Available for QNAP Arm64 Models</title>
+      <link>https://emby.media/emby-server-now-available-for-qnap-arm64-models.html</link>
+      <pubDate>Fri, 21 Dec 2018 20:51:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>We're pleased to announce availability of Emby Server for QNAP Arm64 (aarch64) models. This includes the new TS-x28A series !</p><p>&nbsp;</p><p> This package is currently in beta testing. Installation instructions can be found on the Emby website:</p><p>&nbsp;</p><p> <a href='https://emby.media/download' class='bbc_url' title=''>https://emby.media/download</a></p><p>&nbsp;</p><p> Happy holidays !</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-now-available-for-qnap-arm64-models.html</guid>
+      <image>
+        <title>Emby Server Now Available for QNAP Arm64 Models</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
