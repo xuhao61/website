@@ -127,6 +127,24 @@ jQuery(document).ready(function ($) {
         return false;
     });
 
+    $('#selectServer').on('change', function (e) {
+
+        var serverId = this.value;
+
+        if (connectServers) {
+            var server = connectServers.filter(function (s) {
+                return s.SystemId === serverId;
+            })[0];
+
+            if (server && server.Url) {
+                $('.serverRemoteAddress').html('Remote address: ' + server.Url).removeClass('hide');
+                return;
+            }
+        }
+
+        $('.serverRemoteAddress').addClass('hide');
+    });
+
     $('#selectServerForm').on('submit', function (e) {
 
         var form = this;

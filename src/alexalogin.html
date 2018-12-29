@@ -264,6 +264,9 @@
             -moz-border-radius: 400px;
             border-radius: 400px;
         }
+        .hide{
+            display:none!important;
+        }
     </style>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" id="us-motioncss-css" href="resources/motioncss.css" type="text/css" media="all">
@@ -449,7 +452,10 @@
                                                     <select style="width: 100%;" id="selectServer" required></select>
 
                                                 </label>
-                                                <div style="color:#444;margin-top:.5em;margin-bottom:2em;">Server not listed? Set your server up with Emby Connect.</div>
+
+                                                <div class="serverRemoteAddress hide" style="color:#444;margin-top:.5em;margin-bottom:2em;"></div>
+
+                                                <div style="color:#444;margin-top:1.5em;margin-bottom:2em;">Server not listed? Set your server up with Emby Connect.</div>
 
                                                 <p>
                                                     <button class="g-btn color_primary type_raised size_big" type="submit" style="display: block; margin-top: 30px; width: 100%;">Link to Alexa<span class="ripple-container"></span></button><br>
