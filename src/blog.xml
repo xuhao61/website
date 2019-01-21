@@ -4681,5 +4681,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 4.0.1 Released</title>
+      <link>https://emby.media/emby-server-401-released.html</link>
+      <pubDate>Mon, 21 Jan 2019 21:27:14 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>4.0.1 has gone out to address a few issues we've uncovered with the new 4.0 release. Here are the highlights:<ul class='bbc'><li>Fix movie matching regression of failing to determine movie year from file name</li><li>Fix sporadic video crashes on Apple TV</li><li>Improve external subtitles with HLS</li><li>Various fixes for .ignore files</li><li>Fix movie sub-folder detection with mixed content libraries</li><li>Add EMC seasons workaround</li><li>Fix editing of user preference access option</li><li>Fix A-Z picker on folders tabs</li><li>Add music videos to search results</li><li>Ensure resume options are available for audio books content type</li><li>Add played filter to songs tab</li><li>Remove display of year on collections list</li><li>Remove erroneous Dlna setting</li><li>Add list view to music screens</li><li>Show year for collection items</li><li>Show artists in playlists</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-401-released.html</guid>
+      <image>
+        <title>Emby Server 4.0.1 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
