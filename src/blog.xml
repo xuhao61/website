@@ -4711,5 +4711,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6064.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Apple TV Updated With New Video Player and Less Transcoding</title>
+      <link>https://emby.media/apple-tv-now-with-less-transcoding.html</link>
+      <pubDate>Tue, 29 Jan 2019 16:11:43 +0000</pubDate>
+      <description><![CDATA[
+<p>A major update to the Apple TV app that includes a new custom player that can direct play more content is rolling out now.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/5c5077c71c433_ScreenShot20190129at105401AM.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p>You should get much more direct playback support as we are no longer completely dependent on the Apple player capabilities. We hope to continue to improve format support in the future as well.</p><p>&nbsp;</p><p>Also in this release:</p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* Fixed an issue where searching was not working on server versions 4 and above</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* Fixed an issue where you could not view latest photos from the home screen</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* Fixed an issue where the duration was not displayed on the movie detail screen</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* Fixed an issue where selecting subtitles, audio tracks or versions required you to select them twice</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>* Fixed an issue where the playlists collection was not selectable from the home screen</span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Update or install now on your supported Apple TV device.</span></span></p>
+]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/apple-tv-now-with-less-transcoding.html</guid>
+      <image>
+      <title>Emby for Apple TV Updated With New Video Player and Less Transcoding</title>
+        <url>https://emby.media/community/uploads/inline/3/57016ba800b2d_Home.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
