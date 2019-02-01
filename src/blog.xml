@@ -4725,5 +4725,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/3/57016ba800b2d_Home.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server Now Available for NVIDIA Shield</title>
+      <link>https://emby.media/emby-server-now-available-for-nvidia-shield.html</link>
+      <pubDate>Fri, 01 Feb 2019 17:32:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>We're pleased to announce Emby Server is now available for NVIDIA Shield.</p><p>&nbsp;</p><p> Please see the Emby website to learn how to download and install Emby Server onto your Shield:</p><p>&nbsp;</p><p> <a href='https://emby.media/server-android.html' class='bbc_url' title=''>https://emby.media/server-android.html</a></p><p>&nbsp;</p><p> Once installed, the on-screen interface will direct you to the Emby web app to run the server startup wizard. </p><p>&nbsp;</p><p> <span rel='lightbox'><img class='bbc_img' src='https://user-images.githubusercontent.com/4985349/50437354-ba72d200-08e9-11e9-9aeb-a0c914158f20.png' alt='Posted Image' /></span></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-now-available-for-nvidia-shield.html</guid>
+      <image>
+        <title>Emby Server Now Available for NVIDIA Shield</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
