@@ -4741,5 +4741,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 4.0.2 Released</title>
+      <link>https://emby.media/emby-server-402-released.html</link>
+      <pubDate>Tue, 12 Feb 2019 21:32:00 +0000</pubDate>
+      <description><![CDATA[
+<p>Emby Server 4.0.2 is currently rolling out to address a few issues we've uncovered with the new 4.0 release. Here are the highlights:<ul class='bbc'><li>Resolve slow scans for movie libraries</li><li>Various fixes for mixed content detection</li><li>Fix multi-version movie support for mixed content libraries</li><li>Fix season shuffle</li><li>Fix hevc main 10 stream copying not happening</li><li>Fix continue watching not respecting sub-folder access</li><li>Fix shared user data for duplicated movies</li><li>Improve image language prioritization</li><li>Fix live tv recordings tab pulling media from wrong folders</li><li>Fix playlists and collections being case sensitive</li><li>Fix next episode autoplay in Firefox</li><li>Update Omdb to ignore #DUPE# results.</li><li>Fix forgot pin redirect</li><li>Fix continue listening header text</li><li>Fix alpha picker overlapping now playing bar</li><li>Fix favorite movies getting collection setting</li><li>Remove unnecessary conversion of .smi subtitles causing failures</li><li>Improve support for OpenSubtitles VIP status</li><li>Add folder views to Dlna</li><li>Add type icons to metadata manager sidebar</li><li>Prevent movies from inheriting images from parent folders</li><li>Improve dynamic probing of media with multiple media sources</li><li>Add workaround for image related crashing</li></ul></p>
+]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-402-released.html</guid>
+      <image>
+        <title>Emby Server 4.0.2 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
