@@ -4755,5 +4755,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>ListenBrainz Plugin Now Available for Emby Server</title>
+      <link>https://emby.media/listenbrainz-plugin-now-available-for-emby-server.html</link>
+      <pubDate>Thu, 14 Mar 2019 18:37:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>There is a new ListenBrainz plugin available for Emby Server. Music fans will want to check this out in the Emby plugin catalog.</p><p>&nbsp;</p><p> The <a href='https://listenbrainz.org/' class='bbc_url' title='External link' rel='nofollow external'>ListenBrainz</a> project is similar to the original AudioScrobbler®. Unlike the original project, <a href='https://listenbrainz.org/' class='bbc_url' title='External link' rel='nofollow external'>ListenBrainz</a> is open source and will publish its data as open data.</p><p>&nbsp;</p><p> A team of former Last.fm and current MusicBrainz hackers created the first version of <a href='https://listenbrainz.org/' class='bbc_url' title='External link' rel='nofollow external'>ListenBrainz</a> in the space of a weekend. Since the original project was created, technology has advanced at an incredibly rapid pace, which made re-creating the original project fairly straightforward.</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/listenbrainz-plugin-now-available-for-emby-server.html</guid>
+      <image>
+        <title>ListenBrainz Plugin Now Available for Emby Server</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
