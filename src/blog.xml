@@ -4771,5 +4771,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS 1.7.6 Released</title>
+      <link>https://emby.media/emby-for-ios-176-released.html</link>
+      <pubDate>Fri, 29 Mar 2019 18:25:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Emby for iOS 1.7.6 is currently rolling out. Here are the highlights:</span></span><ul class='bbc'><li>Improve hevc playback</li><li>Support physical volume buttons for Chromecast</li><li>Improve Chromecast re-connection</li><li>Add support for external displays and airplay</li><li>Respect users WiFi only download setting</li><li>Update splash screen</li><li>Improve app navigation performance</li></ul></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/59783ef523bdd_Untitled.png' alt='Posted Image' /></span></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-176-released.html</guid>
+      <image>
+        <title>Emby for iOS 1.7.6 Released</title>
+        <url>https://emby.media/img/blog/6376.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
