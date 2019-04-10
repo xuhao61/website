@@ -4787,5 +4787,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6376.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Roku Updated With On Screen Live TV Guide</title>
+      <link>https://emby.media/more-roku-osg.html</link>
+      <pubDate>Wed, 10 Apr 2019 15:37:30 +0000</pubDate>
+      <description><![CDATA[
+<p>A new version of Emby for Roku has been rolling out this week and it provides some nice enhancements as well as minor bug fixes. The update should be coming to your Roku device soon!</p><p>&nbsp;</p><p><span style='font-size: 24px'>New on-screen mini-guide</span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/5ca4d13f17f7e_onscreenguide.jpg' alt='Posted Image' /></span></p><p>&nbsp;</p><p>During live TV playback, you can now bring up a small version of the guide and move around and find other programs to watch easily. You can set programs to record or cancel them, or switch to a new channel. Pressing the "play" button on your remote will tune directly to the selected channel just like in the full guide.</p><p>&nbsp;</p><p></p><p>&nbsp;</p><p><span style='font-size: 24px'>Pre-playback media selection</span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/5ca4d1ae1ad69_preplayselections.jpg' alt='Posted Image' /></span></p><p>&nbsp;</p><p>The detail screen now has convenient fields for you to select the version, audio and subtitle tracks before starting playback just like the other apps. So you won't have to start your item in order to turn on subtitles or select specific audio.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Improvements</span></p><p>&nbsp;</p><p>Additionally, we've made many improvements to playback and other general display and navigation as well as some minor bug fixes. We hope you enjoy this new update and we're already working on more improvements to come.</p>
+]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/more-roku-osg.html</guid>
+      <image>
+        <title>Emby for Roku Updated With On Screen Live TV Guide</title>
+        <url>https://emby.media/img/blog/roku.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
