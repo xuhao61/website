@@ -451,15 +451,8 @@
                                     </div>
                                 </div>
 
-                                <div><b>Install dependencies:</b></div>
-                                <div><code>sudo pkg install mono libass fontconfig freetype2 fribidi gnutls iconv opus samba48 sqlite3 libtheora libva libvorbis webp libx264 libzvbi libraw</code></div>
-                                <br />
-                                <div><b>Install Emby Server:</b></div>
-                                <div><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-filename="emby-server-freebsd_{version}_amd64.txz">pkg add -f {url}</code></div>
-                                <div style="margin:.5em 0;"><code style="white-space:nowrap;">sysrc emby_server_enable="YES"</code></div>
-                                <div style="margin:.5em 0;"><code style="white-space:nowrap;">service emby-server start</code></div>
+                                <p>Emby Server for FreeBSD can be installed using FreeBSD ports</p>
 
-                                <br />
                                 <div><b>Run Emby Server:</b></div>
                                 <div>Open your web browser and visit http://localhost:8096 to run the Emby Server startup wizard.</div>
                                 <br />
@@ -472,8 +465,14 @@
                                 <div><b>Install dependencies:</b></div>
                                 <div><code>sudo pkg install mono libass fontconfig freetype2 fribidi gnutls iconv opus samba48 sqlite3 libtheora libva libvorbis webp libx264 libzvbi libraw</code></div>
                                 <br />
-                                <div><b>Install Emby Server:</b></div>
-                                <div><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-freebsd_{version}_amd64.txz">pkg add -f {url}</code></div>
+                                <div><b>Install Emby Server on FreeBSD 11.2:</b></div>
+                                <div><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-freebsd11_{version}_amd64.txz">pkg add -f {url}</code></div>
+                                <div style="margin:.5em 0;"><code style="white-space:nowrap;">sysrc emby_server_enable="YES"</code></div>
+                                <div style="margin:.5em 0;"><code style="white-space:nowrap;">service emby-server start</code></div>
+
+                                <br />
+                                <div><b>Install Emby Server on FreeBSD 12:</b></div>
+                                <div><code style="white-space:nowrap;" class="lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-freebsd12_{version}_amd64.txz">pkg add -f {url}</code></div>
                                 <div style="margin:.5em 0;"><code style="white-space:nowrap;">sysrc emby_server_enable="YES"</code></div>
                                 <div style="margin:.5em 0;"><code style="white-space:nowrap;">service emby-server start</code></div>
 
