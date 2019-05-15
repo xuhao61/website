@@ -4817,5 +4817,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6376.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Android TV Updated with Visual Seeking and More</title>
+      <link>https://emby.media/visual-seeking-now-available-in-androidfire-tv.html</link>
+      <pubDate>Wed, 15 May 2019 14:28:01 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new version of our Fire TV and Android TV app will be rolling out soon and it now allows you to take advantage of the new thumbnail generation available in Emby Server 4.1+. If you enable this new feature in the server, you will then be able to visually seek your content with thumbnails in the Android/Fire TV app.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/5cd9e387ea267_visualseek.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><strong class='bbc'>Note: This feature requires that the new server thumbnail generation feature be enabled at an interval less than just chapter points and that it has completed successfully for the item being played. </strong>You can find this setting within the Advanced settings for each library.</p><p>&nbsp;</p><p>Once you have thumbs for an item, either navigating to the timeline with the main OSD showing or holding down the right or left directional keys during playback will engage this visual seek mode. Once in this mode, you can move along the timeline with the right/left arrows and select a specific spot to resume playback.</p><p>&nbsp;</p><p><span style='font-size: 18px'>Also in This Release</span><ul class='bbc'><li>Improve Wake On Lan</li><li>Ensure theme songs stop when playback starts</li><li>Repeat mode in video player</li><li>Simplify latest recordings view</li><li>Add ability to modify subtitle and audio defaults in the app settings</li><li>Add subtitle display (color/size) adjustments</li><li>Add option to transcode SSA/ASS subtitles (for format preservation)</li><li>Various other minor fixes and enhancements</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/visual-seeking-now-available-in-androidfire-tv.html</guid>
+      <image>
+        <title>Emby for Android TV Updated with Visual Seeking and More</title>
+        <url>https://emby.media/img/blog/6064.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
