@@ -4833,5 +4833,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6064.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Apple TV Updated for tvOS 12.3</title>
+      <link>https://emby-for-apple-tv-updated-tvos123.html</link>
+      <pubDate>Wed, 22 May 2019 21:22:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>We're currently rolling out a few TVOS 12.3 fixes to our Apple TV app. Here are the highlights:<ul class='bbc'><li>Resolve home screen refreshing content every 15 seconds</li><li>Resolve random stutters and skips during video playback</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby-for-apple-tv-updated-tvos123.html</guid>
+      <image>
+        <title>Emby for Apple TV Updated for tvOS 12.3</title>
+        <url>https://emby.media/img/blog/6064.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
