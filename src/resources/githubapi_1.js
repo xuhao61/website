@@ -40,7 +40,7 @@ function getLatestVersionInfo(releases, filename, level) {
     });
 
     if (!releases.length) {
-        return Promise.reject();
+        return null;
     }
 
     var release = releases[0];
@@ -63,13 +63,14 @@ function fillPackageHrefs(releases) {
 
     var elems = document.querySelectorAll('.lnkPackageDownload');
     var i, length;
-    var elem;
+    var elem, info;
 
     for (i = 0, length = elems.length; i < length; i++) {
 
         elem = elems[i];
 
-        var info = getLatestVersionInfo(releases, elem.getAttribute('data-filename'), elem.getAttribute('data-level'));
+        info = getLatestVersionInfo(releases, elem.getAttribute('data-filename'), elem.getAttribute('data-level')) ||
+            getLatestVersionInfo(releases, elem.getAttribute('data-filename'));
 
         if (info) {
 
@@ -84,7 +85,8 @@ function fillPackageHrefs(releases) {
 
         elem = elems[i];
 
-        var info = getLatestVersionInfo(releases, elem.getAttribute('data-filename'), elem.getAttribute('data-level'));
+        info = getLatestVersionInfo(releases, elem.getAttribute('data-filename'), elem.getAttribute('data-level')) ||
+            getLatestVersionInfo(releases, elem.getAttribute('data-filename'));
 
         if (info) {
             elem.innerHTML = elem.innerHTML.replace('{filename}', info.filename).replace('{url}', info.url);
