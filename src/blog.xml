@@ -4881,5 +4881,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Roku - Now with multi-language support</title>
+      <link>https://emby.media/emby-for-roku-now-with-multi-language-support.html</link>
+      <pubDate>Tue, 09 Jul 2019 12:52:22 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new version of our Roku app has been rolling out and, in addition to several other quality, consistency and performance improvements, the app now supports a full array of language translations - even more than the Roku devices themselves do!</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/5d23a654d39e6_languagesetting.jpg' alt='Posted Image' /></span></p><p>&nbsp;</p><p>The default setting will follow your Roku device setting but, if you'd like a different language that the Roku itself doesn't support, you can select it in the options. Our translations are an ongoing community project. If you'd like to help, just sign on to OneSky and look for the "Emby" project (thanks in advance!).</p><p>&nbsp;</p><p>In addition to language support, many behind the scenes and general functionality improvements have been made both enhancing the functionality in this app as well as bringing the presentation more in line with our other TV apps.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/3/5d23a6fab9f8c_home.jpg' alt='Posted Image' /></span></p><p>&nbsp;</p><p>Some of the improvements include:<ul class='bbc'><li>Better playback error handling</li><li>More consistent displays across the board</li><li>Improved image displays in folder views</li><li>Implement "Still Watching" for Live TV</li><li>Improved Genre views</li><li>Updates for upcoming server version</li><li>Various fixes for minor issues</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-roku-now-with-multi-language-support.html</guid>
+      <image>
+        <title>Emby for Roku - Now with multi-language support</title>
+        <url>https://emby.media/img/blog/roku.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
