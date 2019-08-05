@@ -469,14 +469,14 @@
                                         <div class="installPlatform hide asustor">
 
                                             <div style="margin:2em 0;">
-                                                <b>Important</b>: Emby Server can be installed from either <a target="_blank" href="https://www.asustor.com/en/app_central/app_detail?id=749&type=&model=">Asustor App Central</a>, or by manually installing the packages provided here. The version in Asustor App Central may sometimes be a little behind the latest due to the Asustor review process.
+                                                Emby Server can be installed from either <a target="_blank" href="https://www.asustor.com/en/app_central/app_detail?id=749&type=&model=">Asustor App Central</a>, or by manually installing the packages provided here. The version in Asustor App Central may sometimes be a little behind the latest due to the Asustor review process.
                                             </div>
 
                                             <div><b class="instructionListHeader">Asustor X64</b></div>
                                             <ol class="instructionList">
                                                 <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-asustor_{version}_x86-64.apk" href="emby-server-asustor_{version}_x86-64.apk">{filename}</a></li>
                                                 <li>To copy the file to your Asustor, Open App Central -> Go to Manual Install -> Click Browse -> Select the package -> Click Upload.</li>
-                                                <li>Start the server from the ASUSTOR web page</li>
+                                                <li>Start Emby server from the ASUSTOR web page</li>
                                                 <li>Open a web browser to http://localhost:8096</li>
                                             </ol>
 
@@ -484,7 +484,7 @@
                                             <ol class="instructionList">
                                                 <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-asustor_{version}_arm64.apk" href="emby-server-asustor_{version}_arm64.apk">{filename}</a></li>
                                                 <li>To copy the file to your Asustor, Open App Central -> Go to Manual Install -> Click Browse -> Select the package -> Click Upload.</li>
-                                                <li>Start the server from the ASUSTOR web page</li>
+                                                <li>Start Emby server from the ASUSTOR web page</li>
                                                 <li>Open a web browser to http://localhost:8096</li>
                                             </ol>
 
@@ -492,7 +492,7 @@
                                             <ol class="instructionList">
                                                 <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-asustor_{version}_x86-64.apk" href="emby-server-asustor_{version}_x86-64.apk">{filename}</a></li>
                                                 <li>To copy the file to your Asustor, Open App Central -> Go to Manual Install -> Click Browse -> Select the package -> Click Upload.</li>
-                                                <li>Start the server from the ASUSTOR web page</li>
+                                                <li>Start Emby server from the ASUSTOR web page</li>
                                                 <li>Open a web browser to http://localhost:8096</li>
                                             </ol>
 
@@ -500,7 +500,7 @@
                                             <ol class="instructionList">
                                                 <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-asustor_{version}_arm64.apk" href="emby-server-asustor_{version}_arm64.apk">{filename}</a></li>
                                                 <li>To copy the file to your Asustor, Open App Central -> Go to Manual Install -> Click Browse -> Select the package -> Click Upload.</li>
-                                                <li>Start the server from the ASUSTOR web page</li>
+                                                <li>Start Emby server from the ASUSTOR web page</li>
                                                 <li>Open a web browser to http://localhost:8096</li>
                                             </ol>
                                         </div>
@@ -508,7 +508,7 @@
                                         <div class="installPlatform hide readynas">
 
                                             <div style="margin:2em 0;">
-                                                <b>Important</b>: Emby Server can be installed from either the NetGear ReadyNAS app store, or by manually installing the packages provided here. The version in the ReadyNAS app store may sometimes be a little behind the latest due to the NetGear review process.
+                                                Emby Server can be installed from either the NetGear ReadyNAS app store, or by manually installing the packages provided here. The version in the ReadyNAS app store may sometimes be a little behind the latest due to the NetGear review process.
                                             </div>
 
                                             <div><b class="instructionListHeader">ReadyNAS X64</b></div>
@@ -533,7 +533,7 @@
                                             <div><b class="instructionListHeader">FreeNAS</b></div>
                                             <ol class="instructionList">
                                                 <li>Install the Emby plugin using the FreeNAS web interface</li>
-                                                <li>Start the server using the FreeNAS web interface</li>
+                                                <li>Start Emby server using the FreeNAS web interface</li>
                                                 <li>You may need to configure storage within your FreeNAS Jail in order to allow Emby to access it. See <a target="_blank" href="https://www.ixsystems.com/documentation/freenas/11/jails.html#add-storage">Adding storage to FreeNAS.</a></li>
                                                 <li>Open a web browser to http://localhost:8096</li>
                                             </ol>
@@ -715,27 +715,60 @@
 
                                         <div class="installPlatform hide terramaster">
 
-                                            <div><b class="instructionListHeader">TerraMaster</b></div>
-                                            <div>Emby for TerraMaster NAS is available using the TerraMaster app store.</div>
+                                            <div style="margin:1em 0;">
+                                                Emby Server can be installed from either the TerraMaster app store, or by manually installing the packages provided here. The version in the TerraMaster app store may sometimes be a little behind the latest due to the TerraMaster review process.
+                                            </div>
+
+                                            <div><b class="instructionListHeader">TerraMaster X64</b></div>
+                                            <ol class="instructionList">
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-terramaster_{version}_x86_64.tar.xz" href="emby-server-terramaster_{version}_x86_64.tar.xz">{filename}</a></li>
+                                                <li>From the TerraMaster web interface, go to Applications -> Settings. From here you can manually upload the Emby Server package for installation.</li>
+                                                <li>Start Emby server from the TerraMaster web interface</li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
+
+                                            <div><b class="instructionListHeader">TerraMaster Arm64 (aarch64)</b></div>
+                                            <ol class="instructionList">
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-terramaster_{version}_aarch64.tar.xz" href="emby-server-terramaster_{version}_aarch64.tar.xz">{filename}</a></li>
+                                                <li>From the TerraMaster web interface, go to Applications -> Settings. From here you can manually upload the Emby Server package for installation.</li>
+                                                <li>Start Emby server from the TerraMaster web interface</li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
+
+                                            <div><b class="instructionListHeader">TerraMaster X64 - BETA</b></div>
+                                            <ol class="instructionList">
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-terramaster_{version}_x86_64.tar.xz" href="emby-server-terramaster_{version}_x86_64.tar.xz">{filename}</a></li>
+                                                <li>From the TerraMaster web interface, go to Applications -> Settings. From here you can manually upload the Emby Server package for installation.</li>
+                                                <li>Start Emby server from the TerraMaster web interface</li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
+
+                                            <div><b class="instructionListHeader">TerraMaster Arm64 (aarch64) - BETA</b></div>
+                                            <ol class="instructionList">
+                                                <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-terramaster_{version}_aarch64.tar.xz" href="emby-server-terramaster_{version}_aarch64.tar.xz">{filename}</a></li>
+                                                <li>From the TerraMaster web interface, go to Applications -> Settings. From here you can manually upload the Emby Server package for installation.</li>
+                                                <li>Start Emby server from the TerraMaster web interface</li>
+                                                <li>Open a web browser to http://localhost:8096</li>
+                                            </ol>
                                         </div>
 
                                         <div class="installPlatform hide thecus">
 
                                             <div style="margin:2em 0;">
-                                                <b>Important</b>: Emby Server can be installed from either the Thecus app store, or by manually installing the packages provided here. The version in the Thecus app store may sometimes be a little behind the latest due to the Thecus review process.
+                                                Emby Server can be installed from either the Thecus app store, or by manually installing the packages provided here. The version in the Thecus app store may sometimes be a little behind the latest due to the Thecus review process.
                                             </div>
 
                                             <div><b class="instructionListHeader">Thecus X64</b></div>
                                             <ol class="instructionList">
                                                 <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-thecus_{version}_x86_64.mod" href="emby-server-thecus_{version}_x86_64.mod">{filename}</a></li>
-                                                <li>Start the server</li>
+                                                <li>Start Emby server</li>
                                                 <li>Open a web browser to http://localhost:8096</li>
                                             </ol>
 
                                             <div><b class="instructionListHeader">Thecus X64 - BETA</b></div>
                                             <ol class="instructionList">
                                                 <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-thecus_{version}_x86_64.mod" href="emby-server-thecus_{version}_x86_64.mod">{filename}</a></li>
-                                                <li>Start the server</li>
+                                                <li>Start Emby server</li>
                                                 <li>Open a web browser to http://localhost:8096</li>
                                             </ol>
 
