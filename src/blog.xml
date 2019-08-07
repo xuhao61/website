@@ -4929,5 +4929,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS Updated with Home Screen Shortcuts</title>
+      <link>https://emby.media/emby-for-ios-updated-with-home-screen-shortcuts.html</link>
+      <pubDate>Wed, 07 Aug 2019 18:08:00 +0000</pubDate>
+      <description><![CDATA[
+<p>Emby for iOS 1.8.0 has been released and now supports iOS home screen shortcuts.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5d4b13ba8b02a_5d45e77178424_Shortcuts_iOS.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p>On supported devices you can now tap the icon and apply a little touch pressure, and you'll see a menu allowing you to jump straight into various sections of the app.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Improvements</span><ul class='bbc'><li>Improve shuffling from list screens</li></ul></p>
+]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-updated-with-home-screen-shortcuts.html</guid>
+      <image>
+        <title>Emby for iOS Updated with Home Screen Shortcuts</title>
+        <url>https://emby.media/community/uploads/inline/2/5d4b13ba8b02a_5d45e77178424_Shortcuts_iOS.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
