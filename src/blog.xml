@@ -4943,5 +4943,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/5d4b13ba8b02a_5d45e77178424_Shortcuts_iOS.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 4.2.1 Released</title>
+      <link>https://emby.media/emby-server-421-released.html</link>
+      <pubDate>Fri, 09 Aug 2019 18:12:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Emby Server 4.2.1 is currently rolling out to address a few small issues with our 4.2 release. Here are the highlights:<ul class='bbc'><li>Fix guide tab button colors on light themes</li><li>Fix refresh progress display of individual libraries</li><li>Fix collections not getting an image when locked</li><li>Fix sync using path substitution when it should not be</li><li>Fix crashes on Linux due to network event binding</li><li>Fix more button on live tv setup page</li><li>Fix erroneous constraint on sync table for new installations</li><li>Fix ffprobe crashes on Android</li><li>Various Firefox scrolling fixes</li><li>CinemaMode 1.0.22</li><li>Dlna 1.0.23</li><li>MovieDb 1.1.9</li><li>NfoMetadata 1.0.18</li><li>Tvdb 1.0.17</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-421-released.html</guid>
+      <image>
+        <title>Emby Server 4.2.1 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
