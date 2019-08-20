@@ -4959,5 +4959,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for LG Smart TVs 1.0.18 Released</title>
+      <link>https://emby.media/emby-for-lg-smart-tvs-1018-released.html</link>
+      <pubDate>Tue, 20 Aug 2019 19:34:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release of Emby for LG is currently rolling out. Here are the highlights:</p><p>&nbsp;</p><p><span style='font-size: 24px'>New Detail Screen Button Design</span></p><p>&nbsp;</p><p>A new and improved detail screen design matches our layout in other Emby apps and makes the most important features easier to find.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5d5c4bcda3582_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Highlights</span><ul class='bbc'><li>Improved subtitle playback</li><li>Improve sorting and filtering to match capabilities of other Emby apps</li><li>Improve navigation performance</li><li>Tags now displayed on detail screens</li></ul></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5ab414b4a28a1_Untitled.png' alt='Posted Image' /></span></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-lg-smart-tvs-1018-released.html</guid>
+      <image>
+        <title>Emby for LG Smart TVs 1.0.18 Released</title>
+        <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
