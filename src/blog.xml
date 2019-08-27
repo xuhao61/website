@@ -4975,5 +4975,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Android Mobile Updated with Improved Downloading</title>
+      <link>https://emby.media/emby-for-android-mobile-updated-with-improved-downloading.html</link>
+      <pubDate>Tue, 27 Aug 2019 18:34:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Emby for Android 3.0.73 is rolling out and contains a number of important fixes and improvements. Here are the highlights:<ul class='bbc'><li>Fixed downloading to external SD cards</li><li>Improved download reliability</li><li>Improved reliability of camera upload feature</li><li>Fixed audio/video sync for certain videos</li></ul><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5d657cb22ef33_Screenshot_20190827145354.png' alt='Posted Image' /></span></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-android-mobile-updated-with-improved-downloading.html</guid>
+      <image>
+        <title>Emby for Android Mobile Updated with Improved Downloading</title>
+        <url>https://emby.media/community/uploads/inline/2/5d657cb22ef33_Screenshot_20190827145354.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
