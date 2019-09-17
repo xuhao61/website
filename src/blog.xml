@@ -4991,5 +4991,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/5d657cb22ef33_Screenshot_20190827145354.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS Updated for iOS 13 and New Video OSD</title>
+      <link>https://emby.media/emby-for-ios-updated-for-ios-13-and-new-video-osd.html</link>
+      <pubDate>Tue, 17 Sep 2019 19:33:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Emby for iOS 1.8.3 has been released and includes compatibility updates for iOS 13. Here are some other highlights:<br /><ul class='bbc'><li>Collections now shown in search results</li></ul><span style='font-size: 24px'>New Video OSD</span></p><p>&nbsp;</p><p>You asked for bigger buttons that are easier to tap, and now you have them. Additionally the entire presentation has been cleaned up in order to make it as easy and intuitive as possible.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5d8135784cedb_Screenshot_20190917151120.png' alt='Posted Image' /></span></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-updated-for-ios-13-and-new-video-osd.html</guid>
+      <image>
+        <title>Emby for iOS Updated for iOS 13 and New Video OSD</title>
+        <url>https://emby.media/community/uploads/inline/2/5d8135784cedb_Screenshot_20190917151120.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
