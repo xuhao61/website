@@ -5023,5 +5023,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/5d8135784cedb_Screenshot_20190917151120.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby for LG Smart TVs 1.0.19 Released</title>
+      <link>https://emby.media/emby-for-lg-smart-tvs-1019-released.html</link>
+      <pubDate>Fri, 25 Oct 2019 18:34:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release of Emby for LG is currently rolling out. Here are the highlights:</p><p>&nbsp;</p><p><span style='font-size: 24px'>New Video OSD</span></p><p>&nbsp;</p><p>The new on-screen display provides a cleaner design while still giving you access to the most important information and controls.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5db34169e11ba_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Improvements</span><ul class='bbc'><li>Various subtitle fixes for WebOS 1 & WebOS 2 devices</li><li>Add "Are you still watching?" feature</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-lg-smart-tvs-1019-released.html</guid>
+      <image>
+        <title>Emby for LG Smart TVs 1.0.19 Released</title>
+        <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
