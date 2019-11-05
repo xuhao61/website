@@ -2,55 +2,28 @@ var ipsmbUser;
 
 jQuery(document).ready(function ($) {
 
-    //get current logged in user
-    $.ajaxSetup({
-        headers: {
-            'X-Connect-Token': 'CONNECT-GETUSER'
-        }
-    });
-
-    $.getJSON("https://emby.media/service/getsignedinuser.php").done(function (user) {
-        ipsmbUser = user;
-
-        if (user && user.Id > 0) {
-            $('#loggedinuser').html(user.DisplayName);
-            if (user.ImageUrl) $('#userimage').attr('src', user.ImageUrl);
-            $('.loggedin').show();
-        } else {
-
-            $('.notloggedin').show();
-        }
-    }).fail(function () {
-        $('.notloggedin').show();
-    });
-
     $('#confirmForm').on('submit', function () {
         var pin = $('#pin').val();
-        if (ipsmbUser && ipsmbUser.Id > 0) {
-            // we have user - confirm the pin
-            confirm(ipsmbUser.Id, pin, $);
-        } else {
-            var username = $('#username').val();
+        var username = $('#username').val();
 
-            $.ajax({
-                type: "POST",
-                url: "https://connect.emby.media/service/user/authenticate",
-                data: {
-                    nameOrEmail: username,
-                    rawpw: $('#pw').val()
-                },
-                headers: {
-                    'X-Application': 'EmbyWebSite/1'
-                }
-            }).done(function (json) {
-                var result = $.parseJSON(json);
-                console.log(result);
-                var user = result.User;
-                if (user && user.Id > 0) {
-                    confirm(user.Id, pin, $);
-                } else { $('#msg').html("Invalid User Name or Password.  Do you need to register?"); }
-            }).fail(function (result) { $('#msg').html("Invalid User Name or Password.  Do you need to register?"); });
-        }
+        $.ajax({
+            type: "POST",
+            url: "https://connect.emby.media/service/user/authenticate",
+            data: {
+                nameOrEmail: username,
+                rawpw: $('#pw').val()
+            },
+            headers: {
+                'X-Application': 'EmbyWebSite/1'
+            }
+        }).done(function (json) {
+            var result = $.parseJSON(json);
+            console.log(result);
+            var user = result.User;
+            if (user && user.Id > 0) {
+                confirm(user.Id, pin, $);
+            } else { $('#msg').html("Invalid User Name or Password.  Do you need to register?"); }
+        }).fail(function (result) { $('#msg').html("Invalid User Name or Password.  Do you need to register?"); });
 
         return false;
     });
