@@ -5055,5 +5055,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS Updated with Camera Upload Feature</title>
+      <link>https://emby.media/emby-for-ios-updated-with-camera-upload-feature.html</link>
+      <pubDate>Wed, 20 Nov 2019 17:49:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Emby for iOS 1.8.7 has been released. Here are the highlights:</p><p>&nbsp;</p><p> <span style='font-size: 24px'>Upload Photos and Videos To Your Emby Server</span></p><p>&nbsp;</p><p> With Camera Upload and <a href='https://emby.media/premiere' class='bbc_url' title=''>Emby Premiere</a>, you can automatically upload photos and videos to your Emby Server, just by enabling it in the iOS app settings.</p><p>&nbsp;</p><p> <span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5dd581fd3ea6c_Screenshot_20191120130953.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p> If you'd like to configure where the photos and videos get uploaded to on your server, you can do this in the Camera Upload section of the Emby Server dashboard:</p><p>&nbsp;</p><p> <span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5dd5823fcc0e4_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p> Enjoy uploading your photos and videos !</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-updated-with-camera-upload-feature.html</guid>
+      <image>
+        <title>Emby for iOS Updated with Camera Upload Feature</title>
+        <url>https://emby.media/community/uploads/inline/2/5d8135784cedb_Screenshot_20190917151120.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
