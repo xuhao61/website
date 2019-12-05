@@ -5087,5 +5087,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Apple TV 1.4.3 Released</title>
+      <link>https://emby.media/version-143-of-apple-tv-app-released.html</link>
+      <pubDate>Thu, 05 Dec 2019 12:50:22 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new version of our Apple TV app is rolling out now. Your device should upgrade automatically. This version cleans up a few things and lays the groundwork for the next release which should have some long-awaited improvements. In this release:</p><p>&nbsp;</p><p><span style='font-size: 18px'><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><strong class='bbc'>New Features / Improvements:</strong></span></span></span><ul class='bbc'><li>Rebuilt the startup / login flow to better align with the other Emby applications. This should significantly improve the reliability of the startup / sign in process.</li><li>Apple TV Top Shelf Improvements:</li><li>Top Shelf is now updated when the app enters the foreground or when playback stops.</li><li>Top Shelf sections have been updated to align with the other Emby applications (Continue Watching, Next Up, Latest Movies)</li><li>Top Shelf images now match that of other Emby applications</li></ul></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/59/5de85321a9c6a_SimulatorScreenShotAppleTV4Kat1080p20191204at194319.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/59/5de8532f8d447_SimulatorScreenShotAppleTV4Kat1080p20191204at194326.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><ul class='bbc'><li>Home screen now dynamically adds the Continue Watching section when appropriate</li><li>Movie Suggestions screen now dynamically adds the Continue Watching section when appropriate</li><li>Shows Suggestions screen now dynamically adds the Continue Watching section when appropriate</li></ul></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/59/5de85456b47b7_SimulatorScreenShotAppleTV4Kat1080p20191204at194611.png' alt='Posted Image' /></span></span></span><br /><ul class='bbc'><li>Improved internationalization support on most screens. This includes significantly more languages as well as improving consistency in naming where possible.</li></ul></p><p>&nbsp;</p><p><span style='font-size: 18px'><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><strong class='bbc'>Bug Fixes:</strong></span></span></span><ul class='bbc'><li>Fixed an issue where backdrop images weren't included in the Continue Watching section of the home screen of the app</li><li>The app will no longer make requests for images that don't exist. This would cause server logs to be polluted with errors</li><li>Movie images for the Continue Watching section on the home screen have been corrected</li><li>Fixed an issue where a loader would display when backing out of music playback</li><li>Fixed a bug that prevented the Person Detail from displaying in newer server versions</li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/version-143-of-apple-tv-app-released.html</guid>
+      <image>
+        <title>Emby for Apple TV 1.4.3 Released</title>
+        <url>https://emby.media/img/blog/6064.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
