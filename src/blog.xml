@@ -5103,5 +5103,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6064.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 4.3.1 Released</title>
+      <link>https://emby.media/emby-server-431-released.html</link>
+      <pubDate>Wed, 18 Dec 2019 18:04:00 +0000</pubDate>
+      <description><![CDATA[
+<p>Emby Server 4.3.1 is currently rolling out to address a few small issues with our 4.3 release. Here are the highlights:<ul class='bbc'><li>Fix arm64 transcoding crashes</li><li>Fix stopping live streams killing recordings</li><li>Fix m3u tuners with m3u8 sources</li><li>Fix photo downloads</li><li>Fix missing PlaybackPositionTicks in PlaybackStart event (for Trakt plugin)</li><li>Fix server uninstaller</li><li>Fix changing audio tracks when remote controlling another app</li><li>Add black theme option</li><li>Improve light theme</li></ul></p>
+]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-431-released.html</guid>
+      <image>
+        <title>Emby Server 4.3.1 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
