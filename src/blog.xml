@@ -5149,5 +5149,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS Updated with Improved Performance, New Themes and More</title>
+      <link>https://emby.media/emby-for-ios-updated-with-improved-performance-new-themes-and-more.html</link>
+      <pubDate>Thu, 13 Feb 2020 19:06:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Emby for iOS 1.9.2 has been released. Here are the highlights:</span></span></p><p>&nbsp;</p><p><span style='font-size: 24px'><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Improved Performance</span></span></span></p><p>&nbsp;</p><p>Scrolling performance in the app has improved considerably. The paging buttons are gone and you can now easily flick your way through large lists. The A-Z pickers have also been improved and will help you scroll through large libraries more easily.</p><p>&nbsp;</p><p><span style='font-size: 24px'><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Other Improvements</span></span></span><ul class='bbc'><li><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>New Black theme option</span></span></li><li><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Redesigned menu for add to Playlist and add to Collection</span></span></li><li><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Various fixes and improvements for Camera Upload</span></span></li></ul></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-updated-with-improved-performance-new-themes-and-more.html</guid>
+      <image>
+        <title>Emby for iOS Updated with Improved Performance, New Themes and More</title>
+        <url>https://emby.media/community/uploads/inline/2/5d8135784cedb_Screenshot_20190917151120.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
