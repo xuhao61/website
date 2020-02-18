@@ -5165,5 +5165,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/5d8135784cedb_Screenshot_20190917151120.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby now available on Soundiiz</title>
+      <link>https://emby.media/emby-now-available-on-soundiiz.html</link>
+      <pubDate>Tue, 18 Feb 2020 19:38:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>We're pleased to announce integration with <a href='https://soundiiz.com/' class='bbc_url' title='External link' rel='nofollow external'>Soundiiz</a> !</p><p>&nbsp;</p><p><span style='font-size: 24px'>How it Works</span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br />Once you have connected your Emby server to <a href='https://soundiiz.com/' class='bbc_url' title='External link' rel='nofollow external'>Soundiiz</a> (be sure to have enabled external connection), it will be able to retrieve your audio playlists and also search in your library.</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br />So that means you will be able to export your playlists from Emby to match them with Spotify, Apple Music (and many more, Soundiiz supports almost 40 music services) catalogs, having your playlists everywhere. <a href='https://soundiiz.com/' class='bbc_url' title='External link' rel='nofollow external'>Soundiiz</a> also allows you to import playlists into Emby. We will match as much as possible your source data with tracks you have in your Emby audio library.</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><a href='https://soundiiz.com/' class='bbc_url' title='External link' rel='nofollow external'>Soundiiz</a> also supports favorite Artists, Tracks and Albums ! </span></span></p><p>&nbsp;</p><p>Head on over to <a href='https://soundiiz.com' class='bbc_url' title='External link' rel='nofollow external'>Soundiiz</a> at <a href='https://soundiiz.com' class='bbc_url' title='External link' rel='nofollow external'>https://soundiiz.com</a> to try it out, and as always, please make sure to leave your feedback so that we can continue to improve your experience.</p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-now-available-on-soundiiz.html</guid>
+      <image>
+        <title>Emby now available on Soundiiz</title>
+        <url>https://emby.media/community/uploads/inline/2/5e4c3e828c26c_5e4a52f79bf19_emby_on_soundiiz.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
