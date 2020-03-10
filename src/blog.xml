@@ -5181,5 +5181,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/5e4c3e828c26c_5e4a52f79bf19_emby_on_soundiiz.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby for LG Smart TVs 1.0.24 Released</title>
+      <link>https://emby.media/emby-for-lg-smart-tvs-1024-released.html</link>
+      <pubDate>Tue, 10 Mar 2020 19:44:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A new release of Emby for LG is currently rolling out. Here are the highlights:</p><p>&nbsp;</p><p><span style='font-size: 24px'>Included In</span></p><p>&nbsp;</p><p>Now you can see what Playlists or Collections a Movie has been added to right from the Movie detail screen.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5d8e394126546_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Are You Still Watching?</span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Now in the LG app, and configurable at the bottom of the playback settings screen.</span></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5d850b6403fe8_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Improvements</span><ul class='bbc'><li>Resolve ass/ssa subtitle crash on WebOS 4.0 +</li></ul></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/5db34169e11ba_Untitled.png' alt='Posted Image' /></span></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-lg-smart-tvs-1024-released.html</guid>
+      <image>
+        <title>Emby for LG Smart TVs 1.0.24 Released</title>
+        <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
