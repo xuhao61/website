@@ -5197,5 +5197,21 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby Theater for Windows Updated With Improved Performance, Better HDR, and More</title>
+      <link>https://emby.media/emby-theater-for-windows-updated-with-improved-performance-better-hdr-and-more.html</link>
+      <pubDate>Thu, 12 Mar 2020 17:45:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Emby Theater 3.0.11 is currently rolling out. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Improved Performance</span></p><p>&nbsp;</p><p>Scrolling performance in the app has improved considerably. The paging buttons are gone and you can now easily flick your way through large lists. The A-Z pickers have also been improved and will help you scroll through large libraries more easily.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Better HDR</span></p><p>&nbsp;</p><p>Backed by mpv 0.32, HDR playback has improved considerably in this new release.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Improvements</span><ul class='bbc'><li>New Black theme option</li><li>Redesigned menu for add to Playlist and add to Collection</li></ul></p><p>&nbsp;</p><p><span style='font-size: 24px'>Installation</span><br />Windows Desktop: <a href='https://emby.media/emby-theater.html' class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='https://emby.media/community/uploads/inline/2/561bc276520b9_1.png' alt='Posted Image' /></span></p>
+]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-theater-for-windows-updated-with-improved-performance-better-hdr-and-more.html</guid>
+      <image>
+        <title>Emby Theater for Windows Updated With Improved Performance, Better HDR, and More</title>
+        <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
