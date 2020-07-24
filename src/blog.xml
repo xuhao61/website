@@ -5225,5 +5225,17 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6064.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Roku Updated with a Major Face Lift</title>
+      <link>https://emby.media/emby-for-roku-facelift.html</link>
+      <pubDate>Fri, 24 Jul 2020 07:05:26 -0400</pubDate>
+      <description><![CDATA[ <p> A major face-lift for the Roku app - bringing it more in line with the other apps - is on its way to your Roku device.  4.0 brings the familiar "tab" style interface to this app.  Allowing you to easily move between views in a library and set your default landing page in each of them. </p> <p> <img alt="5ea1df218925b_tabbedhome.jpg" class="ipsImage" data-ratio="56.25" height="562" width="1000" src="https://emby.media/community/uploads/inline/3/5ea1df218925b_tabbedhome.jpg"></p> <p> <img alt="5ea1df510bbea_tabbedmusic.jpg" class="ipsImage" data-ratio="56.25" height="562" width="1000" src="https://emby.media/community/uploads/inline/3/5ea1df510bbea_tabbedmusic.jpg"></p> <p>   </p> <p> To set the default landing tab, simply enter a library and select the "cog" wheel at the top (or use the * button on your remote). </p> <p> <a class="ipsAttachLink ipsAttachLink_image" href="https://emby.media/community/uploads/monthly_2020_06/defaulttab.jpg.3fb108150b75ce06ad9d5a4e29a1f072.jpg" data-fileid="70499" data-fileext="jpg" rel=""><img class="ipsImage ipsImage_thumbnailed" data-fileid="70499" data-ratio="56.30" data-unique="hedo1tg5u" width="1000" alt="defaulttab.jpg" src="https://emby.media/community/uploads/monthly_2020_06/defaulttab.thumb.jpg.10f223cf5024e9ae0c6fc8fb717ff29b.jpg"></a> </p> <p>   </p> <p> In addition to the new library interface, the music player has been updated to the new view seen in the other apps as well. </p> <p> <a class="ipsAttachLink ipsAttachLink_image" href="https://emby.media/community/uploads/monthly_2020_06/newaudioplayer.jpg.ae287ce806ebf87ee8431b372cfd4d0c.jpg" data-fileid="70500" data-fileext="jpg" rel=""><img class="ipsImage ipsImage_thumbnailed" data-fileid="70500" data-ratio="56.30" data-unique="sk42vk0kl" width="1000" alt="newaudioplayer.jpg" src="https://emby.media/community/uploads/monthly_2020_06/newaudioplayer.thumb.jpg.f3e6653d7da3315068c95838d9061a5e.jpg"></a> </p> <p>   </p> <p> We hope you enjoy these long-awaited updates for our Roku app.  Your device should update automatically when available. </p> <p>   </p> ]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-roku-facelift.html</guid>
+      <image>
+        <title>Emby for Roku Updated with a Major Face Lift</title>
+        <url>https://emby.media/img/blog/roku.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
