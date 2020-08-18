@@ -5237,5 +5237,17 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/roku.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Now Available in the Mac App Store</title>
+      <link>https://emby.media/emby-now-available-in-the-mac-app-store.html</link>
+      <pubDate>Tue, 18 Aug 2020 15:27:20 -0400</pubDate>
+      <description><![CDATA[ <p> We're pleased to announce our Emby Theater app is now available in the Mac App Store: <a href="https://itunes.apple.com/us/app/emby/id992180193?ls=1&amp;mt=8" ipsnoembed="true" rel="external nofollow">https://itunes.apple.com/us/app/emby/id992180193?ls=1&amp;mt=8</a> </p> <p> The app works very well as a desktop app for your Mac as well as an HTPC connected to your TV. Enjoy these screens below and check it out in the app store ! </p> <p>   </p> <p><a href="https://emby.media/community/uploads/monthly_2020_08/1.png.0e0271502aa8c6cdfa1d5b3aef6b56b5.png" class="ipsAttachLink ipsAttachLink_image"><img data-fileid="74360" src="https://emby.media/community/uploads/monthly_2020_08/1.thumb.png.895d24f030af89001a9fb14a3d8ab798.png" data-ratio="52.7" width="1000" class="ipsImage ipsImage_thumbnailed" alt="1.png"></a></p> <p><a href="https://emby.media/community/uploads/monthly_2020_08/theater13.png.b7948d736e263e5bbd46fb626c20c2f0.png" class="ipsAttachLink ipsAttachLink_image"><img data-fileid="74361" src="https://emby.media/community/uploads/monthly_2020_08/theater13.thumb.png.44437e58371dca7a5b97b9cf10553d89.png" data-ratio="52" width="1000" class="ipsImage ipsImage_thumbnailed" alt="theater13.png"></a></p> <p><a href="https://emby.media/community/uploads/monthly_2020_08/10.png.bdb1bcf180e4f66b3d0d93b877a535b8.png" class="ipsAttachLink ipsAttachLink_image"><img data-fileid="74362" src="https://emby.media/community/uploads/monthly_2020_08/10.thumb.png.88681563b1da005379053372e2424f2e.png" data-ratio="56.9" width="1000" class="ipsImage ipsImage_thumbnailed" alt="10.png"></a></p> ]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-now-available-in-the-mac-app-store.html</guid>
+      <image>
+        <title>Emby Now Available in the Mac App Store</title>
+        <url>https://emby.media/community/uploads/inline/2/5d8135784cedb_Screenshot_20190917151120.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
