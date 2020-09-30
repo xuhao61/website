@@ -5275,5 +5275,17 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 4.5.1 Released</title>
+      <link>https://emby.media/emby-server-451-released.html</link>
+      <pubDate>Wed, 30 Sep 2020 14:21:57 -0400</pubDate>
+      <description><![CDATA[ <p> A new release of Emby Server is currently rolling out to address a few small issues with the 4.5 release. Here are the changes: </p> <ul> <li> Resolve install failures on certain Synology NAS models </li> <li> Fix include by tags feature returning incorrect content in certain situations </li> <li> Fix SSL http2 errors on Windows 8 &amp; 2012 </li> <li> Fix connection issues when used with HAProxy </li> <li> Fix local network address detection causing virtual adapters to be preferred </li> <li> Don't try to schedule wakes when running as windows service </li> <li> Fix audio podcast playback on mono-based platforms </li> <li> Update MovieDb plugin to 1.3.7 </li> </ul> ]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-451-released.html</guid>
+      <image>
+        <title>Emby Server 4.5.1 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
