@@ -5287,5 +5287,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 4.5.2 Released</title>
+      <link>https://emby.media/emby-server-452-released.html</link>
+      <pubDate>Fri, 09 Oct 2020 11:59:05 -0400</pubDate>
+      <description>
+        <![CDATA[ <p style="background-color:#ffffff; color:#353c41; font-size:14px; text-align:start"> A new release of Emby Server is currently rolling out to address a few small issues with the 4.5 release. Here are the changes: </p> <ul style="background-color:#ffffff; color:#353c41; font-size:14px; text-align:start"> <li> Resolve slow file read/write performance on Windows </li> </ul> ]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-452-released.html</guid>
+      <image>
+        <title>Emby Server 4.5.2 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
