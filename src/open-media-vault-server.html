@@ -3,9 +3,9 @@
 <head itemscope itemtype="https://schema.org/Article">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
-    <title>Emby Server for NAS - Emby</title>
+    <title>Emby Server for Open Media Vault - Emby</title>
 
-    <meta name="description" content="Emby Server for NAS - Organize and stream your personal videos, music, photos and Live TV to any device.">
+    <meta name="description" content="Emby Server for Open Media Vault - Organize and stream your personal videos, music, photos and Live TV to any device.">
     {SOCIALNETWORKS}
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" id="rs-plugin-settings-css" href="resources/settings.css" type="text/css" media="all">
@@ -429,90 +429,18 @@
             <div class="l-submain for_pagehead color_alternate size_large" style="padding-top: 140px;">
                 <div class="l-submain-h g-html i-cf">
                     <div class="w-pagehead">
-                        <h1>Emby Server for NAS</h1>
+                        <h1>Emby Server for Open Media Vault</h1>
                     </div>
                 </div>
             </div>
             <div class="l-submain wpb_row">
-                <div class="l-submain-h g-html i-cf">
+                <div class="l-submain-h g-html i-cf" style="padding-top:3em;">
                     <div class="g-cols wpb_row offset_wide">
                         <div>
                             <div class="wpb_text_column ">
                                 <div class="wpb_wrapper">
 
-                                    <div>
-                                        <div style="margin:0 0 1em;">
-                                            <label>
-                                                <h3 style="margin:0;">Platform:</h3>
-                                                <select onchange="onPlatformChange(this.value);" style="height:auto;">
-                                                    <option value="synology" selected>Synology</option>
-                                                </select>
-                                            </label>
-                                        </div>
-
-                                        <div class="installPlatform synology">
-
-                                            <!-- synology-support-content : BEGIN -->
-
-                                            <div><b class="instructionListHeader">Synology X64</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-synology_{version}_x86_64.spk" href="emby-server-synology_{version}_x86_64.spk">{filename}</a></li>
-                                                <li>– Install using the Synology web interface.</li>
-                                                <li>– When the installation is over, launch the Emby Server application on your Synology.</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Synology Armv8</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-synology_{version}_armv8.spk" href="emby-server-synology_{version}_armv8.spk">{filename}</a></li>
-                                                <li>– Install using the Synology web interface.</li>
-                                                <li>– When the installation is over, launch the Emby Server application on your Synology.</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Synology Armv7</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-synology_{version}_armv7.spk" href="emby-server-synology_{version}_armv7.spk">{filename}</a></li>
-                                                <li>– Install using the Synology web interface.</li>
-                                                <li>– When the installation is over, launch the Emby Server application on your Synology.</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Synology Armv5</b></div>
-                                            <ol class="instructionList">
-                                                <li>Install the mono package from SynoCommunity</li>
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-synology-mono_{version}_armv5.spk" href="emby-server-synology-mono_{version}_armv5.spk">{filename}</a></li>
-                                                <li>– Install using the Synology web interface.</li>
-                                                <li>– When the installation is over, launch the Emby Server application on your Synology.</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Synology X64 - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-synology_{version}_x86_64.spk" href="emby-server-synology_{version}_x86_64.spk">{filename}</a></li>
-                                                <li>– Install using the Synology web interface.</li>
-                                                <li>– When the installation is over, launch the Emby Server application on your Synology.</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Synology Armv8 - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-synology_{version}_armv8.spk" href="emby-server-synology_{version}_armv8.spk">{filename}</a></li>
-                                                <li>– Install using the Synology web interface.</li>
-                                                <li>– When the installation is over, launch the Emby Server application on your Synology.</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Synology Armv7 - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-synology_{version}_armv7.spk" href="emby-server-synology_{version}_armv7.spk">{filename}</a></li>
-                                                <li>– Install using the Synology web interface.</li>
-                                                <li>– When the installation is over, launch the Emby Server application on your Synology.</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Synology Armv5 - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Install the mono package from SynoCommunity</li>
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-synology-mono_{version}_armv5.spk" href="emby-server-synology-mono_{version}_armv5.spk">{filename}</a></li>
-                                                <li>– Install using the Synology web interface.</li>
-                                                <li>– When the installation is over, launch the Emby Server application on your Synology.</li>
-                                            </ol>
-                                        </div>
-                                    </div>
+                                    <p>For Open Media Value, we recommend using either the <a href="docker-server.html">Emby Docker</a> installation, or the <a href="linux-server.html">Emby Debian package</a>.</p>
                                 </div>
                             </div>
                         </div>
