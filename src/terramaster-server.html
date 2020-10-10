@@ -3,9 +3,9 @@
 <head itemscope itemtype="https://schema.org/Article">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
-    <title>Emby Server for NAS - Emby</title>
+    <title>Emby Server for TerraMaster NAS - Emby</title>
 
-    <meta name="description" content="Emby Server for NAS - Organize and stream your personal videos, music, photos and Live TV to any device.">
+    <meta name="description" content="Emby Server for TerraMaster NAS - Organize and stream your personal videos, music, photos and Live TV to any device.">
     {SOCIALNETWORKS}
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" id="rs-plugin-settings-css" href="resources/settings.css" type="text/css" media="all">
@@ -429,264 +429,52 @@
             <div class="l-submain for_pagehead color_alternate size_large" style="padding-top: 140px;">
                 <div class="l-submain-h g-html i-cf">
                     <div class="w-pagehead">
-                        <h1>Emby Server for NAS</h1>
+                        <h1>Emby Server for TerraMaster NAS</h1>
                     </div>
                 </div>
             </div>
             <div class="l-submain wpb_row">
-                <div class="l-submain-h g-html i-cf">
+                <div class="l-submain-h g-html i-cf" style="padding-top:3em;">
                     <div class="g-cols wpb_row offset_wide">
                         <div>
                             <div class="wpb_text_column ">
                                 <div class="wpb_wrapper">
 
-                                    <div>
-                                        <div style="margin:0 0 1em;">
-                                            <label>
-                                                <h3 style="margin:0;">Platform:</h3>
-                                                <select onchange="onPlatformChange(this.value);" style="height:auto;">
-                                                    <option value="asustor">Asustor</option>
-                                                    <option value="freenas">FreeNAS</option>
-                                                    <option value="readynas">Netgear ReadyNAS</option>
-                                                    <option value="omv">Open Media Vault</option>
-                                                    <option value="qnap">QNAP</option>
-                                                    <option value="synology" selected>Synology</option>
-                                                </select>
-                                            </label>
-                                        </div>
+                                    <p>
+                                        Emby Server can be installed from either the TerraMaster app store, or by manually installing the packages provided here. The version in the TerraMaster app store may sometimes be a little behind the latest due to the TerraMaster review process.
+                                    </p>
 
-                                        <div class="installPlatform hide asustor">
+                                    <div><b class="instructionListHeader">TerraMaster X64</b></div>
+                                    <ol class="instructionList">
+                                        <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-terramaster_{version}_x86_64.tar.xz" href="emby-server-terramaster_{version}_x86_64.tar.xz">{filename}</a></li>
+                                        <li>From the TerraMaster web interface, go to Applications -> Settings. From here you can manually upload the Emby Server package for installation.</li>
+                                        <li>Start Emby server from the TerraMaster web interface</li>
+                                        <li>Open a web browser to http://localhost:8096</li>
+                                    </ol>
 
-                                            <div style="margin:2em 0;">
-                                                Emby Server can be installed from either <a target="_blank" href="https://www.asustor.com/en/app_central/app_detail?id=749&type=&model=">Asustor App Central</a>, or by manually installing the packages provided here. The version in Asustor App Central may sometimes be a little behind the latest due to the Asustor review process.
-                                            </div>
+                                    <div><b class="instructionListHeader">TerraMaster Arm64 (aarch64)</b></div>
+                                    <ol class="instructionList">
+                                        <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-terramaster_{version}_aarch64.tar.xz" href="emby-server-terramaster_{version}_aarch64.tar.xz">{filename}</a></li>
+                                        <li>From the TerraMaster web interface, go to Applications -> Settings. From here you can manually upload the Emby Server package for installation.</li>
+                                        <li>Start Emby server from the TerraMaster web interface</li>
+                                        <li>Open a web browser to http://localhost:8096</li>
+                                    </ol>
 
-                                            <div><b class="instructionListHeader">Asustor X64</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-asustor_{version}_x86-64.apk" href="emby-server-asustor_{version}_x86-64.apk">{filename}</a></li>
-                                                <li>To copy the file to your Asustor, Open App Central -> Go to Manual Install -> Click Browse -> Select the package -> Click Upload.</li>
-                                                <li>Start Emby server from the ASUSTOR web page</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
+                                    <div><b class="instructionListHeader">TerraMaster X64 - BETA</b></div>
+                                    <ol class="instructionList">
+                                        <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-terramaster_{version}_x86_64.tar.xz" href="emby-server-terramaster_{version}_x86_64.tar.xz">{filename}</a></li>
+                                        <li>From the TerraMaster web interface, go to Applications -> Settings. From here you can manually upload the Emby Server package for installation.</li>
+                                        <li>Start Emby server from the TerraMaster web interface</li>
+                                        <li>Open a web browser to http://localhost:8096</li>
+                                    </ol>
 
-                                            <div><b class="instructionListHeader">Asustor Arm64 (aarch64)</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-asustor_{version}_arm64.apk" href="emby-server-asustor_{version}_arm64.apk">{filename}</a></li>
-                                                <li>To copy the file to your Asustor, Open App Central -> Go to Manual Install -> Click Browse -> Select the package -> Click Upload.</li>
-                                                <li>Start Emby server from the ASUSTOR web page</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Asustor X64 - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-asustor_{version}_x86-64.apk" href="emby-server-asustor_{version}_x86-64.apk">{filename}</a></li>
-                                                <li>To copy the file to your Asustor, Open App Central -> Go to Manual Install -> Click Browse -> Select the package -> Click Upload.</li>
-                                                <li>Start Emby server from the ASUSTOR web page</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Asustor Arm64 (aarch64) - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-asustor_{version}_arm64.apk" href="emby-server-asustor_{version}_arm64.apk">{filename}</a></li>
-                                                <li>To copy the file to your Asustor, Open App Central -> Go to Manual Install -> Click Browse -> Select the package -> Click Upload.</li>
-                                                <li>Start Emby server from the ASUSTOR web page</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-                                        </div>
-
-                                        <div class="installPlatform hide readynas">
-
-                                            <div style="margin:2em 0;">
-                                                Emby Server can be installed from either the NetGear ReadyNAS app store, or by manually installing the packages provided here. The version in the ReadyNAS app store may sometimes be a little behind the latest due to the NetGear review process.
-                                            </div>
-
-                                            <div><b class="instructionListHeader">ReadyNAS X64</b></div>
-                                            <ol class="instructionList">
-                                                <li>Ensure you're running ReadyNAS 6.8.0 or greater. If version 6.8.0 is not detected by "check for updates", it can be downloaded and installed via the admin interface.</li>
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-netgear_{version}_amd64.deb" href="emby-server-netgear_{version}_amd64.deb">{filename}</a></li>
-                                                <li>– Upload the deb for your architecture via the apps tab in the admin interface. A popup should appear to keep you updated on the installation progress.</li>
-                                                <li>– When the installation is over, you should see Emby appear in the apps tabs on the admin interface, you can turn it on if it's not already and the launch button will take you to the install wizard.</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">ReadyNAS X64 - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Ensure you're running ReadyNAS 6.8.0 or greater. If version 6.8.0 is not detected by "check for updates", it can be downloaded and installed via the admin interface.</li>
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-netgear_{version}_amd64.deb" href="emby-server-netgear_{version}_amd64.deb">{filename}</a></li>
-                                                <li>– Upload the deb for your architecture via the apps tab in the admin interface. A popup should appear to keep you updated on the installation progress.</li>
-                                                <li>– When the installation is over, you should see Emby appear in the apps tabs on the admin interface, you can turn it on if it's not already and the launch button will take you to the install wizard.</li>
-                                            </ol>
-                                        </div>
-
-                                        <div class="installPlatform hide freenas">
-
-                                            <div><b class="instructionListHeader">FreeNAS</b></div>
-                                            <ol class="instructionList">
-                                                <li>Install the Emby plugin using the FreeNAS web interface</li>
-                                                <li>Start Emby server using the FreeNAS web interface</li>
-                                                <li>You may need to configure storage within your FreeNAS Jail in order to allow Emby to access it. See <a target="_blank" href="https://www.ixsystems.com/documentation/freenas/11/jails.html#add-storage">Adding storage to FreeNAS.</a></li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-                                        </div>
-
-                                        <div class="installPlatform hide omv">
-
-                                            <div><b class="instructionListHeader">Open Media Vault</b></div>
-                                            <div>For Open Media Value, we recommend using either the <a href="docker-server.html">Emby Docker</a> installation, or the <a href="linux-server.html">Emby Debian package</a>.</div>
-                                        </div>
-
-                                        <div class="installPlatform hide qnap">
-
-                                            <div><b class="instructionListHeader">QNAP X64</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_x86_64.qpkg" href="emby-server-qnap_{version}_x86_64.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP Arm64 (aarch64)</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_arm_64.qpkg" href="emby-server-qnap_{version}_arm_64.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP ARM X41, X31+, X31P, X28, X35</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_arm-x41.qpkg" href="emby-server-qnap_{version}_arm-x41.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP ARM X31</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_arm-x31.qpkg" href="emby-server-qnap_{version}_arm-x31.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP ARM X12, X19, X20, X21</b></div>
-                                            <ol class="instructionList">
-                                                <li>Install QMono from <a href="https://www.qnapclub.eu/en/qpkg/193">QNAP Club</a>.</li>
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap-mono_{version}_arm-x19.qpkg" href="emby-server-qnap-mono_{version}_arm-x19.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP X64 - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_x86_64.qpkg" href="emby-server-qnap_{version}_x86_64.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP Arm64 (aarch64) - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_arm_64.qpkg" href="emby-server-qnap_{version}_arm_64.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP ARM X41, X31+, X31P, X28, X35 - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_arm-x41.qpkg" href="emby-server-qnap_{version}_arm-x41.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP ARM X31- BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_arm-x31.qpkg" href="emby-server-qnap_{version}_arm-x31.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP ARM X12, X19, X20, X21 - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Install QMono from <a href="https://www.qnapclub.eu/en/qpkg/193">QNAP Club</a>.</li>
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap-mono_{version}_arm-x19.qpkg" href="emby-server-qnap-mono_{version}_arm-x19.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP X86</b></div>
-                                            <div>Install Emby Server for QNAP by downloading from the <a target="_blank" href="https://forum.qnap.com/viewtopic.php?f=320&t=109476">QNAP Community.</a>.</div>
-                                            <div>
-                                                <strong>Run Setup Wizard</strong>
-                                            </div>
-                                            <p>Start Emby from the QNAP web interface, then visit http://localhost:8096 to run the Emby setup wizard.</p>
-                                            <div>
-                                                <strong>Updating Emby Server</strong>
-                                            </div>
-                                            <p>
-                                                To get faster access to updates, you can always download the latest version from the <a target="_blank" href="https://forum.qnap.com/viewtopic.php?t=109476">QNAP Community.</a>
-                                            </p>
-                                            <span class="wpb_button align_left"><a href="community/index.php?/topic/24369-qnap-setup" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-info-circle"></i><span>More Information</span><span class="ripple-container"></span></a></span>
-
-                                        </div>
-
-                                        <div class="installPlatform synology">
-
-                                            <!-- synology-support-content : BEGIN -->
-
-                                            <div><b class="instructionListHeader">Synology X64</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-synology_{version}_x86_64.spk" href="emby-server-synology_{version}_x86_64.spk">{filename}</a></li>
-                                                <li>– Install using the Synology web interface.</li>
-                                                <li>– When the installation is over, launch the Emby Server application on your Synology.</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Synology Armv8</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-synology_{version}_armv8.spk" href="emby-server-synology_{version}_armv8.spk">{filename}</a></li>
-                                                <li>– Install using the Synology web interface.</li>
-                                                <li>– When the installation is over, launch the Emby Server application on your Synology.</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Synology Armv7</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-synology_{version}_armv7.spk" href="emby-server-synology_{version}_armv7.spk">{filename}</a></li>
-                                                <li>– Install using the Synology web interface.</li>
-                                                <li>– When the installation is over, launch the Emby Server application on your Synology.</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Synology Armv5</b></div>
-                                            <ol class="instructionList">
-                                                <li>Install the mono package from SynoCommunity</li>
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-synology-mono_{version}_armv5.spk" href="emby-server-synology-mono_{version}_armv5.spk">{filename}</a></li>
-                                                <li>– Install using the Synology web interface.</li>
-                                                <li>– When the installation is over, launch the Emby Server application on your Synology.</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Synology X64 - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-synology_{version}_x86_64.spk" href="emby-server-synology_{version}_x86_64.spk">{filename}</a></li>
-                                                <li>– Install using the Synology web interface.</li>
-                                                <li>– When the installation is over, launch the Emby Server application on your Synology.</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Synology Armv8 - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-synology_{version}_armv8.spk" href="emby-server-synology_{version}_armv8.spk">{filename}</a></li>
-                                                <li>– Install using the Synology web interface.</li>
-                                                <li>– When the installation is over, launch the Emby Server application on your Synology.</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Synology Armv7 - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-synology_{version}_armv7.spk" href="emby-server-synology_{version}_armv7.spk">{filename}</a></li>
-                                                <li>– Install using the Synology web interface.</li>
-                                                <li>– When the installation is over, launch the Emby Server application on your Synology.</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Synology Armv5 - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Install the mono package from SynoCommunity</li>
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-synology-mono_{version}_armv5.spk" href="emby-server-synology-mono_{version}_armv5.spk">{filename}</a></li>
-                                                <li>– Install using the Synology web interface.</li>
-                                                <li>– When the installation is over, launch the Emby Server application on your Synology.</li>
-                                            </ol>
-                                        </div>
-                                    </div>
+                                    <div><b class="instructionListHeader">TerraMaster Arm64 (aarch64) - BETA</b></div>
+                                    <ol class="instructionList">
+                                        <li>Download <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-terramaster_{version}_aarch64.tar.xz" href="emby-server-terramaster_{version}_aarch64.tar.xz">{filename}</a></li>
+                                        <li>From the TerraMaster web interface, go to Applications -> Settings. From here you can manually upload the Emby Server package for installation.</li>
+                                        <li>Start Emby server from the TerraMaster web interface</li>
+                                        <li>Open a web browser to http://localhost:8096</li>
+                                    </ol>
                                 </div>
                             </div>
                         </div>
