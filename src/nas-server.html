@@ -445,35 +445,10 @@
                                             <label>
                                                 <h3 style="margin:0;">Platform:</h3>
                                                 <select onchange="onPlatformChange(this.value);" style="height:auto;">
-                                                    <option value="freenas">FreeNAS</option>
-                                                    <option value="readynas">Netgear ReadyNAS</option>
                                                     <option value="omv">Open Media Vault</option>
                                                     <option value="synology" selected>Synology</option>
                                                 </select>
                                             </label>
-                                        </div>
-
-                                        <div class="installPlatform hide readynas">
-
-                                            <div style="margin:2em 0;">
-                                                Emby Server can be installed from either the NetGear ReadyNAS app store, or by manually installing the packages provided here. The version in the ReadyNAS app store may sometimes be a little behind the latest due to the NetGear review process.
-                                            </div>
-
-                                            <div><b class="instructionListHeader">ReadyNAS X64</b></div>
-                                            <ol class="instructionList">
-                                                <li>Ensure you're running ReadyNAS 6.8.0 or greater. If version 6.8.0 is not detected by "check for updates", it can be downloaded and installed via the admin interface.</li>
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-netgear_{version}_amd64.deb" href="emby-server-netgear_{version}_amd64.deb">{filename}</a></li>
-                                                <li>– Upload the deb for your architecture via the apps tab in the admin interface. A popup should appear to keep you updated on the installation progress.</li>
-                                                <li>– When the installation is over, you should see Emby appear in the apps tabs on the admin interface, you can turn it on if it's not already and the launch button will take you to the install wizard.</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">ReadyNAS X64 - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Ensure you're running ReadyNAS 6.8.0 or greater. If version 6.8.0 is not detected by "check for updates", it can be downloaded and installed via the admin interface.</li>
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-netgear_{version}_amd64.deb" href="emby-server-netgear_{version}_amd64.deb">{filename}</a></li>
-                                                <li>– Upload the deb for your architecture via the apps tab in the admin interface. A popup should appear to keep you updated on the installation progress.</li>
-                                                <li>– When the installation is over, you should see Emby appear in the apps tabs on the admin interface, you can turn it on if it's not already and the launch button will take you to the install wizard.</li>
-                                            </ol>
                                         </div>
 
                                         <div class="installPlatform hide freenas">
