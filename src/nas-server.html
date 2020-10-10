@@ -445,53 +445,12 @@
                                             <label>
                                                 <h3 style="margin:0;">Platform:</h3>
                                                 <select onchange="onPlatformChange(this.value);" style="height:auto;">
-                                                    <option value="asustor">Asustor</option>
                                                     <option value="freenas">FreeNAS</option>
                                                     <option value="readynas">Netgear ReadyNAS</option>
                                                     <option value="omv">Open Media Vault</option>
-                                                    <option value="qnap">QNAP</option>
                                                     <option value="synology" selected>Synology</option>
                                                 </select>
                                             </label>
-                                        </div>
-
-                                        <div class="installPlatform hide asustor">
-
-                                            <div style="margin:2em 0;">
-                                                Emby Server can be installed from either <a target="_blank" href="https://www.asustor.com/en/app_central/app_detail?id=749&type=&model=">Asustor App Central</a>, or by manually installing the packages provided here. The version in Asustor App Central may sometimes be a little behind the latest due to the Asustor review process.
-                                            </div>
-
-                                            <div><b class="instructionListHeader">Asustor X64</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-asustor_{version}_x86-64.apk" href="emby-server-asustor_{version}_x86-64.apk">{filename}</a></li>
-                                                <li>To copy the file to your Asustor, Open App Central -> Go to Manual Install -> Click Browse -> Select the package -> Click Upload.</li>
-                                                <li>Start Emby server from the ASUSTOR web page</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Asustor Arm64 (aarch64)</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-asustor_{version}_arm64.apk" href="emby-server-asustor_{version}_arm64.apk">{filename}</a></li>
-                                                <li>To copy the file to your Asustor, Open App Central -> Go to Manual Install -> Click Browse -> Select the package -> Click Upload.</li>
-                                                <li>Start Emby server from the ASUSTOR web page</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Asustor X64 - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-asustor_{version}_x86-64.apk" href="emby-server-asustor_{version}_x86-64.apk">{filename}</a></li>
-                                                <li>To copy the file to your Asustor, Open App Central -> Go to Manual Install -> Click Browse -> Select the package -> Click Upload.</li>
-                                                <li>Start Emby server from the ASUSTOR web page</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">Asustor Arm64 (aarch64) - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-asustor_{version}_arm64.apk" href="emby-server-asustor_{version}_arm64.apk">{filename}</a></li>
-                                                <li>To copy the file to your Asustor, Open App Central -> Go to Manual Install -> Click Browse -> Select the package -> Click Upload.</li>
-                                                <li>Start Emby server from the ASUSTOR web page</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
                                         </div>
 
                                         <div class="installPlatform hide readynas">
@@ -532,96 +491,6 @@
 
                                             <div><b class="instructionListHeader">Open Media Vault</b></div>
                                             <div>For Open Media Value, we recommend using either the <a href="docker-server.html">Emby Docker</a> installation, or the <a href="linux-server.html">Emby Debian package</a>.</div>
-                                        </div>
-
-                                        <div class="installPlatform hide qnap">
-
-                                            <div><b class="instructionListHeader">QNAP X64</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_x86_64.qpkg" href="emby-server-qnap_{version}_x86_64.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP Arm64 (aarch64)</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_arm_64.qpkg" href="emby-server-qnap_{version}_arm_64.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP ARM X41, X31+, X31P, X28, X35</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_arm-x41.qpkg" href="emby-server-qnap_{version}_arm-x41.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP ARM X31</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_arm-x31.qpkg" href="emby-server-qnap_{version}_arm-x31.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP ARM X12, X19, X20, X21</b></div>
-                                            <ol class="instructionList">
-                                                <li>Install QMono from <a href="https://www.qnapclub.eu/en/qpkg/193">QNAP Club</a>.</li>
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap-mono_{version}_arm-x19.qpkg" href="emby-server-qnap-mono_{version}_arm-x19.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP X64 - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_x86_64.qpkg" href="emby-server-qnap_{version}_x86_64.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP Arm64 (aarch64) - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_arm_64.qpkg" href="emby-server-qnap_{version}_arm_64.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP ARM X41, X31+, X31P, X28, X35 - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_arm-x41.qpkg" href="emby-server-qnap_{version}_arm-x41.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP ARM X31- BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_arm-x31.qpkg" href="emby-server-qnap_{version}_arm-x31.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP ARM X12, X19, X20, X21 - BETA</b></div>
-                                            <ol class="instructionList">
-                                                <li>Install QMono from <a href="https://www.qnapclub.eu/en/qpkg/193">QNAP Club</a>.</li>
-                                                <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap-mono_{version}_arm-x19.qpkg" href="emby-server-qnap-mono_{version}_arm-x19.qpkg">{filename}</a></li>
-                                                <li>Start Emby from the QNAP web interface</li>
-                                                <li>Open a web browser to http://localhost:8096</li>
-                                            </ol>
-
-                                            <div><b class="instructionListHeader">QNAP X86</b></div>
-                                            <div>Install Emby Server for QNAP by downloading from the <a target="_blank" href="https://forum.qnap.com/viewtopic.php?f=320&t=109476">QNAP Community.</a>.</div>
-                                            <div>
-                                                <strong>Run Setup Wizard</strong>
-                                            </div>
-                                            <p>Start Emby from the QNAP web interface, then visit http://localhost:8096 to run the Emby setup wizard.</p>
-                                            <div>
-                                                <strong>Updating Emby Server</strong>
-                                            </div>
-                                            <p>
-                                                To get faster access to updates, you can always download the latest version from the <a target="_blank" href="https://forum.qnap.com/viewtopic.php?t=109476">QNAP Community.</a>
-                                            </p>
-                                            <span class="wpb_button align_left"><a href="community/index.php?/topic/24369-qnap-setup" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-info-circle"></i><span>More Information</span><span class="ripple-container"></span></a></span>
-
                                         </div>
 
                                         <div class="installPlatform synology">
