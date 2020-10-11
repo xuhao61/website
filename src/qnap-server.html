@@ -440,91 +440,34 @@
                             <div class="wpb_text_column ">
                                 <div class="wpb_wrapper">
 
-                                    <div><b class="instructionListHeader">QNAP X64</b></div>
+                                    <p><b>Emby Server for QNAP NAS Manual Installation</b></p>
+
                                     <ol class="instructionList">
-                                        <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_x86_64.qpkg" href="emby-server-qnap_{version}_x86_64.qpkg">{filename}</a></li>
-                                        <li>Start Emby from the QNAP web interface</li>
+                                        <li>
+                                            <div>Download one of the following packages depending on your QNAP NAS model:</div>
+                                            <ul>
+                                                <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_x86_64.qpkg" href="emby-server-qnap_{version}_x86_64.qpkg">Intel/AMD 64-bit</a></li>
+                                                <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_arm_64.qpkg" href="emby-server-qnap_{version}_arm_64.qpkg">ARMv8 (TS-x28, and TS-x32 Series)</a></li>
+                                                <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_arm-x41.qpkg" href="emby-server-qnap_{version}_arm-x41.qpkg">ARMv7 (TS-x31, and TS-x31U Series)</a></li>
+                                                <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_arm-x31.qpkg" href="emby-server-qnap_{version}_arm-x31.qpkg">ARMv7 (TS-x31+, TS-x31P, TS-x31P2, TS-x31X, and TS-x31XU Series)</a></li>
+                                                <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap-mono_{version}_arm-x19.qpkg" href="emby-server-qnap-mono_{version}_arm-x19.qpkg">ARM X12, X19, X20, X21</a>. (Install <a href="https://www.qnapclub.eu/en/qpkg/193">QMono from QNAP Club</a> first).</li>
+                                            </ul>
+                                        </li>
+                                        <li>Install Emby Server using the QNAP Web interface.</li>
+                                        <li>Start Emby Server using the QNAP Web interface.</li>
                                         <li>Open a web browser to http://localhost:8096</li>
                                     </ol>
 
-                                    <div><b class="instructionListHeader">QNAP Arm64 (aarch64)</b></div>
-                                    <ol class="instructionList">
-                                        <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_arm_64.qpkg" href="emby-server-qnap_{version}_arm_64.qpkg">{filename}</a></li>
-                                        <li>Start Emby from the QNAP web interface</li>
-                                        <li>Open a web browser to http://localhost:8096</li>
-                                    </ol>
 
-                                    <div><b class="instructionListHeader">QNAP ARM X41, X31+, X31P, X28, X35</b></div>
-                                    <ol class="instructionList">
-                                        <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_arm-x41.qpkg" href="emby-server-qnap_{version}_arm-x41.qpkg">{filename}</a></li>
-                                        <li>Start Emby from the QNAP web interface</li>
-                                        <li>Open a web browser to http://localhost:8096</li>
-                                    </ol>
-
-                                    <div><b class="instructionListHeader">QNAP ARM X31</b></div>
-                                    <ol class="instructionList">
-                                        <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_arm-x31.qpkg" href="emby-server-qnap_{version}_arm-x31.qpkg">{filename}</a></li>
-                                        <li>Start Emby from the QNAP web interface</li>
-                                        <li>Open a web browser to http://localhost:8096</li>
-                                    </ol>
-
-                                    <div><b class="instructionListHeader">QNAP ARM X12, X19, X20, X21</b></div>
-                                    <ol class="instructionList">
-                                        <li>Install QMono from <a href="https://www.qnapclub.eu/en/qpkg/193">QNAP Club</a>.</li>
-                                        <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap-mono_{version}_arm-x19.qpkg" href="emby-server-qnap-mono_{version}_arm-x19.qpkg">{filename}</a></li>
-                                        <li>Start Emby from the QNAP web interface</li>
-                                        <li>Open a web browser to http://localhost:8096</li>
-                                    </ol>
-
-                                    <div><b class="instructionListHeader">QNAP X64 - BETA</b></div>
-                                    <ol class="instructionList">
-                                        <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_x86_64.qpkg" href="emby-server-qnap_{version}_x86_64.qpkg">{filename}</a></li>
-                                        <li>Start Emby from the QNAP web interface</li>
-                                        <li>Open a web browser to http://localhost:8096</li>
-                                    </ol>
-
-                                    <div><b class="instructionListHeader">QNAP Arm64 (aarch64) - BETA</b></div>
-                                    <ol class="instructionList">
-                                        <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_arm_64.qpkg" href="emby-server-qnap_{version}_arm_64.qpkg">{filename}</a></li>
-                                        <li>Start Emby from the QNAP web interface</li>
-                                        <li>Open a web browser to http://localhost:8096</li>
-                                    </ol>
-
-                                    <div><b class="instructionListHeader">QNAP ARM X41, X31+, X31P, X28, X35 - BETA</b></div>
-                                    <ol class="instructionList">
-                                        <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_arm-x41.qpkg" href="emby-server-qnap_{version}_arm-x41.qpkg">{filename}</a></li>
-                                        <li>Start Emby from the QNAP web interface</li>
-                                        <li>Open a web browser to http://localhost:8096</li>
-                                    </ol>
-
-                                    <div><b class="instructionListHeader">QNAP ARM X31- BETA</b></div>
-                                    <ol class="instructionList">
-                                        <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_arm-x31.qpkg" href="emby-server-qnap_{version}_arm-x31.qpkg">{filename}</a></li>
-                                        <li>Start Emby from the QNAP web interface</li>
-                                        <li>Open a web browser to http://localhost:8096</li>
-                                    </ol>
-
-                                    <div><b class="instructionListHeader">QNAP ARM X12, X19, X20, X21 - BETA</b></div>
-                                    <ol class="instructionList">
-                                        <li>Install QMono from <a href="https://www.qnapclub.eu/en/qpkg/193">QNAP Club</a>.</li>
-                                        <li>Download and install <a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap-mono_{version}_arm-x19.qpkg" href="emby-server-qnap-mono_{version}_arm-x19.qpkg">{filename}</a></li>
-                                        <li>Start Emby from the QNAP web interface</li>
-                                        <li>Open a web browser to http://localhost:8096</li>
-                                    </ol>
-
-                                    <div><b class="instructionListHeader">QNAP X86</b></div>
-                                    <div>Install Emby Server for QNAP by downloading from the <a target="_blank" href="https://forum.qnap.com/viewtopic.php?f=320&t=109476">QNAP Community.</a>.</div>
-                                    <div>
-                                        <strong>Run Setup Wizard</strong>
-                                    </div>
-                                    <p>Start Emby from the QNAP web interface, then visit http://localhost:8096 to run the Emby setup wizard.</p>
-                                    <div>
-                                        <strong>Updating Emby Server</strong>
-                                    </div>
-                                    <p>
-                                        To get faster access to updates, you can always download the latest version from the <a target="_blank" href="https://forum.qnap.com/viewtopic.php?t=109476">QNAP Community.</a>
-                                    </p>
-                                    <span class="wpb_button align_left"><a href="community/index.php?/topic/24369-qnap-setup" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-info-circle"></i><span>More Information</span><span class="ripple-container"></span></a></span>
+                                    <p><b>Emby Server (BETA) for QNAP NAS Manual Installation</b></p>
+                                    <p>To participate in Emby Server beta testing, download one of the following packages depending on your QNAP NAS model:</p>
+                                    <ul>
+                                        <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_x86_64.qpkg" href="emby-server-qnap_{version}_x86_64.qpkg">Intel/AMD 64-bit</a></li>
+                                        <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_arm_64.qpkg" href="emby-server-qnap_{version}_arm_64.qpkg">ARMv8 (TS-x28, and TS-x32 Series)</a></li>
+                                        <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_arm-x41.qpkg" href="emby-server-qnap_{version}_arm-x41.qpkg">ARMv7 (TS-x31, and TS-x31U Series)</a></li>
+                                        <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_arm-x31.qpkg" href="emby-server-qnap_{version}_arm-x31.qpkg">ARMv7 (TS-x31+, TS-x31P, TS-x31P2, TS-x31X, and TS-x31XU Series)</a></li>
+                                        <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap-mono_{version}_arm-x19.qpkg" href="emby-server-qnap-mono_{version}_arm-x19.qpkg">ARM X12, X19, X20, X21</a>. (Install <a href="https://www.qnapclub.eu/en/qpkg/193">QMono from QNAP Club</a> first).</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
