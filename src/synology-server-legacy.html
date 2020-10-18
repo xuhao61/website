@@ -440,52 +440,75 @@
                             <div class="wpb_text_column ">
                                 <div class="wpb_wrapper">
 
-                                    <p><b>Emby Server for Synology NAS Manual Installation</b></p>
+                                    <p style="font-weight: bold;">Introduction</p>
 
-                                    <ol class="instructionList">
-                                        <li>
-                                            <div>Download one of the following packages depending the <a target="_blank" href="https://github.com/SynoCommunity/spksrc/wiki/Architecture-per-Synology-model">architecture of your Synology NAS</a>:</div>
-                                            <ul>
-                                                <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-synology_{version}_x86_64.spk" href="emby-server-synology_{version}_x86_64.spk">64-bit NAS</a></li>
-                                                <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-synology_{version}_armv8.spk" href="emby-server-synology_{version}_armv8.spk">ARMv8 (x18 Series)</a></li>
-                                                <li>
-                                                    <div><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-synology_{version}_armv7.spk" href="emby-server-synology_{version}_armv7.spk">ARMv7</a> - Supported models:</div>
-                                                    <ul>
-                                                        <li>DS416</li>
-                                                        <li>DS715</li>
-                                                        <li>DS1515</li>
-                                                        <li>DS2015xs</li>
-                                                    </ul>
-                                                </li>
-                                                <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-synology-mono_{version}_armv7_legacy.spk" href="emby-server-synology-mono_{version}_armv7_legacy.spk">ARMv7 (all other ARMv7 models)</a></li>
-                                                <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-synology-mono_{version}_armv5.spk" href="emby-server-synology-mono_{version}_armv5.spk">ARMv5</a></li>
-                                                <li><a href="synology-server-legacy.html">32-bit (X86)</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>Install Emby Server using the Synology Web interface.</li>
-                                        <li>Start Emby Server using the Synology Web interface.</li>
-                                        <li>Open a web browser to http://localhost:8096</li>
-                                    </ol>
+                                    <p>Important: These instructions are based on our legacy install package, which is currently limited to Emby Server 4.4.3. We are working on bringing support for these older NAS devices up to the latest version of Emby Server.</p>
 
+                                    <p>The package is supported on systems running DSM 5.2-5967 or later.</p>
 
-                                    <p><b>Emby Server (BETA) for Synology NAS Manual Installation</b></p>
-                                    <p>To participate in Emby Server beta testing, download one of the following packages depending on your Synology NAS model:</p>
+                                    <p style="margin-bottom: 4px;font-size: 12px;font-style: italic;">* Support for QorIQ based machines (DS213+, DS413) is not currently possible.</p>
+
+                                    <p style="font-weight: bold;margin-bottom: 8px;">Setup</p>
+
+                                    <p style="margin-bottom: 8px;"> There are a few things you need to do to get started, but it's pretty quick and easy to get going:-</p>
+
+                                    <div style="margin-left: 16px; margin-bottom: 16px;">
+
+                                        <p style="margin-bottom: 8px;"><span style="font-weight: bold;">1)</span> The first thing you need to do is add the Emby repository to Package Center's settings.</p>
+
+                                        <p style="margin-bottom: 8px;">Package Center -> Settings -> Package Sources</p>
+
+                                        <img style="width: 701px;" src="resources/Synology-Setup-Step-1.png" />
+
+                                        <p style="margin-bottom: 8px;"><span style="font-weight: bold;">*</span> <span style="font-style: italic;">XPEnology users, please use https://synology.emby.media/?package_repository=360efc6e-de72-4073-b603-2bfbd7001586 and make sure you take a look at the <a href="community/index.php?/topic/40411-xpenology-users-read-me/" target="_blank">XPEnology Users Read Me</a>.</span></p>
+
+                                    </div>
+
+                                    <div style="margin-left: 16px; margin-bottom: 16px;">
+
+                                        <p style="margin-bottom: 8px;"><span style="font-weight: bold;">2)</span> Now configure Package Center to trust the Emby package repository.</p>
+
+                                        <p style="margin-bottom: 8px;">Package Center -> Settings -> General</p>
+
+                                        <img style="width: 701px;" src="resources/Synology-Setup-Step-2.png" />
+
+                                    </div>
+
+                                    <div style="margin-left: 16px; margin-bottom: 16px;">
+
+                                        <p style="margin-bottom: 8px;"><span style="font-weight: bold;">3)</span> We can now explore Package Center and locate the package to install it.</p>
+
+                                        <p style="margin-bottom: 8px;">Package Center -> Explore -> Community</p>
+
+                                        <img style="width: 701px;" src="resources/Synology-Setup-Step-3.png" />
+
+                                    </div>
+
+                                    <div style="margin-left: 16px; margin-bottom: 16px;">
+
+                                        <p style="margin-bottom: 8px;"><span style="font-weight: bold;">4)</span> Once you've clicked install, it will take a few minutes for the package to become available.</p>
+
+                                        <img style="width: 701px;" src="resources/Synology-Setup-Step-4.png" />
+
+                                    </div>
+
+                                    <div style="margin-left: 16px; margin-bottom: 16px;">
+
+                                        <p style="margin-bottom: 8px;"><span style="font-weight: bold;">5)</span> When the install completes, Emby will be running and you can get started by clicking on the URL!</p>
+
+                                        <img style="width: 701px;" src="resources/Synology-Setup-Step-5.png" />
+
+                                    </div>
+
+                                    <p style="font-weight: bold;margin-bottom: 8px;">Next Steps</p>
+
                                     <ul>
-                                        <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-synology_{version}_x86_64.spk" href="emby-server-synology_{version}_x86_64.spk">64-bit NAS</a></li>
-                                        <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-synology_{version}_armv8.spk" href="emby-server-synology_{version}_armv8.spk">ARMv8 (x18 Series)</a></li>
-                                        <li>
-                                            <div><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-synology_{version}_armv7.spk" href="emby-server-synology_{version}_armv7.spk">ARMv7</a> - Supported models:</div>
-                                            <ul>
-                                                <li>DS416</li>
-                                                <li>DS715</li>
-                                                <li>DS1515</li>
-                                                <li>DS2015xs</li>
-                                            </ul>
-                                        </li>
-                                        <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-synology-mono_{version}_armv7_legacy.spk" href="emby-server-synology-mono_{version}_armv7_legacy.spk">ARMv7 (all other ARMv7 models)</a></li>
-                                        <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-synology-mono_{version}_armv5.spk" href="emby-server-synology-mono_{version}_armv5.spk">ARMv5</a></li>
-                                    </ul>
 
+                                        <li>Read our <a href="https://github.com/MediaBrowser/Wiki/wiki/Synology-:-Setting-Up-Your-Media-Library-Share" target="_blank">guide</a> on how to set up your media library share. <span style="color: #d93a32; font-style: italic; font-weight: bold;">RECOMMENDED!</span></li>
+
+                                        <li>Have a look through the Synology specific content on the <a href="https://github.com/MediaBrowser/Wiki/wiki/Synology-:-Help-and-Support" target="_blank">Wiki</a>.</li>
+
+                                    </ul>
                                 </div>
                             </div>
                         </div>
