@@ -5301,5 +5301,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Apple TV Updated with Improved HDR and More</title>
+      <link>https://emby.media/emby-for-apple-tv-updated-with-improved-hdr-and-more.html</link>
+      <pubDate>Wed, 21 Oct 2020 14:18:09 -0400</pubDate>
+      <description>
+        <![CDATA[ <p> Emby for Apple TV 1.4.9 has been released with improved support for HDR ! Here are the highlights: </p> <ul> <li> Improved support for HDR </li> <li> Support in-app AV1 video decoding </li> <li> Implement support for tvOS 14 search suggestions </li> <li> On episode detail use the series logo as the hero image. </li> </ul> ]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-apple-tv-updated-with-improved-hdr-and-more.html</guid>
+      <image>
+        <title>Emby for Apple TV Updated with Improved HDR and More</title>
+        <url>https://emby.media/img/blog/6064.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
