@@ -5315,5 +5315,17 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6064.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for macOS Updated with Improved HDR and More</title>
+      <link>https://emby.media/emby-for-macos-updated-with-improved-hdr-and-more.html</link>
+      <pubDate>Mon, 02 Nov 2020 11:45:06 -0500</pubDate>
+      <description><![CDATA[ <p> Emby for macOS 1.9.9 has been released. Here are the highlights: </p> <ul> <li> Fix screen turning off during video playback </li> <li> Fix fuzzy app icon </li> <li> Support subtitle offset control during video playback </li> <li> Support playback speed control during video playback </li> <li> Support downloading subtitles during video playback </li> <li> Improve HDR video support </li> <li> Support decoding AV1 video in-app </li> <li> Media Info display is now TV mode friendly </li> <li> Brighter detail screen backdrops </li> </ul> ]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-macos-updated-with-improved-hdr-and-more.html</guid>
+      <image>
+        <title>Emby for macOS Updated with Improved HDR and More</title>
+        <url>https://emby.media/community/uploads/inline/2/5d8135784cedb_Screenshot_20190917151120.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
