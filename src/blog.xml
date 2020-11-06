@@ -5327,5 +5327,19 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/5d8135784cedb_Screenshot_20190917151120.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS Updated with CarPlay, Improved HDR and More</title>
+      <link>https://emby.media/emby-for-ios-updated-with-carplay-improved-hdr-and-more.html</link>
+      <pubDate>Fri, 06 Nov 2020 13:02:26 -0500</pubDate>
+      <description>
+        <![CDATA[ <p> Emby for iOS 1.9.9 has been released. Here are the highlights. </p> <p> <span style="font-size:24px;">New Apple CarPlay Support</span> </p> <p> This is a treat for our Emby Premiere users. Now you can take advantage of Apple CarPlay while you're on the road. </p> <p> <img class="ipsImage ipsImage_thumbnailed" data-fileid="80448" data-ratio="59.57" data-unique="icelaiiih" width="940" alt="1726F479-BA9A-4DF2-9DBE-00C388202AD2.thumb.jpeg.84ae2093c22c5bf25ae3b3d164b2f960.jpeg" src="https://emby.media/community/uploads/monthly_2020_11/1726F479-BA9A-4DF2-9DBE-00C388202AD2.thumb.jpeg.84ae2093c22c5bf25ae3b3d164b2f960.jpeg.d454bc929366b3baf880dc2c61974b90.jpeg"></p> <p> <span style="font-size:24px;">Other Improvements</span> </p> <ul> <li> Improved HDR playback </li> <li> Support in-app AV1 decoding </li> <li> Added camera upload photo folder selection </li> <li> Support playback speed and subtitle offset selection </li> <li> Media Info display is now TV mode friendly </li> <li> Brighter detail screen backdrop when used on larger screens </li> <li> Support downloading subtitles during video playback (requires Emby Server 4.5.1+) </li> </ul> ]]>
+      </description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-updated-with-carplay-improved-hdr-and-more.html</guid>
+      <image>
+        <title>Emby for iOS Updated with CarPlay, Improved HDR and More</title>
+        <url>https://emby.media/community/uploads/inline/2/5d8135784cedb_Screenshot_20190917151120.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
