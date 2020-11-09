@@ -5341,5 +5341,17 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/5d8135784cedb_Screenshot_20190917151120.png</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server Now Available for Additional Western Digital NAS Devices</title>
+      <link>https://emby.media/emby-server-now-available-for-additional-western-digital-nas-devices.html</link>
+      <pubDate>Mon, 09 Nov 2020 14:06:37 -0500</pubDate>
+      <description><![CDATA[ <p> We now have packages for twelve Western Digital NAS models, where previously we had just four. The supported models are now: </p> <ul> <li> My Cloud DL2100 </li> <li> My Cloud DL4100 </li> <li> My Cloud PR2100 </li> <li> My Cloud PR4100 </li> <li> My Cloud EX2 </li> <li> My Cloud EX2100 </li> <li> My Cloud EX2 Ultra </li> <li> My Cloud EX4100 </li> <li> My Cloud Mirror Gen 1 </li> <li> My Cloud Mirror Gen 2 </li> <li> My Cloud Gen 1 </li> <li> My Cloud Gen 2 </li> </ul> <p> <span style="font-size:24px">Download</span> </p> <p> <a href="https://emby.media/western-digital-server.html" ipsnoembed="true" rel="">https://emby.media/western-digital-server.html</a> </p> <p> Everything is self-contained within the package so there are no dependencies. We use the .NET core runtime on models that support it, otherwise we use the mono runtime. Enjoy ! </p> ]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-now-available-for-additional-western-digital-nas-devices.html</guid>
+      <image>
+        <title>Emby Server Now Available for Additional Western Digital NAS Devices</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
