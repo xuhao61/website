@@ -5353,5 +5353,17 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Android Updated with Improved Android Auto, HDR, and More</title>
+      <link>https://emby.media/emby-for-android-updated-with-improved-android-auto-hdr-and-more.html</link>
+      <pubDate>Tue, 17 Nov 2020 13:12:04 -0500</pubDate>
+      <description><![CDATA[ <p> Emby for Android 3.1.60 is currently rolling out to the Google Play Store, and is also available for <a href="https://emby.media/download" rel="external nofollow">download on our website</a> if apk's are needed. </p> <p> <span style="font-size:24px;">Highlights</span> </p> <ul><li> Revamp audio and video playback </li> <li> Improve HDR video support </li> <li> Add refresh rate switching option for video playback </li> <li> Add speed control to video player </li> <li> Added camera upload photo folder option </li> <li> Improve voice search support with Android Auto </li> <li> Support search with google assistant </li> <li> Support subtitle offset feature (including now with Chromecast) </li> <li> Support play queue management with remote control (works now with Chromecast, requires Emby Server 4.6+ to control other emby apps) </li> <li> Support downloading subtitles during video playback (requires Emby Server 4.5.1+) </li> <li> Brighter detail screen backdrop when used on larger screens </li> <li> Improve automatic fallback from hardware decoding to software decoding </li> <li> Media Info display is now TV mode friendly </li> <li> Update android task switcher icon </li> <li> Fix direct play/transcoding status for audio file playback in Emby Server dashboard </li> </ul> ]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-android-updated-with-improved-android-auto-hdr-and-more.html</guid>
+      <image>
+        <title>Emby for Android Updated with Improved Android Auto, HDR, and More</title>
+        <url>https://emby.media/community/uploads/inline/2/5d657cb22ef33_Screenshot_20190827145354.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
