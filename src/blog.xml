@@ -5377,5 +5377,17 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 4.5.4 Released</title>
+      <link>https://emby.media/emby-server-454-released.html</link>
+      <pubDate>Wed, 16 Dec 2020 14:31:19 -0500</pubDate>
+      <description><![CDATA[ <p> Emby Server 4.5.4 is currently rolling out to address a few small issues with the previous release. Here are the highlights: </p> <ul><li> Fix regression in 4.5.3 causing slow browsing and search performance in certain situations </li> <li> Fix regression in 4.5.2 causing incorrect items to be queued to conversion tasks </li> <li> Fix Nvidia HEVC level detection </li> </ul> ]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-454-released.html</guid>
+      <image>
+        <title>Emby Server 4.5.4 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
