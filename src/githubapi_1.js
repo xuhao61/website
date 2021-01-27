@@ -94,12 +94,45 @@ function fillPackageHrefs(releases) {
     }
 }
 
+function getFetchPromise(url) {
+
+    var fetchRequest = {
+        headers: {
+            accept: 'application/vnd.github.v3+json'
+        },
+        method: 'GET',
+        credentials: 'same-origin'
+    };
+
+    return fetch(url, fetchRequest).then(function (response) {
+
+        if ((response.status || 0) < 400) {
+            return response.json();
+        }
+
+        return response.json();
+    });
+}
+
 function fillPackageInfo() {
 
-    return jQuery.getJSON('https://api.github.com/repos/MediaBrowser/Emby.Releases/releases').then(function (releases) {
+    var packageUrls = [
 
-        fillPackageHrefs(releases);
-    });
+        'https://api.github.com/repos/MediaBrowser/Emby.Releases/releases',
+        'releases.json',
+        //'https://api.github.com/repos/MediaBrowser/Emby.Releases/releases'
+    ];
+
+
+    if (!document.querySelectorAll('.lnkPackageDownload,.lnkPackageInnerHtml').length) {
+        return;
+    }
+
+    getFetchPromise(packageUrls[0]).catch(function () {
+
+        return getFetchPromise(packageUrls[1]);
+
+    }).then(fillPackageHrefs);
 }
 
 fillPackageInfo();
