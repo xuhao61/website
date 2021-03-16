@@ -5389,5 +5389,17 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for Apple TV 1.5.2 Released</title>
+      <link>https://emby.media/emby-for-apple-tv-152-released.html</link>
+      <pubDate>Tue, 16 Mar 2021 14:03:03 -0400</pubDate>
+      <description><![CDATA[ <p> An update to Emby for Apple TV is currently rolling out. Here are the highlights: </p> <ul style="background-color:#ffffff; color:#353c41; font-size:14px; text-align:start"> <li> tvOS user support. App data is now stored per user on Apple TV </li> <li> MPV is now the default player when the app is freshly installed </li> <li> Filtering by favorite Live TV Channels is now available in the Channels tab of Live TV </li> <li> You can now sort Live TV Channels in the Channels tab of Live TV </li> <li> Live TV, Movies, Shows, Music and Home search screens have been updated to align with the webapp. You may see additional item types returned on these screens now </li> <li> TV Channels and Songs now display on the Home favorites menu </li> <li> Improved handling of Genres, Studios and Tags in search results </li> <li> Native Player <ul> <li> Audio content in M4A containers should direct play </li> <li> Program information when playing a channel is displayed in the OSD </li> <li> Live TV Info in the OSD refreshes automatically </li> <li> If you're controlling the app remotely you can now mute / unmute </li> </ul> </li> <li> MPV <ul> <li> MPV now uses "bwdif" for when playing interlaced content. </li> <li> Program information when playing a channel is displayed in the OSD </li> <li> Live TV Info in the OSD refreshes automatically </li> <li> Tabs in OSD now match the orderding of the native player </li> <li> Tabs in OSD are now hidden when appropriate instead of disabled to match native player </li> <li> Look and feel updates to OSD and transport/seek bar to match native player </li> </ul> </li> <li> Bug Fixes <ul> <li> Fixed a bug that prevented Live TV Series recording settings from being changed </li> <li> Fixed a bug in MPV where the menu button would not work to stop playback </li> <li> Fixed a bug that stopped playback when using MPV when invoking Control Center </li> <li> Fixed a bug that prevented the ability to change music quality settings </li> </ul> </li> </ul> ]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-apple-tv-152-released.html</guid>
+      <image>
+        <title>Emby for Apple TV 1.5.2 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
