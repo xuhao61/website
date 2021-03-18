@@ -5401,5 +5401,17 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS Updated with Improved CarPlay Support and More</title>
+      <link>https://emby.media/emby-for-ios-updated-with-improved-carplay-support-and-more.html</link>
+      <pubDate>Thu, 18 Mar 2021 14:57:56 -0400</pubDate>
+      <description><![CDATA[ <p> Emby for iOS 2.0.3 has been released. Here are the highlights: </p> <ul> <li> Improved CarPlay browsing </li> <li> Fix duplicate devices displayed in Emby Server activity </li> <li> Various subtitle fixes </li> <li> Add support for multi-select filtering </li> <li> Fix genre screen occasionally being empty depending on where you came from </li> <li> Restore death date on person detail screen </li> <li> Improve dynamic data refreshing on detail screen </li> <li> Add home videos landing screen option </li> </ul> ]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-updated-with-improved-carplay-support-and-more.html</guid>
+      <image>
+        <title>Emby for iOS Updated with Improved CarPlay Support and More</title>
+        <url>https://emby.media/community/uploads/inline/2/5d8135784cedb_Screenshot_20190917151120.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
