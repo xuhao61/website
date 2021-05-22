@@ -4,6 +4,10 @@ function isReleaseAsset(asset, filename, version) {
 
     var assetUrl = (asset.browser_download_url || '').toLowerCase();
 
+    if (assetUrl.indexOf('.md5') !== -1 || assetUrl.indexOf('.sha1') !== -1) {
+        return false;
+    }
+
     if (assetUrl.indexOf(filename) !== -1) {
         return true;
     }
