@@ -347,6 +347,23 @@
         @media (max-width: 479px) {
         }
         /** Ultimate: Media Responsive - **/
+
+/*        .modelList {
+            display: flex;
+            flex-wrap: wrap;
+            list-style-position: outside;
+            list-style-type: none!important;
+            margin-left: 0!important;
+        }
+            .modelList li {
+                margin: .15em 1.5em .15em 0;
+                flex-shrink: 0;
+            }
+            .modelList li::marker {
+                margin-right: 0!important;
+                padding-right: 0!important;
+            }
+*/    
     </style>
 </head>
 <body class="single single-us_portfolio postid-5076 l-body us-theme_zephyr_1-6 wpb-js-composer js-comp-ver-4.5.2 vc_responsive hasGoogleVoiceExt">
@@ -447,11 +464,31 @@
                                             <div>Download one of the following packages depending on your QNAP NAS model:</div>
                                             <ul>
                                                 <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_x86_64.qpkg" href="emby-server-qnap_{version}_x86_64.qpkg">Intel/AMD 64-bit</a></li>
-                                                <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_arm_64.qpkg" href="emby-server-qnap_{version}_arm_64.qpkg">ARMv8 (TS-x28, and TS-x32 Series)</a></li>
+
+                                                <li>
+                                                    <div><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_arm_64.qpkg" href="emby-server-qnap_{version}_arm_64.qpkg">ARMv8 (TS-x28, and TS-x32 Series)</a> - Supported models (not an exhaustive list):</div>
+                                                    <ul class="modelList">
+                                                        <li>TS-1232PXU-RP</li>
+                                                        <li>TS-128A</li>
+                                                        <li>TS-130</li>
+                                                        <li>TS-228A</li>
+                                                        <li>TS-230</li>
+                                                        <li>TS-328</li>
+                                                        <li>TS-332X</li>
+                                                        <li>TS-432PXU</li>
+                                                        <li>TS-432PXU-RP</li>
+                                                        <li>TS-432XU</li>
+                                                        <li>TS-432XU-RP</li>
+                                                        <li>TS-832PX</li>
+                                                        <li>TS-832PXU</li>
+                                                        <li>TS-832PXU-RP</li>
+                                                        <li>TS-932PX</li>
+                                                    </ul>
+                                                </li>
 
                                                 <li>
                                                     <div><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap-mono_{version}_arm-x41.qpkg" href="emby-server-qnap-mono_{version}_arm-x41.qpkg">ARMv7 (TS-x31, and TS-x31U Series)</a> - Supported models (not an exhaustive list):</div>
-                                                    <ul>
+                                                    <ul class="modelList">
                                                         <li>TS-131K</li>
                                                         <li>TS-131P</li>
                                                         <li>TS-231+</li>
@@ -474,29 +511,15 @@
 
                                                 <li>
                                                     <div><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap_{version}_arm-x31.qpkg" href="emby-server-qnap_{version}_arm-x31.qpkg">ARMv7 (TS-x31+, TS-x31P, TS-x31P2, TS-x31X, and TS-x31XU Series)</a> - Supported models (not an exhaustive list):</div>
-                                                    <ul>
-                                                        <li>TS-131</li>
-                                                        <li>TS-231</li>
-                                                        <li>TS-431</li>
-                                                        <li>TS-431U</li>
+                                                    <ul class="modelList">
+                                                        <li>TS-131, TS-231, TS-431, TS-431U</li>
                                                     </ul>
                                                 </li>
 
                                                 <li>
                                                     <div><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="emby-server-qnap-mono_{version}_arm-x19.qpkg" href="emby-server-qnap-mono_{version}_arm-x19.qpkg">ARM X12, X19, X20, X21</a> - Supported models (not an exhaustive list):</div>
-                                                    <ul>
-                                                        <li>TS-112P</li>
-                                                        <li>TS-120</li>
-                                                        <li>TS-121</li>
-                                                        <li>TS-212-E</li>
-                                                        <li>TS-212P</li>
-                                                        <li>TS-220</li>
-                                                        <li>TS-221</li>
-                                                        <li>TS-412</li>
-                                                        <li>TS-420</li>
-                                                        <li>TS-420U</li>
-                                                        <li>TS-421</li>
-                                                        <li>TS-421U</li>
+                                                    <ul class="modelList">
+                                                        <li>TS-112P, TS-120, TS-121, TS-212-E, TS-212P, TS-220, TS-221, TS-412, TS-420, TS-420U, TS-421, TS-421U</li>
                                                     </ul>
                                                 </li>
 
@@ -512,11 +535,32 @@
                                     <p>To participate in Emby Server beta testing, download one of the following packages depending on your QNAP NAS model:</p>
                                     <ul>
                                         <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_x86_64.qpkg" href="emby-server-qnap_{version}_x86_64.qpkg">Intel/AMD 64-bit</a></li>
-                                        <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_arm_64.qpkg" href="emby-server-qnap_{version}_arm_64.qpkg">ARMv8 (TS-x28, and TS-x32 Series)</a></li>
+
+                                        <li>
+                                            <div><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_arm_64.qpkg" href="emby-server-qnap_{version}_arm_64.qpkg">ARMv8 (TS-x28, and TS-x32 Series)</a> - Supported models (not an exhaustive list):</div>
+                                            <ul class="modelList">
+                                                <li>TS-1232PXU-RP</li>
+                                                <li>TS-128A</li>
+                                                <li>TS-130</li>
+                                                <li>TS-228A</li>
+                                                <li>TS-230</li>
+                                                <li>TS-328</li>
+                                                <li>TS-332X</li>
+                                                <li>TS-432PXU</li>
+                                                <li>TS-432PXU-RP</li>
+                                                <li>TS-432XU</li>
+                                                <li>TS-432XU-RP</li>
+                                                <li>TS-832PX</li>
+                                                <li>TS-832PXU</li>
+                                                <li>TS-832PXU-RP</li>
+                                                <li>TS-932PX</li>
+                                            </ul>
+                                        </li>
+
 
                                         <li>
                                             <div><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap-mono_{version}_arm-x41.qpkg" href="emby-server-qnap-mono_{version}_arm-x41.qpkg">ARMv7 (TS-x31, and TS-x31U Series)</a> - Supported models (not an exhaustive list):</div>
-                                            <ul>
+                                            <ul class="modelList">
                                                 <li>TS-131K</li>
                                                 <li>TS-131P</li>
                                                 <li>TS-231+</li>
@@ -540,29 +584,15 @@
 
                                         <li>
                                             <div><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap_{version}_arm-x31.qpkg" href="emby-server-qnap_{version}_arm-x31.qpkg">ARMv7 (TS-x31+, TS-x31P, TS-x31P2, TS-x31X, and TS-x31XU Series)</a> - Supported models (not an exhaustive list):</div>
-                                            <ul>
-                                                <li>TS-131</li>
-                                                <li>TS-231</li>
-                                                <li>TS-431</li>
-                                                <li>TS-431U</li>
+                                            <ul class="modelList">
+                                                <li>TS-131, TS-231, TS-431, TS-431U</li>
                                             </ul>
                                         </li>
 
                                         <li>
                                             <div><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="emby-server-qnap-mono_{version}_arm-x19.qpkg" href="emby-server-qnap-mono_{version}_arm-x19.qpkg">ARM X12, X19, X20, X21</a> - Supported models (not an exhaustive list):</div>
-                                            <ul>
-                                                <li>TS-112P</li>
-                                                <li>TS-120</li>
-                                                <li>TS-121</li>
-                                                <li>TS-212-E</li>
-                                                <li>TS-212P</li>
-                                                <li>TS-220</li>
-                                                <li>TS-221</li>
-                                                <li>TS-412</li>
-                                                <li>TS-420</li>
-                                                <li>TS-420U</li>
-                                                <li>TS-421</li>
-                                                <li>TS-421U</li>
+                                            <ul class="modelList">
+                                                <li>TS-112P, TS-120, TS-121, TS-212-E, TS-212P, TS-220, TS-221, TS-412, TS-420, TS-420U, TS-421, TS-421U</li>
                                             </ul>
                                         </li>
                                     </ul>
