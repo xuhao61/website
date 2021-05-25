@@ -5437,5 +5437,17 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 4.6.1 Released</title>
+      <link>https://emby.media/emby-server-461-released.html</link>
+      <pubDate>Tue, 25 May 2021 12:51:41 -0400</pubDate>
+      <description><![CDATA[ <p> A small update to our 4.6 release is currently rolling out to address a few minor issues that came up. Here are the highlights: </p> <ul> <li> Resolve sporadic database locked errors (may require an additional server restart) </li> <li> Various fixes related to non-standard episode naming </li> <li> Fix library options sometimes appearing to not save </li> <li> Fix regression in xmltv series identification (requires running the live tv guide refersh) </li> <li> Fix clicking see all on next up showing an empty list </li> <li> Fixes for GameBrowser </li> <li> Fix multi-select remove from playlist when removing the same track with multiple selections </li> <li> Improve metadata editor lock icon </li> </ul> <p> You can learn about the original 4.6 release here: </p> <iframe allowfullscreen="" class="ipsEmbed_finishedLoading" data-controller="core.front.core.autosizeiframe" data-embedauthorid="2" data-embedcontent="" data-embedid="embed8967629561" scrolling="no" src="https://emby.media/community/index.php?/blogs/entry/507-emby-server-46-released/&amp;do=embed" style="overflow: hidden; height: 413px; max-width: 502px;"></iframe> <p>   </p> ]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-461-released.html</guid>
+      <image>
+        <title>Emby Server 4.6.1 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
