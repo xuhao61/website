@@ -5449,5 +5449,17 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 4.6.2 Released</title>
+      <link>https://emby.media/emby-server-462-released.html</link>
+      <pubDate>Thu, 03 Jun 2021 16:43:49 -0400</pubDate>
+      <description><![CDATA[ <p> A small update to our 4.6 release is currently rolling out to address a few minor issues that came up. Here are the highlights: </p> <ul> <li> Fix incorrect season 0 content showing in series next up list </li> <li> Fix queries by album ids not respecting user library access </li> <li> Fix sessions getting dropped from active devices display when the server admin has restricted their own remote control access of other devices </li> <li> Fix detail screen for light themes </li> <li> Fix legacy next up not respecting library access </li> <li> Fix incorrect horizontal scroll position after using metadata editor </li> <li> Fix year not showing in search results </li> <li> Fix special episode sorting </li> <li> Fix sporadic duplicated backdrop image </li> <li> Improve support for following redirects when downloading xmltv </li> <li> Improve release date sorting </li> </ul> <p> You can learn about the original 4.6 release here: </p> <iframe allowfullscreen="" class="ipsEmbed_finishedLoading" data-controller="core.front.core.autosizeiframe" data-embedauthorid="2" data-embedcontent="" data-embedid="embed7577448128" scrolling="no" src="https://emby.media/community/index.php?/blogs/entry/507-emby-server-46-released/&amp;do=embed" style="overflow: hidden; height: 413px; max-width: 502px;"></iframe> <p>   </p> ]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-462-released.html</guid>
+      <image>
+        <title>Emby Server 4.6.2 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
