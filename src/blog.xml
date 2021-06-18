@@ -5461,5 +5461,17 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 4.6.3 Released</title>
+      <link>https://emby.media/emby-server-463-released.html</link>
+      <pubDate>Fri, 18 Jun 2021 11:41:26 -0400</pubDate>
+      <description><![CDATA[ <p> <span id="cke_bm_53S"> </span>A small update to our 4.6 release is currently rolling out to address a few minor issues that came up. Here are the highlights: </p> <ul> <li> Fix web app playback regressions of videos that successfully played in previous server version </li> <li> Fix sporadic cases of audio playback stopping in the web app </li> <li> Fix sporadic cases of subtitle burn in not working </li> <li> Update sort by date last episode added to not be affected by virtual items in the database </li> <li> Fix Synology dashboard showing Emby Server as stopped when it is still running </li> <li> Fix album items being added to playlist alphabetically </li> <li> Fix transcoding audio channels for converted files using the convert media feature </li> </ul> <p> You can learn about the original 4.6 release here: </p> <iframe allowfullscreen="" class="ipsEmbed_finishedLoading" data-controller="core.front.core.autosizeiframe" data-embedauthorid="2" data-embedcontent="" data-embedid="embed7577448128" scrolling="no" src="https://emby.media/community/index.php?/blogs/entry/507-emby-server-46-released/&amp;do=embed" style="overflow: hidden; height: 413px; max-width: 502px;"></iframe> <p>   </p> ]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-463-released.html</guid>
+      <image>
+        <title>Emby Server 4.6.3 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
