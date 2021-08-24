@@ -440,10 +440,16 @@
                             <div class="wpb_text_column ">
                                 <div class="wpb_wrapper">
                                     <ol class="instructionList">
-                                        <li>Install the Emby plugin using the FreeNAS web interface</li>
-                                        <li>Start Emby server using the FreeNAS web interface</li>
-                                        <li>You may need to configure storage within your FreeNAS Jail in order to allow Emby to access it. See <a target="_blank" href="https://www.ixsystems.com/documentation/freenas/11/jails.html#add-storage">Adding storage to FreeNAS.</a></li>
-                                        <li>Open a web browser to http://localhost:8096</li>
+                                        <li>
+                                            Install Emby Server Using the Terminal:
+                                            <pre>
+git clone https://github.com/MediaBrowser/iocage-amd64.git
+cd iocage-amd64
+sudo iocage fetch -P emby-server.json dhcp
+</pre>
+                                        </li>
+                                        <li>You may need to configure storage within your TrueNAS Jail in order to allow Emby to access it. See <a target="_blank" href="https://www.ixsystems.com/documentation/freenas/11/jails.html#add-storage">Adding storage to FreeNAS.</a></li>
+                                        <li>Start Emby Server, then open a web browser and visit http://localhost:8096</li>
                                     </ol>
                                 </div>
                             </div>
