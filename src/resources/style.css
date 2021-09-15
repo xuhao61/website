@@ -412,7 +412,7 @@ h6 {
 	}
 h1, h2, h3, h4, h5, h6 {
 	word-wrap: break-word;
-	margin-bottom: 14px;
+	margin-bottom: 10px;
 	color: #222; /* variable */
 	}
 .g-html h2,
@@ -420,7 +420,7 @@ h1, h2, h3, h4, h5, h6 {
 .g-html h4,
 .g-html h5,
 .g-html h6 {
-	padding-top: 18px;
+	padding-top: 24px;
 	}
 .l-submain.color_primary h1,
 .l-submain.color_primary h2,
