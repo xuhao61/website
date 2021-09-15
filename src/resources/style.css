@@ -412,7 +412,7 @@ h6 {
 	}
 h1, h2, h3, h4, h5, h6 {
 	word-wrap: break-word;
-	margin-bottom: 24px;
+	margin-bottom: 14px;
 	color: #222; /* variable */
 	}
 .g-html h2,
