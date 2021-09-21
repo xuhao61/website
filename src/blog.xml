@@ -5473,5 +5473,29 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server 4.6.4 Released</title>
+      <link>https://emby.media/emby-server-464-released.html</link>
+      <pubDate>Fri, 23 Jul 2021 16:11:49 -0400</pubDate>
+      <description><![CDATA[ <p> <span id="cke_bm_53S"><span id="cke_bm_50S"> </span> </span>A small update to our 4.6 release is currently rolling out to address a few minor issues that came up. Here are the highlights: </p> <ul> <li> Resolve cause of sporadic database locked errors </li> <li> Fix graphic subs burn-in with tone mapping on qsv </li> </ul> <p> You can learn about the original 4.6 release here: </p> <iframe allowfullscreen="" class="ipsEmbed_finishedLoading" data-controller="core.front.core.autosizeiframe" data-embedauthorid="2" data-embedcontent="" data-embedid="embed7577448128" scrolling="no" src="https://emby.media/community/index.php?/blogs/entry/507-emby-server-46-released/&amp;do=embed" style="overflow: hidden; height: 413px; max-width: 502px;"></iframe> <p>   </p> ]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-464-released.html</guid>
+      <image>
+        <title>Emby Server 4.6.4 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
+    <item>
+      <title>Emby Server for Synology DSM7 Now In Synology Package Center</title>
+      <link>https://emby.media/emby-server-for-synology-dsm7-now-in-synology-package-center.html</link>
+      <pubDate>Tue, 21 Sep 2021 12:51:53 -0400</pubDate>
+      <description><![CDATA[ <p> For those running the Emby Server stable release, now you can install directly from Synology Package Center: </p> <p> <img alt="syno.jpg" class="ipsImage" data-fileid="108340" data-ratio="53.35" height="613" width="1149" src="https://emby.media/community/uploads/monthly_2021_09/syno.jpg.e0de01deb9d2922e26278e1b7921a8d4.jpg"> </p> <p> This is the easiest possible method of installation. Please note the Synology Package Center version of Emby Server may sometimes run a little behind due to the Synology review process. For this reason we'll still be making downloads available on our website for manual installation: </p> <p> <a href="https://emby.media/download" ipsnoembed="true" rel="external nofollow">https://emby.media/download</a> </p> ]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-server-for-synology-dsm7-now-in-synology-package-center.html</guid>
+      <image>
+        <title>Emby Server for Synology DSM7 Now In Synology Package Center</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
