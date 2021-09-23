@@ -5497,5 +5497,17 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby for iOS Updated With Apple Watch Support, Improved CarPlay and More</title>
+      <link>https://emby.media/emby-for-ios-updated-with-apple-watch-support-improved-carplay-more.html</link>
+      <pubDate>Thu, 23 Sep 2021 12:13:11 -0400</pubDate>
+      <description><![CDATA[ <p> Emby for iOS 2.0.9 has been released and now includes Apple Watch support! Enjoy the following features directly on your Apple Watch: </p> <ul> <li> Play music on your Apple Watch </li> <li> Control playback of your iOS device from Apple Watch </li> </ul> <p> <img alt="123489598-57f50c80-d5e0-11eb-883a-c946b3bcba41[1].PNG" class="ipsImage" data-ratio="121.74" height="448" width="368" data-fileid="101460" src="https://emby.media/community/uploads/monthly_2021_06/538760655_123489598-57f50c80-d5e0-11eb-883a-c946b3bcba411.PNG.6e196dc756364c68a7e7536a8f1b4110.PNG"> </p> <p> <img alt="123489613-5f1c1a80-d5e0-11eb-9aa1-9058c6be8339[1].PNG" class="ipsImage" data-ratio="121.74" height="448" width="368" data-fileid="101462" src="https://emby.media/community/uploads/monthly_2021_06/233256991_123489613-5f1c1a80-d5e0-11eb-9aa1-9058c6be83391.PNG.73fee5117bf962987177b62d5c0f2988.PNG"> </p> <p> <img alt="123489628-6511fb80-d5e0-11eb-96c0-6be6d26db99b[1].PNG" class="ipsImage" data-ratio="121.74" height="448" width="368" data-fileid="101463" src="https://emby.media/community/uploads/monthly_2021_06/1432429791_123489628-6511fb80-d5e0-11eb-96c0-6be6d26db99b1.PNG.b7d6cc87a8ee6af069bec3f4b0246c20.PNG"> </p> <p> The new release also includes improved CarPlay support, new options for control of subtitle appearance, and more. </p> ]]></description>
+      <author>apps@emby.media (Emby)</author>
+      <guid>https://emby.media/emby-for-ios-updated-with-apple-watch-support-improved-carplay-more.html</guid>
+      <image>
+        <title>Emby for iOS Updated With Apple Watch Support, Improved CarPlay and More</title>
+        <url>https://emby.media/community/uploads/inline/2/5d8135784cedb_Screenshot_20190917151120.png</url>
+      </image>
+    </item>
   </channel>
 </rss>
