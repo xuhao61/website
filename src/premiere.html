@@ -320,7 +320,62 @@
         @media (max-width: 479px) {
         }
         /** Ultimate: Media Responsive - **/
+        .stripeButton {
+            background:linear-gradient(to bottom, #2d4ba3 5%, #3b6999 100%);
+            background-color:#2d4ba3;
+            border-radius:8px;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:14px;
+            font-weight:bold;
+            padding:13px 10px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #3d768a;
+            margin-top: -14px;
+        }
+        .stripeButton:hover {
+            background:linear-gradient(to bottom, #3b6999 5%, #2d4ba3 100%);
+            background-color:#3b6999;
+        }
+        .stripeButton:active {
+            position:relative;
+            top:1px;
+        }
     </style>
+    <script src="https://js.stripe.com/v3"></script>
+    <script type="text/javascript">
+        var stripe = Stripe('pk_live_lVflUNchyMpL5tkBP5dVPTlv');
+
+        function stripeCheckout(id, mode)
+        {
+           stripe.redirectToCheckout({
+                lineItems: [{
+                  // Define the product and price in the Dashboard first, and use the price
+                  // ID in your client-side code. You may also pass a SKU id into the `price`
+                  // field
+                  price: id,
+                  quantity: 1
+                }],
+                mode: mode,
+                clientReferenceId: id,
+                successUrl: 'https://emby.media/thank-you.html',
+                cancelUrl: 'https://emby.media/premiere.html'
+            }).then(function (result) {
+              if (result.error) {
+                /*
+                 * If `redirectToCheckout` fails due to a browser or network
+                 * error, display the localized error message to your customer.
+                 */
+                var displayError = document.getElementById('error-message');
+                displayError.textContent = result.error.message;
+              }
+            });
+        }
+
+
+    </script>
 </head>
 <body class="page page-id-6277 page-template-default l-body us-theme_zephyr_1-6 wpb-js-composer js-comp-ver-4.5.2 vc_responsive hasGoogleVoiceExt">
     <!-- CANVAS -->
@@ -451,15 +506,7 @@
                                                     <p>
                                                         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=WBYDL2QJNZ3RC"><img src="resources/checkout-logo-medium.png" alt="Check out with PayPal"></a>
                                                     </p>
-                                                    <form style="margin-top: -20px;" action="https://mb3admin.com/admin/service/stripe/process" method="POST">
-                                                        <script class="stripe-button" src="https://checkout.stripe.com/checkout.js" data-key="pk_live_lVflUNchyMpL5tkBP5dVPTlv" data-image="https://emby.media/community/uploads/monthly_10_2015/msg-3-0-40073400-1443887227_thumb.png" data-name="Emby" data-description="Emby Premiere Monthly" data-amount="499" data-locale="auto" data-zip-code="true">
-                                                            // <![CDATA[
-
-                                                            // ]]></script>
-                                                        <input name="feature" type="hidden" value="MBSClubMonthly" />
-                                                        <input name="origin" type="hidden" value="website" />
-                                                        <input name="amount" type="hidden" value="499" />
-                                                    </form>
+                                                    <button class="stripeButton" onclick="stripeCheckout('premiere.monthly', 'subscription')">Pay with card / Other</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -490,15 +537,7 @@
                                                     <p>
                                                         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=NFLELQAGKKFKQ"><img src="resources/checkout-logo-medium.png" alt="Check out with PayPal"></a>
                                                     </p>
-                                                    <form style="margin-top: -20px;" action="https://mb3admin.com/admin/service/stripe/process" method="POST">
-                                                        <script class="stripe-button" src="https://checkout.stripe.com/checkout.js" data-key="pk_live_lVflUNchyMpL5tkBP5dVPTlv" data-image="https://emby.media/community/uploads/monthly_10_2015/msg-3-0-40073400-1443887227_thumb.png" data-name="Emby" data-description="Emby Premiere Yearly" data-amount="5400" data-locale="auto" data-zip-code="true">
-                                                            // <![CDATA[
-
-                                                            // ]]></script>
-                                                        <input name="feature" type="hidden" value="MBSClubYearly" />
-                                                        <input name="origin" type="hidden" value="website" />
-                                                        <input name="amount" type="hidden" value="5400" />
-                                                    </form>
+                                                    <button class="stripeButton" onclick="stripeCheckout('premiere.annual', 'payment')">Pay with card / Other</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -529,15 +568,7 @@
                                                     <p>
                                                         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3GKHZLX4B9E32"><img src="resources/checkout-logo-medium.png" alt="Check out with PayPal"></a>
                                                     </p>
-                                                    <form style="margin-top: -20px;" action="https://mb3admin.com/admin/service/stripe/process" method="POST">
-                                                        <script class="stripe-button" src="https://checkout.stripe.com/checkout.js" data-key="pk_live_lVflUNchyMpL5tkBP5dVPTlv" data-image="https://emby.media/community/uploads/monthly_10_2015/msg-3-0-40073400-1443887227_thumb.png" data-name="Emby" data-description="Emby Premiere Lifetime" data-amount="11900" data-locale="auto" data-zip-code="true">
-                                                            // <![CDATA[
-
-                                                            // ]]></script>
-                                                        <input name="feature" type="hidden" value="MBSupporter" />
-                                                        <input name="origin" type="hidden" value="website" />
-                                                        <input name="amount" type="hidden" value="11900" />
-                                                    </form>
+                                                    <button class="stripeButton" onclick="stripeCheckout('price_1JjTCXBCVt2QGDKHUZQZ86EI', 'payment')">Pay with card / Other</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -659,9 +690,9 @@
                                         </div>
                                     </div>
                                     <div class="aio-icon-header">
-                                        <h3 class="aio-icon-title" style="">Cinema Mode</h3>
+                                        <h3 class="aio-icon-title" style="">Cinema Intros</h3>
                                     </div> <!-- header -->
-                                    <div class="aio-icon-description" style="">Cinema Mode gives you the true cinema experience with trailers and custom intros before the feature</div> <!-- description -->
+                                    <div class="aio-icon-description" style="">Cinema Intros gives you the true cinema experience with trailers and custom intros before the feature</div> <!-- description -->
                                 </div> <!-- aio-icon-box -->
                             </div> <!-- aio-icon-component -->
                         </div>
@@ -671,14 +702,14 @@
                                     <div class="aio-icon-top">
                                         <div class="ult-just-icon-wrapper ">
                                             <div class="aio-icon-img " style="font-size: 160px; display: inline-block;">
-                                                <img class="img-icon" alt="" src="resources/cloudsync.png">
+                                                <img class="img-icon" alt="" src="resources/aacarplay.png">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="aio-icon-header">
-                                        <h3 class="aio-icon-title" style="">Cloud Sync</h3>
+                                        <h3 class="aio-icon-title" style="">CarPlay/Android Auto</h3>
                                     </div> <!-- header -->
-                                    <div class="aio-icon-description" style="">Sync your media to the cloud for easy backup, archiving, and converting. Store your content in multiple resolutions to enable direct streaming from any device.</div> <!-- description -->
+                                    <div class="aio-icon-description" style="">Use Emby effortlessly in your car with Apple CarPlay and Android Auto support.</div> <!-- description -->
                                 </div> <!-- aio-icon-box -->
                             </div> <!-- aio-icon-component -->
                         </div>
@@ -763,18 +794,18 @@
                                     <div class="aio-icon-top">
                                         <div class="ult-just-icon-wrapper ">
                                             <div class="aio-icon-img " style="font-size: 160px; display: inline-block;">
-                                                <img class="img-icon" alt="" src="resources/podcast.png">
+                                                <img class="img-icon" alt="" src="resources/cloudsync.png">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="aio-icon-header">
-                                        <h3 class="aio-icon-title" style="">Podcasts</h3>
+                                        <h3 class="aio-icon-title" style="">Cloud Sync</h3>
                                     </div> <!-- header -->
-                                    <div class="aio-icon-description" style="">All your favorite video and audio podcasts in the PodCasts channel</div> <!-- description -->
+                                    <div class="aio-icon-description" style="">Sync your media to the cloud for easy backup, archiving, and converting. Store your content in multiple resolutions to enable direct streaming from any device.</div> <!-- description -->
                                 </div> <!-- aio-icon-box -->
                             </div> <!-- aio-icon-component -->
                         </div>
-                        <div class="one-third">
+                         <div class="one-third">
                             <div class="aio-icon-component   style_2">
                                 <div class="aio-icon-box top-icon" style="">
                                     <div class="aio-icon-top">
@@ -849,15 +880,7 @@
                                             <div class="widget widget_text">
                                                 <div class="textwidget">
                                                     <p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=WBYDL2QJNZ3RC"><img src="resources/checkout-logo-medium.png" alt="Check out with PayPal"></a></p>
-                                                    <form style="margin-top: -20px;" action="https://mb3admin.com/admin/service/stripe/process" method="POST">
-                                                        <script class="stripe-button" src="https://checkout.stripe.com/checkout.js" data-key="pk_live_lVflUNchyMpL5tkBP5dVPTlv" data-image="https://emby.media/community/uploads/monthly_10_2015/msg-3-0-40073400-1443887227_thumb.png" data-name="Emby" data-description="Emby Premiere Monthly" data-amount="499" data-locale="auto" data-zip-code="true">
-                                                            // <![CDATA[
-
-                                                            // ]]></script>
-                                                        <input name="feature" type="hidden" value="MBSClubMonthly" />
-                                                        <input name="origin" type="hidden" value="website" />
-                                                        <input name="amount" type="hidden" value="499" />
-                                                    </form>
+                                                    <button class="stripeButton" onclick="stripeCheckout('premiere.monthly', 'subscription')">Pay with card / Other</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -880,15 +903,7 @@
                                             <div class="widget widget_text">
                                                 <div class="textwidget">
                                                     <p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=NFLELQAGKKFKQ"><img src="resources/checkout-logo-medium.png" alt="Check out with PayPal"></a></p>
-                                                    <form style="margin-top: -20px;" action="https://mb3admin.com/admin/service/stripe/process" method="POST">
-                                                        <script class="stripe-button" src="https://checkout.stripe.com/checkout.js" data-key="pk_live_lVflUNchyMpL5tkBP5dVPTlv" data-image="https://emby.media/community/uploads/monthly_10_2015/msg-3-0-40073400-1443887227_thumb.png" data-name="Emby" data-description="Emby Premiere Yearly" data-amount="5400" data-locale="auto" data-zip-code="true">
-                                                            // <![CDATA[
-
-                                                            // ]]></script>
-                                                        <input name="feature" type="hidden" value="MBSClubYearly" />
-                                                        <input name="origin" type="hidden" value="website" />
-                                                        <input name="amount" type="hidden" value="5400" />
-                                                    </form>
+                                                    <button class="stripeButton" onclick="stripeCheckout('premiere.annual', 'payment')">Pay with card / Other</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -911,15 +926,7 @@
                                             <div class="widget widget_text">
                                                 <div class="textwidget">
                                                     <p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3GKHZLX4B9E32"><img src="resources/checkout-logo-medium.png" alt="Check out with PayPal"></a></p>
-                                                    <form style="margin-top: -20px;" action="https://mb3admin.com/admin/service/stripe/process" method="POST">
-                                                        <script class="stripe-button" src="https://checkout.stripe.com/checkout.js" data-key="pk_live_lVflUNchyMpL5tkBP5dVPTlv" data-image="https://emby.media/community/uploads/monthly_10_2015/msg-3-0-40073400-1443887227_thumb.png" data-name="Emby" data-description="Emby Premiere Lifetime" data-amount="11900" data-locale="auto" data-zip-code="true">
-                                                            // <![CDATA[
-
-                                                            // ]]></script>
-                                                        <input name="feature" type="hidden" value="MBSupporter" />
-                                                        <input name="origin" type="hidden" value="website" />
-                                                        <input name="amount" type="hidden" value="11900" />
-                                                    </form>
+                                                    <button class="stripeButton" onclick="stripeCheckout('price_1JjTCXBCVt2QGDKHUZQZ86EI', 'payment')">Pay with card / Other</button>
                                                 </div>
                                             </div>
                                         </div>
