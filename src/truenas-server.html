@@ -445,7 +445,7 @@
                                             <pre>
 git clone -b truenas12 https://github.com/MediaBrowser/iocage-amd64.git
 cd iocage-amd64
-sudo iocage fetch -P emby-server.json dhcp
+iocage fetch -P emby-server.json dhcp="on" --branch truenas12
 </pre>
                                         </li>
                                         <li>You may need to configure storage within your TrueNAS Jail in order to allow Emby to access it. See <a target="_blank" href="https://www.ixsystems.com/documentation/freenas/11/jails.html#add-storage">Adding storage to TrueNAS.</a></li>
