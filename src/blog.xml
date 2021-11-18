@@ -5509,5 +5509,17 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
         <url>https://emby.media/community/uploads/inline/2/5d8135784cedb_Screenshot_20190917151120.png</url>
       </image>
     </item>
+	  <item>
+		  <title>Emby Server 4.6.6 Released</title>
+		  <link>https://emby.media/emby-server-466-released.html</link>
+		  <pubDate>Thu, 18 Nov 2021 12:25:05 -0500</pubDate>
+		  <description><![CDATA[ <p> A new release of Emby Server is currently rolling out, and this is largely a bug fix maintenance release while we work on new features for future updates. Here is the list of improvements and issues resolved: </p> <p> <strong>Fixes</strong> </p> <ul> <li> Fix outgoing SSL errors on some Linux distros </li> <li> Fix android server database errors on deletion </li> <li> Fix android server ffmpeg errors on android 11 </li> <li> Fix android server SSL errors with fanart.tv </li> <li> Fix QuickSync HW overlay with tone mapping </li> <li> Fixes for Apple TV top shelf content  </li> <li> Fix cbr books sending wrong mime type </li> <li> Fix transcoding throttling not occurring with Chromecast </li> <li> Fix classic image series extraction </li> <li> Fix music album parsing error when album name is () </li> <li> Fix folder images getting replaced when not saving images in media folders </li> <li> Fix identify feature with music videos </li> <li> Fix episodes with season numbers greater than 200 </li> <li> Fix scaling of wrong-sized graphical subtitles </li> <li> Fix incorrect hw context indication for D3D11VA decoders </li> <li> Fix artists inheriting genres from albums when they shouldn't </li> <li> Fix detection of video stream vs. embedded image </li> </ul> <p> <strong>Other Improvements</strong> </p> <ul> <li> Add south African ratings </li> <li> Improve camera upload error handling </li> <li> Improve efficiency of real-time monitor </li> <li> Improve DSD audio support over DLNA </li> <li> Allow for higher audio stream copy bitrate </li> <li> Support subs and subtitles folder case-insensitive </li> <li> Update album/song links with Included In section </li> <li> Set subtitle filename when downloading subtitle files to the browser </li> <li> Add Italian ratings </li> <li> Always record episodes when the option to check existing library is not selected </li> <li> Adjust recording image save behavior for series episodes that are sports </li> <li> Don't convert really large images to webp </li> <li> Support audio description and studio from copyright tag </li> <li> Support wm/year and original year tags </li> <li> Improve same subnet detection </li> <li> Add paths to log file for reference </li> <li> Allow deleting albums and artists </li> <li> Avoid resetting real-time monitor to parent folder when possible </li> <li> Improve series grouping in mixed content </li> <li> Remove rejection of large camera uploads to allow any file size </li> <li> Support .mid audio files </li> <li> Support sort_with embedded sort title for videos </li> <li> Prevent split button on missing episode detail screen </li> </ul> ]]></description>
+		  <author>apps@emby.media (Emby)</author>
+		  <guid>https://emby.media/emby-server-466-released.html</guid>
+		  <image>
+			  <title>Emby Server 4.6.6 Released</title>
+			  <url>https://emby.media/img/blog/6488.jpg</url>
+		  </image>
+	  </item>
   </channel>
 </rss>
