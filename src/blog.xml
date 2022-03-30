@@ -5615,5 +5615,17 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
 				<url>https://emby.media/community/uploads/inline/2/5d8135784cedb_Screenshot_20190917151120.png</url>
 			</image>
 		</item>
+		<item>
+			<title>Emby For iOS 2.1.5 Released</title>
+			<link>https://emby.media/emby-for-ios-ios-215-release-fix-for-intermittent-loss-of-audio.html</link>
+			<pubDate>Wed, 30 Mar 2022 11:12:40 -0400</pubDate>
+			<description><![CDATA[ <p> <strong><span style="background-color:#ffffff;color:#353c41;font-size:14px;">iOS 2.1.5 Has Been Released</span></strong> </p> <p> <span style="background-color:#ffffff;color:#353c41;font-size:14px;">This is a follow up release to the recent <strong><a href="https://emby.media/community/index.php?/blogs/entry/518-emby-for%C2%A0ios-213-released-featuring-timeline-seeking-thumbnails/" rel="">Emby For iOS 2.1.3. Released, Featuring: Timeline Seeking &amp; Thumbnails</a></strong> release.</span> </p> <p> <span style="background-color:#ffffff;color:#353c41;font-size:14px;">We wanted to get this out to you as quickly as possible.<br /> This release features a resolution to:</span> </p> <ul> <li> <strong><span style="background-color:#ffffff;color:#353c41;font-size:14px;">An Intermittent Loss of Audio Issue that Manifests W</span>hen Audio is Transcoded.</strong> </li> </ul> <p> This release also contains a minor fix for: </p> <ul> <li> <strong>Problem with Scrolling on Certain Server Management Screens.</strong><br /> <span style="background-color:#ffffff;color:#353c41;font-size:14px;">You can now scroll fluently from top to bottom of management screens found on the </span>Emby Server Tab. </li> </ul> <p> Please install this maintenance release at your earliest convenience. </p> <p> You can follow Emby iOS development as well as report any issues on our community forum site:<br /> <a href="https://emby.media/community/index.php?/forum/94-ios/" rel="">https://emby.media/community/index.php?/forum/94-ios/</a> </p> ]]></description>
+			<author>apps@emby.media (Emby)</author>
+			<guid>https://emby.media/emby-for-ios-ios-215-release-fix-for-intermittent-loss-of-audio.html</guid>
+			<image>
+				<title>Emby For iOS 2.1.5 Released</title>
+				<url>https://emby.media/community/uploads/inline/2/5d8135784cedb_Screenshot_20190917151120.png</url>
+			</image>
+		</item>
 	</channel>
 </rss>
