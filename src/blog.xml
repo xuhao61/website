@@ -5687,5 +5687,17 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
 				<url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
 			</image>
 		</item>
+		<item>
+			<title>Emby For iOS 2.1.6 Released</title>
+			<link>https://emby.media/emby-for-ios-ios-216-release.html</link>
+			<pubDate>Tue, 17 May 2022 11:35:20 -0400</pubDate>
+			<description><![CDATA[ <h1 style="background-color:#ffffff;font-size:24px;"> <span><span title="(Click and hold to edit title)">Emby For iOS 2.1.6 - Point Release: Additional Changes &amp; Fixes</span></span> </h1> <p style="background-color:#ffffff;color:#353c41;font-size:14px;"> This is the latest point release of Emby for iOS containing the latest changes &amp; fixes. </p> <ul> <li style="background-color:rgb(255,255,255);color:rgb(53,60,65);font-size:14px;"> Fix double paste when copy/pasting text into text fields<br /> Minor fix to stop pasting copied items twice (double paste) </li> <li style="background-color:rgb(255,255,255);color:rgb(53,60,65);font-size:14px;"> Exclude downloads from iCloud backups<br /> This change excludes the Emby download folders from iCloud backup, reducing your iCloud bandwidth and storage needs </li> <li style="background-color:rgb(255,255,255);color:rgb(53,60,65);font-size:14px;"> Fix sporadic video playback crashes<br /> This set of fixes address video playback crashes that could happen under specific situations. </li> </ul> <p style="background-color:#ffffff;color:#353c41;font-size:14px;"> Other related Blog posts to this release:<br /> <strong style="color:#353c41;font-size:14px;"><a href="https://emby.media/community/index.php?/blogs/entry/518-emby-for%C2%A0ios-213-released-featuring-timeline-seeking-thumbnails/" rel="" style="background-color:transparent;">Emby For iOS 2.1.3. Released, Featuring: Timeline Seeking &amp; Thumbnails</a></strong> </p> <p style="background-color:#ffffff;color:#353c41;font-size:14px;"> Maintenance releases:<br /> <strong style="color:#353c41;font-size:14px;"><a href="https://emby.media/community/index.php?/blogs/entry/519-emby-for-ios-ios-215-release-fix-for-intermittent-loss-of-audio/" rel="">Emby For iOS iOS 2.1.5 - Release: Fix For Intermittent Loss of Audio</a></strong> </p> <p style="background-color:#ffffff;color:#353c41;font-size:14px;"> Please report any issues you may have in the iOS forum of our Community Forums: <a href="https://emby.media/community/index.php?/forum/94-ios/" rel="">Emby Community iOS Forum</a> </p> ]]></description>
+			<author>apps@emby.media (Emby)</author>
+			<guid>https://emby.media/emby-for-ios-ios-216-release.html</guid>
+			<image>
+				<title>Emby For iOS 2.1.6 Released</title>
+				<url>https://emby.media/community/uploads/inline/2/5d8135784cedb_Screenshot_20190917151120.png</url>
+			</image>
+		</item>
 	</channel>
 </rss>
