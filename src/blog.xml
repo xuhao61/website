@@ -5723,5 +5723,17 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
 				<url>https://emby.media/img/blog/6488.jpg</url>
 			</image>
 		</item>
+		<item>
+			<title>Emby Server 4.7.2 Released</title>
+			<link>https://emby.media/emby-server-472-released.html</link>
+			<pubDate>Sat, 18 Jun 2022 09:00:01 -0400</pubDate>
+			<description><![CDATA[ <h1 style="background-color:#ffffff;color:#353c41;font-size:24px;"> <span><span title="(Click and hold to edit title)">Emby Server 4.7.2 - Point Release: Round 2 Fixes</span></span> </h1> <p style="background-color:#ffffff;color:#353c41;font-size:14px;"> This is the latest point release of Emby Server containing fixes for identified issues. </p> <ul> <li> Add episode intro detection feature to library options </li> <li> Add user profile options for episode intro skipping </li> <li> Fix regression with episode number parsing from file names </li> <li> Fix file names of home videos being truncated after last dot in the file name </li> <li> Fix downloads redownloading on deletion </li> <li> Remember subtitle selections if enabled, even when user subtitle mode is set to default to None </li> </ul> <p style="background-color:#ffffff;color:#353c41;font-size:14px;"> Original Blog posts for the 4.7 release:<br /> <strong style="color:#353c41;font-size:14px;"><a href="https://emby.media/community/index.php?/blogs/entry/527-emby-server-47-release-many-new-features-improvements-and-fixes/" rel="" style="background-color:transparent;">Emby Server 4.7 Release: Many New Features, Improvements and Fixes</a></strong> </p> <p style="background-color:#ffffff;color:#353c41;font-size:14px;"> <strong style="color:#353c41;font-size:14px;"><a href="https://emby.media/emby-server-471-released.html" rel="external nofollow">Emby Server 4.7.1 - Point Release: Round 1 Fixes</a></strong> </p> <p style="background-color:#ffffff;color:#353c41;font-size:14px;"> Please report any issues you may have in the General/Windows section of our Community Forums: <a href="https://emby.media/community/index.php?/forum/53-generalwindows/" rel="" style="background-color:transparent;">Emby Community General/Windows Forum</a> </p> ]]></description>
+			<author>apps@emby.media (Emby)</author>
+			<guid>https://emby.media/emby-server-472-released.html</guid>
+			<image>
+				<title>Emby Server 4.7.2 Released</title>
+				<url>https://emby.media/img/blog/6488.jpg</url>
+			</image>
+		</item>
 	</channel>
 </rss>
