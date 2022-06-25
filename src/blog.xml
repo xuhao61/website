@@ -5735,5 +5735,17 @@ class='bbc_url' title=''>https://emby.media/emby-theater.html</a></p><p>&nbsp;</
 				<url>https://emby.media/img/blog/6488.jpg</url>
 			</image>
 		</item>
+		<item>
+			<title>Emby Server 4.7.4 Released</title>
+			<link>https://emby.media/emby-server-474-released.html</link>
+			<pubDate>Sat, 25 Jun 2022 09:00:01 -0400</pubDate>
+			<description><![CDATA[ <h1 style="background-color:#ffffff;color:#353c41;font-size:24px;"> <span><span title="(Click and hold to edit title)">Emby Server 4.7.4 - Point Release: Round 3 Fixes</span></span> </h1> <p style="background-color:#ffffff;color:#353c41;font-size:14px;"> This is the latest point release of Emby Server containing fixes for identified issues. </p> <ul> <li>  Add Episode Intro Detection and Skipping feature </li> <li>  Add new table view option </li> <li>  Add more fields for selection in poster views </li> <li>  Add new theme options </li> <li>  Fixes for downloads automatically redownloading </li> <li>  Remember subtitle selections even when user option is set to None </li> <li>  Fix graphic subtitle position when burning in subtitles with transcoding </li> <li>  Fix sporadic cases of errors when reordering live tv channels </li> <li>  Improve automatic channel mapping with xml tv </li> <li>  Support sort by composer </li> <li> Fix glibc errors on certain NAS devices </li> <li> Image processing fixes on FreeBSD/TrueNAS </li> </ul> <p style="background-color:#ffffff;color:#353c41;font-size:14px;"> Original Blog posts for the 4.7 release:<br /> <strong style="color:#353c41;font-size:14px;"><a href="https://emby.media/community/index.php?/blogs/entry/527-emby-server-47-release-many-new-features-improvements-and-fixes/" rel="" style="background-color:transparent;">Emby Server 4.7 Release: Many New Features, Improvements and Fixes</a></strong> </p> <p style="background-color:#ffffff;color:#353c41;font-size:14px;"> <strong style="color:#353c41;font-size:14px;"><a href="https://emby.media/emby-server-471-released.html" rel="external nofollow" style="background-color:transparent;">Emby Server 4.7.1 - Point Release: Round 1 Fixes</a></strong> </p> <p style="background-color:#ffffff;color:#353c41;font-size:14px;"> <strong style="color:#353c41;font-size:14px;"><a href="https://emby.media/community/index.php?/blogs/entry/531-emby-server-472-point-release-round-2-fixes" rel="">Emby Server 4.7.1 - Point Release: Round 2 Fixes</a></strong> </p> <p style="background-color:#ffffff;color:#353c41;font-size:14px;"> Please report any issues you may have in the General/Windows section of our Community Forums: <a href="https://emby.media/community/index.php?/forum/53-generalwindows/" rel="" style="background-color:transparent;">Emby Community General/Windows Forum</a> </p> ]]></description>
+			<author>apps@emby.media (Emby)</author>
+			<guid>https://emby.media/emby-server-474-released.html</guid>
+			<image>
+				<title>Emby Server 4.7.4 Released</title>
+				<url>https://emby.media/img/blog/6488.jpg</url>
+			</image>
+		</item>
 	</channel>
 </rss>
