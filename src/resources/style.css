@@ -16,6 +16,7 @@ AND ANY CHANGES MADE HERE WILL BE OVERWRITTEN.
 a {
 	-webkit-transition: opacity 0.3s, box-shadow 0.3s, color 0.3s, background-color 0.3s, border 0.3s;
 			transition: opacity 0.3s, box-shadow 0.3s, color 0.3s, background-color 0.3s, border 0.3s;
+			font-weight: 500;
 	}
 
 ::-moz-selection {
@@ -2526,6 +2527,7 @@ input[type="submit"] {
 		width: 40px;
 		}
 		.l-header .w-nav-anchor {
+			font-weight: 400;
 			font-size: 16px; /* variable */
 			-webkit-tap-highlight-color: rgba(0,0,0,0); /* removes the touch highlight on touch devices */
 			}

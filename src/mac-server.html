@@ -415,10 +415,10 @@
 
                                         <ol class="instructionList">
                                             <li>
-                                                <div>Download one of the following:</div>
+                                                <div>Download one of the following depending on the architecture of your macOS machine:</div>
                                                 <ul>
-                                                    <li><a class="lnkPackageDownload" data-filename="embyserver-osx-x64-{version}.zip" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/embyserver-osx-x64-3.2.50.0.zip" onclick="ga('send', 'event', 'Download Links', 'Downloaded', 'MacRelease');">macOS 10.14+ (Mojave and above)</a></li>
-                                                    <li><a class="lnkPackageDownload" data-filename="embyserver-osx.10.13-x64-{version}.zip" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/embyserver-osx-x64-3.2.50.0.zip" onclick="ga('send', 'event', 'Download Links', 'Downloaded', 'MacRelease');">macOS 10.13+ (High Sierra and above)</a></li>
+                                                    <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="release" data-filename="embyserver-osx-x64-{version}.zip" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/embyserver-osx-x64-3.2.50.0.zip" onclick="ga('send', 'event', 'Download Links', 'Downloaded', 'MacRelease');">X64 macOS 10.14+ (Mojave and above)</a></li>
+                                                    <li><a class="lnkPackageDownload" data-level="release" data-filename="embyserver-osx.10.13-x64-{version}.zip" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/embyserver-osx-x64-3.2.50.0.zip" onclick="ga('send', 'event', 'Download Links', 'Downloaded', 'MacRelease');">macOS 10.13+ (High Sierra and above)</a></li>
                                                 </ul>
                                             </li>
                                         </ol>
@@ -441,13 +441,17 @@
                                         </p>
                                         <div style="margin:2em 0;color:gray;">Note: Installing into MacOS Applications is necessary due to Apple Gatekeeper path randomization, which allows the app to run in a confined environment.</div>
 
-                                        <p>
-                                            <strong>Download (Beta)</strong><br>
-                                            Download <a class="lnkPackageDownload" data-level="beta" data-filename="embyserver-osx-x64-{version}.zip" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/embyserver-osx-x64-3.2.50.0.zip" onclick="ga('send', 'event', 'Download Links', 'Downloaded', 'MacRelease');">Emby Server for MacOS</a>.
-                                        </p>
-                                        <p>
-                                            Beta installation instructions are the same as above.
-                                        </p>
+                                        <p><b>Emby Server for macOS (BETA) Installation</b></p>
+                                        <ol class="instructionList">
+                                            <li>
+                                                <div>Download one of the following depending on the architecture of your macOS machine:</div>
+                                                <ul>
+                                                    <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="embyserver-osx-x64-{version}.zip" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/embyserver-osx-x64-3.2.50.0.zip" onclick="ga('send', 'event', 'Download Links', 'Downloaded', 'MacRelease');">X64 macOS 10.14+ (Mojave and above)</a></li>
+                                                    <li><a class="lnkPackageDownload lnkPackageInnerHtml" data-level="beta" data-filename="embyserver-osx-arm64-{version}.zip" href="https://github.com/MediaBrowser/Emby/releases/download/3.2.50.0/embyserver-osx-x64-3.2.50.0.zip" onclick="ga('send', 'event', 'Download Links', 'Downloaded', 'MacRelease');">ARM64 (M1, M2) macOS 10.14+ (Mojave and above)</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>Once downloaded, the install steps will be the same as the stable release install steps above.</li>
+                                        </ol>
                                     </div>
                                 </div>
                             </div>
