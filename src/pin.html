@@ -410,11 +410,21 @@
                                     <div class="textwidget">
                                         <div style="text-align: center;">
                                             <form id="confirmForm" style="margin: 0 auto; width: 100%; max-width: 400px;" target="_blank">
-                                                <div >
-                                                    <div style="text-align: left;">Emby username/email:</div>
-                                                    <p>			<input id="username" style="width: 100%;" type="text" class="not-empty"></p>
-                                                    <div style="text-align: left; margin-top: 10px;">Password:</div>
-                                                    <p>			<input id="pw" style="width: 100%;" type="password" class="not-empty"></p>
+                                                <div>
+                                                    <div style="margin-bottom: 2em;text-align: left;">
+                                                        <div style="text-align: left;">Email address:</div>
+                                                        <div>
+                                                            <input id="username" style="width: 100%;" type="text" class="not-empty" />
+                                                            <div style="opacity:.6;">This should be the email address that was used to sign up for Emby Connect.</div>
+                                                        </div>
+                                                    </div>
+                                                    <div style="margin-bottom: 2em;text-align: left;">
+                                                        <div style="text-align: left;">Password:</div>
+                                                        <div>
+                                                            <input id="pw" style="width: 100%;" type="password" class="not-empty" />
+                                                            <div><a href="https://emby.media/community/index.php?/lostpassword" target="_blank">Forgot password?</a></div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                                 <div>
                                                     <label for="pin" style="display:block;text-align:left;">Pin:</label><input id="pin" style="width: 100%;" required="" type="text">
