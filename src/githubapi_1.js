@@ -101,9 +101,11 @@ function fillPackageHrefs(releases) {
 function getFetchPromise(url) {
 
     var fetchRequest = {
-        headers: {
-            accept: 'application/vnd.github.v3+json'
-        },
+
+        // only needed for github
+        //headers: {
+        //    accept: 'application/vnd.github.v3+json'
+        //},
         method: 'GET',
         credentials: 'same-origin'
     };
@@ -118,14 +120,13 @@ function getFetchPromise(url) {
     });
 }
 
+var packageUrls = [
+
+    'releases.json',
+    //'https://api.github.com/repos/MediaBrowser/Emby.Releases/releases'
+];
+
 function fillPackageInfo() {
-
-    var packageUrls = [
-
-        'https://api.github.com/repos/MediaBrowser/Emby.Releases/releases',
-        'releases.json',
-        //'https://api.github.com/repos/MediaBrowser/Emby.Releases/releases'
-    ];
 
 
     if (!document.querySelectorAll('.lnkPackageDownload,.lnkPackageInnerHtml').length) {
